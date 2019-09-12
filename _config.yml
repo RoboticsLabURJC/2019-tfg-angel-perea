@@ -1,0 +1,11 @@
+theme                    : "minimal-mistakes-jekyll"
+minimal_mistakes_skin    : "mint" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+# Site Settings
+locale                   : "es-ES"
+title                    : "TFG - Ángel Perea"
+title_separator          : "-"
+subtitle                 : "Pagina Inicial Proyecto"
+name                     : "Ángel Perea Arias TFG URJC"
+description              : "Proyecto fin de grado URJC para el Grado en Ingenieria en Sistemas Audiovisuales y Multimedia."
+url                      : "https://roboticslaburjc.github.io/2019-tfg-angel-perea/" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
