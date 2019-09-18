@@ -18,33 +18,29 @@ feature_row:
     btn_class: "btn--primary"
     btn_label: "Learn more"
 
-  - image_path: /assets/images/cover/install.png
-    alt: "Install"
-    title: "Install"
-    excerpt: "Use of the software. Instructions for replicating project content."
-    url: "/install/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"
+#  - image_path: /assets/images/cover/install.png
+#    alt: "Install"
+#    title: "Install"
+#    excerpt: "Use of the software. Instructions for replicating project content."
+#    url: "/install/"
+#    btn_class: "btn--primary"
+#    btn_label: "Learn more"
 
-  - image_path: /assets/images/cover/about.jpg
-    alt: "About"
-    title: "About"
-    excerpt: "More information about the project. References used, guides, articles, etc."
-    url: "/about/"
-    btn_class: "btn--primary"
-    btn_label: "Learn more"   
-youTube_id: ID7qaEcIu4k
+#  - image_path: /assets/images/cover/about.jpg
+#    alt: "About"
+#    title: "About"
+#    excerpt: "More information about the project. References used, guides, articles, etc."
+#    url: "/about/"
+#    btn_class: "btn--primary"
+#    btn_label: "Learn more"   
+#youTube_id: ID7qaEcIu4k
 ---
 
 {% include feature_row %}
 
-Hello, everybody.
+Page currently in development...
 
-I'm Nacho Arranz and this is the place where we will be putting the advances that are made on the work of end of master.
-
-The objective of the work is the learning of the controllers of an autonomous vehicle so that it is able to complete the return to a circuit through learning by reinforcement.
-
-The tutors of the project are:
+The tutor of the project is:
 
 - [Jose Maria Cañas](https://gsyc.urjc.es/jmplaza/)
-- [Alberto Martín](https://gestion2.urjc.es/pdi/ver/alberto.martinf)
+
