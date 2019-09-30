@@ -7,8 +7,8 @@ header:
   actions:
     #- label: "<i class='fas fa-download'></i> Install now"
     #  url: "/installation/"
-excerpt: 
-  Deep Reinforcement Learning for autonomous car
+excerpt:
+  Webserver & Kibotics
 feature_row:
   - image_path: /assets/images/cover/logbook.jpg
     alt: "Logbook"
@@ -43,4 +43,4 @@ Page currently in development...
 The tutor of the project is:
 
 - [Jose Maria Cañas](https://gsyc.urjc.es/jmplaza/)
-
+- [David Roldán Álvarez](https://www.urjc.es/empresas-e-instituciones/2213-david-roldan-alvarez)
