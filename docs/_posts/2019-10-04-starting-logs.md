@@ -31,14 +31,14 @@ This week I've been working on the logs tools for the administrator user of the 
 
 First of all i wrote a simple python script to artificially generate a log file to work with, the file has this format:
 
-  ***DATE OF CONNECTION - USER***
-  ***DATE OF CONNECTION - USER***
-  ***DATE OF CONNECTION - USER***
-  ***DATE OF CONNECTION - USER***
-  ***DATE OF CONNECTION - USER***
-  ***DATE OF CONNECTION - USER***
-  ***DATE OF CONNECTION - USER***
-  ***...***
+  ***DATE OF CONNECTION - USER<br/>***
+  ***DATE OF CONNECTION - USER<br/>***
+  ***DATE OF CONNECTION - USER<br/>***
+  ***DATE OF CONNECTION - USER<br/>***
+  ***DATE OF CONNECTION - USER<br/>***
+  ***DATE OF CONNECTION - USER<br/>***
+  ***DATE OF CONNECTION - USER<br/>***
+  ***...<br/>***
 
 It's just a temporal format to start working with the plotting tools.
 
