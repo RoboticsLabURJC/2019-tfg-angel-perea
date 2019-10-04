@@ -54,7 +54,7 @@ With another python script I've started playing with the different graph formats
 
 <figure>
   {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
-  <figcaption>Diagrama de barras representacion del log.</figcaption>
+  <figcaption>log representation on a graph diagram.</figcaption>
 </figure>
 
 
