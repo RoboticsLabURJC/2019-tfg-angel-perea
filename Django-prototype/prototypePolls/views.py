@@ -6,6 +6,72 @@ from django.utils import timezone
 
 from .models import Question
 
+
+from django.http import HttpResponse
+from matplotlib.backends.backend_agg import FigureCanvasAgg
+import io
+import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+
+def readfile():
+    f= open("prototypePolls/logs/login.log","r")
+    lines = f.readlines()
+
+    filedata = {};
+
+    for line in lines:
+        #print(line[:-1])
+        data = line.split(" - ");
+        date = data[0];
+        name = data[1][:-1]
+        if(name in filedata):
+            #filedata[name].append(date)
+            filedata[name] += 1
+        else:
+            #filedata[name] = [date]
+            filedata[name] = 1
+
+    f.close()
+    return filedata
+
+
+
+
+def plot1(request):
+    filedata = readfile();
+
+    index = list(filedata.keys())
+    entries = list(filedata.values())
+
+    print(index)
+    print(entries)
+
+    f = plt.figure()
+    axes = f.add_axes([0.15, 0.15, 0.75, 0.75]) # [left, bottom, width, height]
+    axes.plot(index, entries)
+    axes.set_xlabel("Users")
+    axes.set_ylabel("Entries")
+    axes.set_title("PLOT 1")
+
+    buf = io.BytesIO()
+    canvas = FigureCanvasAgg(f)
+    canvas.print_png(buf)
+
+    response = HttpResponse(buf.getvalue(), content_type='image/png')
+
+    f.clear()
+
+    response['Content-Length'] = str(len(response.content))
+
+    return response
+
+
+
+
+
+
+
 def index(request):
     latest_question_list = Question.objects.order_by('-pub_date')[:5]
     context = {'latest_question_list': latest_question_list}
