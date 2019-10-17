@@ -1,0 +1,342 @@
+[Wed Oct 09 07:35:01.863416 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Wed Oct 09 07:35:01.863430 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Wed Oct 09 07:35:01.863720 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Wed Oct 09 07:35:01.863730 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 09 09:55:11.433534 2019] [wsgi:error] [pid 31951:tid 140555492067072] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Wed Oct 09 09:55:11.433554 2019] [wsgi:error] [pid 31951:tid 140555492067072]   return self.cursor.execute(query, args)
+[Wed Oct 09 09:55:13.438522 2019] [wsgi:error] [pid 31951:tid 140555131885312] /usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+[Wed Oct 09 09:55:13.438537 2019] [wsgi:error] [pid 31951:tid 140555131885312]   self._cipher = factory.new(key, *args, **kwargs)
+[Wed Oct 09 09:55:14.215870 2019] [wsgi:error] [pid 31951:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 09:55:26.422602 2019] [wsgi:error] [pid 31951:tid 140555492067072] 14.9996170998
+[Wed Oct 09 10:05:18.593472 2019] [wsgi:error] [pid 31951:tid 140555374569216] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 10:05:19.274527 2019] [wsgi:error] [pid 31951:tid 140555374569216] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/sigue_linea_ir/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 10:05:29.789599 2019] [wsgi:error] [pid 31951:tid 140555374569216] 14.3155918121
+[Wed Oct 09 10:06:55.833485 2019] [wsgi:error] [pid 31951:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 10:07:05.589837 2019] [wsgi:error] [pid 31951:tid 140555492067072] 11.591971159
+[Wed Oct 09 11:46:54.959496 2019] [wsgi:error] [pid 31951:tid 140555374569216] \x1b[93m Simulacion en Websim con usuario no registrado. Cargando plantilla de codigo por defecto /var/www/kibotics/jderobot_server/exercises/scratch/siguelinea_pibot_scratch_vision/siguelinea_pibot_scratch_vision.xml\x1b[0m
+[Wed Oct 09 12:40:47.484372 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Wed Oct 09 12:40:47.589119 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Wed Oct 09 12:40:47.589141 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Wed Oct 09 12:40:47.589478 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Wed Oct 09 12:40:47.589489 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Wed Oct 09 12:41:04.156091 2019] [wsgi:error] [pid 20372:tid 140555399747328] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Wed Oct 09 12:41:04.156149 2019] [wsgi:error] [pid 20372:tid 140555399747328]   return self.cursor.execute(query, args)
+[Wed Oct 09 12:41:24.658802 2019] [wsgi:error] [pid 20372:tid 140555133720320] /usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+[Wed Oct 09 12:41:24.658823 2019] [wsgi:error] [pid 20372:tid 140555133720320]   self._cipher = factory.new(key, *args, **kwargs)
+[Wed Oct 09 12:41:25.510181 2019] [wsgi:error] [pid 20372:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 12:41:26.074641 2019] [wsgi:error] [pid 20372:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/choca_gira_us/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 12:41:37.347089 2019] [wsgi:error] [pid 20372:tid 140555492067072] 14.2985889912
+[Wed Oct 09 14:00:07.823519 2019] [wsgi:error] [pid 20372:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:00:08.514708 2019] [wsgi:error] [pid 20372:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/mbot_dummy_example/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:00:12.396653 2019] [wsgi:error] [pid 20372:tid 140555492067072] 6.7284579277
+[Wed Oct 09 14:00:56.519578 2019] [wsgi:error] [pid 20372:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:00:57.293564 2019] [wsgi:error] [pid 20372:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/mbot_dummy_example/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:01:01.193402 2019] [wsgi:error] [pid 20372:tid 140555399747328] 6.54217100143
+[Wed Oct 09 14:04:33.544541 2019] [wsgi:error] [pid 20372:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:04:34.296257 2019] [wsgi:error] [pid 20372:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/mbot_dummy_example/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:04:38.007607 2019] [wsgi:error] [pid 20372:tid 140555492067072] 9.42406392097
+[Wed Oct 09 14:21:56.397873 2019] [wsgi:error] [pid 20372:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:21:56.978704 2019] [wsgi:error] [pid 20372:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/mbot_dummy_example/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:22:00.958609 2019] [wsgi:error] [pid 20372:tid 140555399747328] 9.64367413521
+[Wed Oct 09 14:22:31.988768 2019] [wsgi:error] [pid 20372:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:22:32.585111 2019] [wsgi:error] [pid 20372:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/mbot_dummy_example/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:22:37.239178 2019] [wsgi:error] [pid 20372:tid 140555492067072] 10.0941669941
+[Wed Oct 09 14:24:07.584608 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE generic: <class '_ast.Module'>
+[Wed Oct 09 14:24:07.584637 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE generic: <class '_ast.Import'>
+[Wed Oct 09 14:24:07.584645 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE generic: <class '_ast.alias'>
+[Wed Oct 09 14:24:07.584654 2019] [wsgi:error] [pid 20372:tid 140555399747328] Function Definition: loop
+[Wed Oct 09 14:24:07.584658 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE arguments: <class '_ast.arguments'>
+[Wed Oct 09 14:24:07.584667 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE arguments: []
+[Wed Oct 09 14:24:07.584680 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE If: <class '_ast.If'> 2 [<_ast.Expr object at 0x7fd5892ef290>] True [<_ast.Expr object at 0x7fd5892ef850>]
+[Wed Oct 09 14:24:07.584689 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Compare: <class '_ast.Call'> <class '_ast.Lt'> <type 'list'>
+[Wed Oct 09 14:24:07.584696 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:24:07.584704 2019] [wsgi:error] [pid 20372:tid 140555399747328] Attribute: <_ast.Name object at 0x7fd5892efc90><_ast.Load object at 0x7fd593772d10>getUS
+[Wed Oct 09 14:24:07.584710 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:24:07.584722 2019] [wsgi:error] [pid 20372:tid 140555399747328] Halduino found with call to function getUS
+[Wed Oct 09 14:24:07.585479 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:24:07.585504 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:24:07.585530 2019] [wsgi:error] [pid 20372:tid 140555399747328] PARENTHESES 0
+[Wed Oct 09 14:24:07.585553 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:24:07.585579 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Expr: <class '_ast.Expr'>
+[Wed Oct 09 14:24:07.585592 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:24:07.585607 2019] [wsgi:error] [pid 20372:tid 140555399747328] Attribute: <_ast.Name object at 0x7fd5892ef110><_ast.Load object at 0x7fd593772d10>setSpeedEngines
+[Wed Oct 09 14:24:07.585620 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:24:07.585627 2019] [wsgi:error] [pid 20372:tid 140555399747328] Halduino found with call to function setSpeedEngines
+[Wed Oct 09 14:24:07.588085 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:24:07.588120 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:24:07.588137 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:24:07.588158 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 1
+[Wed Oct 09 14:24:07.588172 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:24:07.588185 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 2
+[Wed Oct 09 14:24:07.588206 2019] [wsgi:error] [pid 20372:tid 140555399747328] PARENTHESES 0
+[Wed Oct 09 14:24:07.588224 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Expr: <class '_ast.Expr'>
+[Wed Oct 09 14:24:07.588235 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:24:07.588253 2019] [wsgi:error] [pid 20372:tid 140555399747328] Attribute: <_ast.Name object at 0x7fd5892ef750><_ast.Load object at 0x7fd593772d10>setSpeedEngines
+[Wed Oct 09 14:24:07.588265 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:24:07.588273 2019] [wsgi:error] [pid 20372:tid 140555399747328] Halduino found with call to function setSpeedEngines
+[Wed Oct 09 14:24:07.588314 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:24:07.588328 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:24:07.588340 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:24:07.588354 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 1
+[Wed Oct 09 14:24:07.588366 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:24:07.588379 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 2
+[Wed Oct 09 14:24:07.588397 2019] [wsgi:error] [pid 20372:tid 140555399747328] PARENTHESES 0
+[Wed Oct 09 14:24:07.588678 2019] [wsgi:error] [pid 20372:tid 140555399747328] Folder doesn't exists
+[Wed Oct 09 14:24:07.594653 2019] [wsgi:error] [pid 20372:tid 140555399747328] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Wed Oct 09 14:24:07.602792 2019] [wsgi:error] [pid 20372:tid 140555399747328] Python code: 
+[Wed Oct 09 14:24:07.602803 2019] [wsgi:error] [pid 20372:tid 140555399747328] import HALduino.halduino as halduino
+[Wed Oct 09 14:24:07.602805 2019] [wsgi:error] [pid 20372:tid 140555399747328] def loop():
+[Wed Oct 09 14:24:07.602806 2019] [wsgi:error] [pid 20372:tid 140555399747328]     if halduino.getUS() < 10:
+[Wed Oct 09 14:24:07.602808 2019] [wsgi:error] [pid 20372:tid 140555399747328]         halduino.setSpeedEngines(0, 0)
+[Wed Oct 09 14:24:07.602815 2019] [wsgi:error] [pid 20372:tid 140555399747328]     else:
+[Wed Oct 09 14:24:07.602822 2019] [wsgi:error] [pid 20372:tid 140555399747328]         halduino.setSpeedEngines(100, 100)
+[Wed Oct 09 14:25:48.163599 2019] [wsgi:error] [pid 20372:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:25:48.852701 2019] [wsgi:error] [pid 20372:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/mbot_dummy_example/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:25:52.543996 2019] [wsgi:error] [pid 20372:tid 140555492067072] 9.16405797005
+[Wed Oct 09 14:25:57.146891 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE generic: <class '_ast.Module'>
+[Wed Oct 09 14:25:57.146918 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE generic: <class '_ast.Import'>
+[Wed Oct 09 14:25:57.146927 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE generic: <class '_ast.alias'>
+[Wed Oct 09 14:25:57.146938 2019] [wsgi:error] [pid 20372:tid 140555399747328] Function Definition: loop
+[Wed Oct 09 14:25:57.146942 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE arguments: <class '_ast.arguments'>
+[Wed Oct 09 14:25:57.146952 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE arguments: []
+[Wed Oct 09 14:25:57.146966 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE If: <class '_ast.If'> 2 [<_ast.Expr object at 0x7fd58ad5b890>] True [<_ast.Expr object at 0x7fd589281f90>]
+[Wed Oct 09 14:25:57.146978 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Compare: <class '_ast.Call'> <class '_ast.Lt'> <type 'list'>
+[Wed Oct 09 14:25:57.146987 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:25:57.146997 2019] [wsgi:error] [pid 20372:tid 140555399747328] Attribute: <_ast.Name object at 0x7fd5892818d0><_ast.Load object at 0x7fd593772d10>getUS
+[Wed Oct 09 14:25:57.147004 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:25:57.147009 2019] [wsgi:error] [pid 20372:tid 140555399747328] Halduino found with call to function getUS
+[Wed Oct 09 14:25:57.147263 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:25:57.147272 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:25:57.147281 2019] [wsgi:error] [pid 20372:tid 140555399747328] PARENTHESES 0
+[Wed Oct 09 14:25:57.147289 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:25:57.147299 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Expr: <class '_ast.Expr'>
+[Wed Oct 09 14:25:57.147304 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:25:57.147311 2019] [wsgi:error] [pid 20372:tid 140555399747328] Attribute: <_ast.Name object at 0x7fd589281c10><_ast.Load object at 0x7fd593772d10>setSpeedEngines
+[Wed Oct 09 14:25:57.147316 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:25:57.147320 2019] [wsgi:error] [pid 20372:tid 140555399747328] Halduino found with call to function setSpeedEngines
+[Wed Oct 09 14:25:57.148530 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:25:57.148558 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:25:57.148575 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:25:57.148596 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 1
+[Wed Oct 09 14:25:57.148612 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:25:57.148626 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 2
+[Wed Oct 09 14:25:57.148647 2019] [wsgi:error] [pid 20372:tid 140555399747328] PARENTHESES 0
+[Wed Oct 09 14:25:57.148693 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Expr: <class '_ast.Expr'>
+[Wed Oct 09 14:25:57.148707 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:25:57.148726 2019] [wsgi:error] [pid 20372:tid 140555399747328] Attribute: <_ast.Name object at 0x7fd5892c13d0><_ast.Load object at 0x7fd593772d10>setSpeedEngines
+[Wed Oct 09 14:25:57.148737 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:25:57.148747 2019] [wsgi:error] [pid 20372:tid 140555399747328] Halduino found with call to function setSpeedEngines
+[Wed Oct 09 14:25:57.148792 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:25:57.148806 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:25:57.148819 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:25:57.148833 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 1
+[Wed Oct 09 14:25:57.148847 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:25:57.148859 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 2
+[Wed Oct 09 14:25:57.148878 2019] [wsgi:error] [pid 20372:tid 140555399747328] PARENTHESES 0
+[Wed Oct 09 14:25:57.149315 2019] [wsgi:error] [pid 20372:tid 140555399747328] Folder doesn't exists
+[Wed Oct 09 14:25:57.149480 2019] [wsgi:error] [pid 20372:tid 140555399747328] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Wed Oct 09 14:25:57.154925 2019] [wsgi:error] [pid 20372:tid 140555399747328] Python code: 
+[Wed Oct 09 14:25:57.154935 2019] [wsgi:error] [pid 20372:tid 140555399747328] import HALduino.halduino as halduino
+[Wed Oct 09 14:25:57.154937 2019] [wsgi:error] [pid 20372:tid 140555399747328] def loop():
+[Wed Oct 09 14:25:57.154938 2019] [wsgi:error] [pid 20372:tid 140555399747328]     if halduino.getUS() < 10:
+[Wed Oct 09 14:25:57.154939 2019] [wsgi:error] [pid 20372:tid 140555399747328]         halduino.setSpeedEngines(0, 0)
+[Wed Oct 09 14:25:57.154941 2019] [wsgi:error] [pid 20372:tid 140555399747328]     else:
+[Wed Oct 09 14:25:57.154946 2019] [wsgi:error] [pid 20372:tid 140555399747328]         halduino.setSpeedEngines(100, 100)
+[Wed Oct 09 14:30:16.294697 2019] [wsgi:error] [pid 20372:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:30:16.967380 2019] [wsgi:error] [pid 20372:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/mbot_dummy_example/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:30:20.705976 2019] [wsgi:error] [pid 20372:tid 140555492067072] 6.25266695023
+[Wed Oct 09 14:30:28.440762 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE generic: <class '_ast.Module'>
+[Wed Oct 09 14:30:28.440856 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE generic: <class '_ast.Import'>
+[Wed Oct 09 14:30:28.440874 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE generic: <class '_ast.alias'>
+[Wed Oct 09 14:30:28.440904 2019] [wsgi:error] [pid 20372:tid 140555399747328] Function Definition: loop
+[Wed Oct 09 14:30:28.440916 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE arguments: <class '_ast.arguments'>
+[Wed Oct 09 14:30:28.440942 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE arguments: []
+[Wed Oct 09 14:30:28.440977 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE If: <class '_ast.If'> 2 [<_ast.Expr object at 0x7fd5892d21d0>] True [<_ast.Expr object at 0x7fd5892d23d0>]
+[Wed Oct 09 14:30:28.441009 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Compare: <class '_ast.Call'> <class '_ast.Lt'> <type 'list'>
+[Wed Oct 09 14:30:28.441035 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:30:28.441066 2019] [wsgi:error] [pid 20372:tid 140555399747328] Attribute: <_ast.Name object at 0x7fd5892d2f90><_ast.Load object at 0x7fd593772d10>getUS
+[Wed Oct 09 14:30:28.441117 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:30:28.441133 2019] [wsgi:error] [pid 20372:tid 140555399747328] Halduino found with call to function getUS
+[Wed Oct 09 14:30:28.441920 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:30:28.441953 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:30:28.441981 2019] [wsgi:error] [pid 20372:tid 140555399747328] PARENTHESES 0
+[Wed Oct 09 14:30:28.442000 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:30:28.442015 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Expr: <class '_ast.Expr'>
+[Wed Oct 09 14:30:28.442020 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:30:28.442030 2019] [wsgi:error] [pid 20372:tid 140555399747328] Attribute: <_ast.Name object at 0x7fd5892d2e10><_ast.Load object at 0x7fd593772d10>setSpeedEngines
+[Wed Oct 09 14:30:28.442036 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:30:28.442040 2019] [wsgi:error] [pid 20372:tid 140555399747328] Halduino found with call to function setSpeedEngines
+[Wed Oct 09 14:30:28.442763 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:30:28.442771 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:30:28.442777 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:30:28.442788 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 1
+[Wed Oct 09 14:30:28.442794 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:30:28.442801 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 2
+[Wed Oct 09 14:30:28.442810 2019] [wsgi:error] [pid 20372:tid 140555399747328] PARENTHESES 0
+[Wed Oct 09 14:30:28.442817 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Expr: <class '_ast.Expr'>
+[Wed Oct 09 14:30:28.442822 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:30:28.442828 2019] [wsgi:error] [pid 20372:tid 140555399747328] Attribute: <_ast.Name object at 0x7fd5892d2850><_ast.Load object at 0x7fd593772d10>setSpeedEngines
+[Wed Oct 09 14:30:28.442834 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:30:28.442837 2019] [wsgi:error] [pid 20372:tid 140555399747328] Halduino found with call to function setSpeedEngines
+[Wed Oct 09 14:30:28.442851 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:30:28.442857 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:30:28.442862 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:30:28.442869 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 1
+[Wed Oct 09 14:30:28.442874 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:30:28.442881 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 2
+[Wed Oct 09 14:30:28.442888 2019] [wsgi:error] [pid 20372:tid 140555399747328] PARENTHESES 0
+[Wed Oct 09 14:30:28.443039 2019] [wsgi:error] [pid 20372:tid 140555399747328] Folder doesn't exists
+[Wed Oct 09 14:30:28.443101 2019] [wsgi:error] [pid 20372:tid 140555399747328] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Wed Oct 09 14:30:28.449568 2019] [wsgi:error] [pid 20372:tid 140555399747328] Python code: 
+[Wed Oct 09 14:30:28.449580 2019] [wsgi:error] [pid 20372:tid 140555399747328] import HALduino.halduino as halduino
+[Wed Oct 09 14:30:28.449582 2019] [wsgi:error] [pid 20372:tid 140555399747328] def loop():
+[Wed Oct 09 14:30:28.449589 2019] [wsgi:error] [pid 20372:tid 140555399747328]     if halduino.getUS() < 10:
+[Wed Oct 09 14:30:28.449591 2019] [wsgi:error] [pid 20372:tid 140555399747328]         halduino.setSpeedEngines(0, 0)
+[Wed Oct 09 14:30:28.449592 2019] [wsgi:error] [pid 20372:tid 140555399747328]     else:
+[Wed Oct 09 14:30:28.449598 2019] [wsgi:error] [pid 20372:tid 140555399747328]         halduino.setSpeedEngines(100, 100)
+[Wed Oct 09 14:33:21.016018 2019] [wsgi:error] [pid 20372:tid 140555399747328] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Wed Oct 09 14:33:21.016051 2019] [wsgi:error] [pid 20372:tid 140555399747328] \x1b[93m No existen archivos de la practica mbot_dummy_example del usuario cawadall en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Wed Oct 09 14:33:21.931710 2019] [wsgi:error] [pid 20372:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/cawadall/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:33:26.205746 2019] [wsgi:error] [pid 20372:tid 140555399747328] 5.50434803963
+[Wed Oct 09 14:33:33.115651 2019] [wsgi:error] [pid 20372:tid 140555374569216] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:33:33.802971 2019] [wsgi:error] [pid 20372:tid 140555374569216] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/mbot_dummy_example/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 14:33:37.374841 2019] [wsgi:error] [pid 20372:tid 140555374569216] 6.06578397751
+[Wed Oct 09 14:33:38.597408 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE generic: <class '_ast.Module'>
+[Wed Oct 09 14:33:38.597435 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE generic: <class '_ast.Import'>
+[Wed Oct 09 14:33:38.597443 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE generic: <class '_ast.alias'>
+[Wed Oct 09 14:33:38.597453 2019] [wsgi:error] [pid 20372:tid 140555399747328] Function Definition: loop
+[Wed Oct 09 14:33:38.597457 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE arguments: <class '_ast.arguments'>
+[Wed Oct 09 14:33:38.597467 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE arguments: []
+[Wed Oct 09 14:33:38.597481 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE If: <class '_ast.If'> 2 [<_ast.Expr object at 0x7fd589159450>] True [<_ast.Expr object at 0x7fd589159c50>]
+[Wed Oct 09 14:33:38.597491 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Compare: <class '_ast.Call'> <class '_ast.Lt'> <type 'list'>
+[Wed Oct 09 14:33:38.597499 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:33:38.597511 2019] [wsgi:error] [pid 20372:tid 140555399747328] Attribute: <_ast.Name object at 0x7fd589159b10><_ast.Load object at 0x7fd593772d10>getUS
+[Wed Oct 09 14:33:38.597518 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:33:38.597523 2019] [wsgi:error] [pid 20372:tid 140555399747328] Halduino found with call to function getUS
+[Wed Oct 09 14:33:38.597790 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:33:38.597801 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:33:38.597810 2019] [wsgi:error] [pid 20372:tid 140555399747328] PARENTHESES 0
+[Wed Oct 09 14:33:38.597818 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:33:38.597828 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Expr: <class '_ast.Expr'>
+[Wed Oct 09 14:33:38.597833 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:33:38.597839 2019] [wsgi:error] [pid 20372:tid 140555399747328] Attribute: <_ast.Name object at 0x7fd5891598d0><_ast.Load object at 0x7fd593772d10>setSpeedEngines
+[Wed Oct 09 14:33:38.597845 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:33:38.597857 2019] [wsgi:error] [pid 20372:tid 140555399747328] Halduino found with call to function setSpeedEngines
+[Wed Oct 09 14:33:38.598566 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:33:38.598574 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:33:38.598580 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:33:38.598588 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 1
+[Wed Oct 09 14:33:38.598594 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:33:38.598600 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 2
+[Wed Oct 09 14:33:38.598608 2019] [wsgi:error] [pid 20372:tid 140555399747328] PARENTHESES 0
+[Wed Oct 09 14:33:38.598615 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Expr: <class '_ast.Expr'>
+[Wed Oct 09 14:33:38.598619 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:33:38.598625 2019] [wsgi:error] [pid 20372:tid 140555399747328] Attribute: <_ast.Name object at 0x7fd5891593d0><_ast.Load object at 0x7fd593772d10>setSpeedEngines
+[Wed Oct 09 14:33:38.598630 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:33:38.598634 2019] [wsgi:error] [pid 20372:tid 140555399747328] Halduino found with call to function setSpeedEngines
+[Wed Oct 09 14:33:38.598646 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:33:38.598653 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:33:38.598658 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:33:38.598664 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 1
+[Wed Oct 09 14:33:38.598669 2019] [wsgi:error] [pid 20372:tid 140555399747328] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:33:38.598675 2019] [wsgi:error] [pid 20372:tid 140555399747328] CALL_INDEX_NUM 2
+[Wed Oct 09 14:33:38.598683 2019] [wsgi:error] [pid 20372:tid 140555399747328] PARENTHESES 0
+[Wed Oct 09 14:33:38.598810 2019] [wsgi:error] [pid 20372:tid 140555399747328] Folder doesn't exists
+[Wed Oct 09 14:33:38.598866 2019] [wsgi:error] [pid 20372:tid 140555399747328] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Wed Oct 09 14:33:38.603297 2019] [wsgi:error] [pid 20372:tid 140555399747328] Python code: 
+[Wed Oct 09 14:33:38.603309 2019] [wsgi:error] [pid 20372:tid 140555399747328] import HALduino.halduino as halduino
+[Wed Oct 09 14:33:38.603311 2019] [wsgi:error] [pid 20372:tid 140555399747328] def loop():
+[Wed Oct 09 14:33:38.603312 2019] [wsgi:error] [pid 20372:tid 140555399747328]     if halduino.getUS() < 10:
+[Wed Oct 09 14:33:38.603313 2019] [wsgi:error] [pid 20372:tid 140555399747328]         halduino.setSpeedEngines(0, 0)
+[Wed Oct 09 14:33:38.603315 2019] [wsgi:error] [pid 20372:tid 140555399747328]     else:
+[Wed Oct 09 14:33:38.603318 2019] [wsgi:error] [pid 20372:tid 140555399747328]         halduino.setSpeedEngines(100, 100)
+[Wed Oct 09 14:33:38.603322 2019] [wsgi:error] [pid 20372:tid 140555399747328] 
+[Wed Oct 09 14:33:46.002280 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Wed Oct 09 14:33:46.002312 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE generic: <class '_ast.Import'>
+[Wed Oct 09 14:33:46.002324 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE generic: <class '_ast.alias'>
+[Wed Oct 09 14:33:46.002337 2019] [wsgi:error] [pid 20372:tid 140555374569216] Function Definition: loop
+[Wed Oct 09 14:33:46.002341 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE arguments: <class '_ast.arguments'>
+[Wed Oct 09 14:33:46.002352 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE arguments: []
+[Wed Oct 09 14:33:46.002368 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE If: <class '_ast.If'> 2 [<_ast.Expr object at 0x7fd5891590d0>] True [<_ast.Expr object at 0x7fd589159810>]
+[Wed Oct 09 14:33:46.002390 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Compare: <class '_ast.Call'> <class '_ast.Lt'> <type 'list'>
+[Wed Oct 09 14:33:46.002402 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:33:46.002416 2019] [wsgi:error] [pid 20372:tid 140555374569216] Attribute: <_ast.Name object at 0x7fd589159f10><_ast.Load object at 0x7fd593772d10>getUS
+[Wed Oct 09 14:33:46.002435 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:33:46.002443 2019] [wsgi:error] [pid 20372:tid 140555374569216] Halduino found with call to function getUS
+[Wed Oct 09 14:33:46.002724 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:33:46.002735 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:33:46.002743 2019] [wsgi:error] [pid 20372:tid 140555374569216] PARENTHESES 0
+[Wed Oct 09 14:33:46.002752 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:33:46.002761 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Expr: <class '_ast.Expr'>
+[Wed Oct 09 14:33:46.002766 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:33:46.002773 2019] [wsgi:error] [pid 20372:tid 140555374569216] Attribute: <_ast.Name object at 0x7fd589159b10><_ast.Load object at 0x7fd593772d10>setSpeedEngines
+[Wed Oct 09 14:33:46.002778 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:33:46.002782 2019] [wsgi:error] [pid 20372:tid 140555374569216] Halduino found with call to function setSpeedEngines
+[Wed Oct 09 14:33:46.003510 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:33:46.003519 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:33:46.003525 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:33:46.003534 2019] [wsgi:error] [pid 20372:tid 140555374569216] CALL_INDEX_NUM 1
+[Wed Oct 09 14:33:46.003540 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:33:46.003547 2019] [wsgi:error] [pid 20372:tid 140555374569216] CALL_INDEX_NUM 2
+[Wed Oct 09 14:33:46.003556 2019] [wsgi:error] [pid 20372:tid 140555374569216] PARENTHESES 0
+[Wed Oct 09 14:33:46.003570 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Expr: <class '_ast.Expr'>
+[Wed Oct 09 14:33:46.003579 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Call: <class '_ast.Call'>
+[Wed Oct 09 14:33:46.003586 2019] [wsgi:error] [pid 20372:tid 140555374569216] Attribute: <_ast.Name object at 0x7fd589159a90><_ast.Load object at 0x7fd593772d10>setSpeedEngines
+[Wed Oct 09 14:33:46.003591 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Name: <class '_ast.Name'> halduino
+[Wed Oct 09 14:33:46.003594 2019] [wsgi:error] [pid 20372:tid 140555374569216] Halduino found with call to function setSpeedEngines
+[Wed Oct 09 14:33:46.003610 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:33:46.003616 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Load: <class '_ast.Load'>
+[Wed Oct 09 14:33:46.003621 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:33:46.003630 2019] [wsgi:error] [pid 20372:tid 140555374569216] CALL_INDEX_NUM 1
+[Wed Oct 09 14:33:46.003635 2019] [wsgi:error] [pid 20372:tid 140555374569216] NODE Num: <class '_ast.Num'>
+[Wed Oct 09 14:33:46.003642 2019] [wsgi:error] [pid 20372:tid 140555374569216] CALL_INDEX_NUM 2
+[Wed Oct 09 14:33:46.003650 2019] [wsgi:error] [pid 20372:tid 140555374569216] PARENTHESES 0
+[Wed Oct 09 14:33:46.003793 2019] [wsgi:error] [pid 20372:tid 140555374569216] Folder doesn't exists
+[Wed Oct 09 14:33:46.003851 2019] [wsgi:error] [pid 20372:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Wed Oct 09 14:33:46.010334 2019] [wsgi:error] [pid 20372:tid 140555374569216] Python code: 
+[Wed Oct 09 14:33:46.010344 2019] [wsgi:error] [pid 20372:tid 140555374569216] import HALduino.halduino as halduino
+[Wed Oct 09 14:33:46.010346 2019] [wsgi:error] [pid 20372:tid 140555374569216] def loop():
+[Wed Oct 09 14:33:46.010347 2019] [wsgi:error] [pid 20372:tid 140555374569216]     if halduino.getUS() < 10:
+[Wed Oct 09 14:33:46.010349 2019] [wsgi:error] [pid 20372:tid 140555374569216]         halduino.setSpeedEngines(0, 0)
+[Wed Oct 09 14:33:46.010350 2019] [wsgi:error] [pid 20372:tid 140555374569216]     else:
+[Wed Oct 09 14:33:46.010356 2019] [wsgi:error] [pid 20372:tid 140555374569216]         halduino.setSpeedEngines(100, 100)
+[Wed Oct 09 16:21:59.548858 2019] [wsgi:error] [pid 20372:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/smkdavidrodriguez/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 16:22:00.280215 2019] [wsgi:error] [pid 20372:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/smkdavidrodriguez/sigue_linea_ir/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 16:22:09.698590 2019] [wsgi:error] [pid 20372:tid 140555399747328] 12.0102880001
+[Wed Oct 09 16:26:46.457026 2019] [wsgi:error] [pid 20372:tid 140555374569216] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Wed Oct 09 16:26:46.457072 2019] [wsgi:error] [pid 20372:tid 140555374569216] \x1b[93m No existen archivos de la practica follow_ball_drone_scratch del usuario smkdavidrodriguez en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Wed Oct 09 17:15:20.562476 2019] [wsgi:error] [pid 20372:tid 140555399747328] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Wed Oct 09 17:15:20.562542 2019] [wsgi:error] [pid 20372:tid 140555399747328] \x1b[93m No existen archivos de la practica chocagira_pibot_scratch del usuario admin en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Wed Oct 09 17:15:48.650901 2019] [wsgi:error] [pid 20372:tid 140555374569216] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 17:15:49.219071 2019] [wsgi:error] [pid 20372:tid 140555374569216] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/choca_gira_us/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 17:15:59.318882 2019] [wsgi:error] [pid 20372:tid 140555374569216] 13.2304229736
+[Wed Oct 09 17:16:54.025673 2019] [wsgi:error] [pid 20372:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 17:16:54.692189 2019] [wsgi:error] [pid 20372:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 17:17:02.988339 2019] [wsgi:error] [pid 20372:tid 140555399747328] 10.6315789223
+[Wed Oct 09 17:22:27.751737 2019] [wsgi:error] [pid 20372:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/ralvarezmar/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 17:22:28.438532 2019] [wsgi:error] [pid 20372:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/ralvarezmar/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 09 17:22:36.497394 2019] [wsgi:error] [pid 20372:tid 140555399747328] 10.3356351852
+[Wed Oct 09 18:11:00.065696 2019] [wsgi:error] [pid 20372:tid 140555492067072] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Wed Oct 09 18:11:00.065725 2019] [wsgi:error] [pid 20372:tid 140555492067072] \x1b[93m No existen archivos de la practica siguelinea_pibot_scratch_vision del usuario ralvarezmar en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Wed Oct 09 18:11:40.528142 2019] [wsgi:error] [pid 20372:tid 140555492067072] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Wed Oct 09 18:11:40.528175 2019] [wsgi:error] [pid 20372:tid 140555492067072] \x1b[93m No existen archivos de la practica siguelinea_pibot_scratch_vision del usuario ralvarezmar en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Wed Oct 09 18:11:56.752708 2019] [wsgi:error] [pid 20372:tid 140555399747328] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Wed Oct 09 18:11:56.752736 2019] [wsgi:error] [pid 20372:tid 140555399747328] \x1b[93m No existen archivos de la practica siguelinea_pibot_scratch_vision del usuario ralvarezmar en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Wed Oct 09 18:12:23.338249 2019] [wsgi:error] [pid 20372:tid 140555492067072] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Wed Oct 09 18:12:23.338285 2019] [wsgi:error] [pid 20372:tid 140555492067072] \x1b[93m No existen archivos de la practica siguelinea_pibot_scratch_vision del usuario ralvarezmar en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Wed Oct 09 18:13:01.572298 2019] [wsgi:error] [pid 20372:tid 140555399747328] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Wed Oct 09 18:13:01.572339 2019] [wsgi:error] [pid 20372:tid 140555399747328] \x1b[93m No existen archivos de la practica siguelinea_pibot_scratch_vision del usuario ralvarezmar en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Wed Oct 09 19:45:11.515720 2019] [wsgi:error] [pid 20372:tid 140555399747328] \x1b[93m Simulacion en Websim con usuario no registrado. Cargando plantilla de codigo por defecto /var/www/kibotics/jderobot_server/exercises/scratch/siguelinea_pibot_scratch_vision/siguelinea_pibot_scratch_vision.xml\x1b[0m
+[Wed Oct 09 23:07:06.966642 2019] [wsgi:error] [pid 20372:tid 140555492067072] \x1b[93m Simulacion en Websim con usuario no registrado. Cargando plantilla de codigo por defecto /var/www/kibotics/jderobot_server/exercises/scratch/siguelinea_pibot_scratch_vision/siguelinea_pibot_scratch_vision.xml\x1b[0m
+[Wed Oct 09 23:50:18.124498 2019] [wsgi:error] [pid 20372:tid 140555399747328] \x1b[93m Simulacion en Websim con usuario no registrado. Cargando plantilla de codigo por defecto /var/www/kibotics/jderobot_server/exercises/scratch/siguelinea_pibot_scratch_vision/siguelinea_pibot_scratch_vision.xml\x1b[0m
+[Thu Oct 10 07:35:01.652255 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart

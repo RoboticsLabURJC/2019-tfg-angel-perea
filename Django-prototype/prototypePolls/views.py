@@ -14,7 +14,7 @@ import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
 
-def readfile():
+def readfile_OLD():
     f= open("prototypePolls/logs/login.log","r")
     lines = f.readlines()
 
@@ -36,11 +36,11 @@ def readfile():
     return filedata
 
 
-
+def home(request):
+    return render(request, "prototypePolls/plot1.html")
 
 def plot1(request):
-    filedata = readfile();
-
+    filedata = readfile_OLD();
     index = list(filedata.keys())
     entries = list(filedata.values())
 
@@ -67,7 +67,143 @@ def plot1(request):
     return response
 
 
+ignored_logs = ["Error ==> 500 Internal Server Error"]
 
+def filter(line, param, pos):
+    if("" == param):
+        return True
+    return line.split(" ")[pos] == param
+
+def readfile(name="", simType="", exercise=""):
+    paramsPos = [5, 7, 8]
+    params = [name, simType, exercise]
+
+    f= open("prototypePolls/logs/access_log_django.txt","r")
+    lines = f.readlines()
+    #print(len(lines))
+    filedata = [];
+
+    for line in lines:
+        if line[:-1] not in str(ignored_logs):
+            i = 0
+            filtered = True
+            #print(line)
+            for param in params:
+                if (not filter(line, param, paramsPos[i])):
+                    filtered = False
+                #print("\t"+str(filtered))
+                i+=1
+
+            if filtered:
+                filedata.append(line)
+    f.close()
+    return filedata
+
+def plotSimTYpe(data):
+    baseDataSim = {}
+
+    for d in data:
+        name = d.split(" ")[5]
+        simType = d.split(" ")[7]
+        exercise = d.split(" ")[8]
+
+        if(name in baseDataSim):
+            if(simType in baseDataSim[name]):
+                baseDataSim[name][simType] += 1
+            else:
+                baseDataSim[name][simType] = 1
+        else:
+            baseDataSim[name] = {}
+            baseDataSim[name][simType] = 1
+
+
+    return baseDataSim
+
+
+def plotExercise(data):
+    baseDataExer = {}
+
+    for d in data:
+        name = d.split(" ")[5]
+        simType = d.split(" ")[7]
+        exercise = d.split(" ")[8]
+
+        if(name in baseDataExer):
+            if(exercise in baseDataExer[name]):
+                baseDataExer[name][exercise] += 1
+            else:
+                baseDataExer[name][exercise] = 1
+        else:
+            baseDataExer[name] = {}
+            baseDataExer[name][exercise] = 1
+
+    return baseDataExer
+
+def logPlotAll(request):
+    #argsList = args.split("#")
+    data = readfile("", "", "")
+#str(plotSimTYpe(data))+"@"+str(plotExercise(data))
+    dataDict = plotSimTYpe(data)
+    #return render(request, 'prototypePolls/blank.html', plotSimTYpe(data))
+
+    index = []
+    entries = []
+    users = list(dataDict.keys())
+    for d in users:
+        index += list(dataDict[d].keys())
+        entries += list(dataDict[d].values())
+
+    f = plt.figure()
+    axes = f.add_axes([0.15, 0.15, 0.75, 0.75]) # [left, bottom, width, height]
+    axes.plot(index, entries)
+    axes.set_xlabel("Users")
+    axes.set_ylabel("Entries")
+    axes.set_title("PLOT 1")
+
+    buf = io.BytesIO()
+    canvas = FigureCanvasAgg(f)
+    canvas.print_png(buf)
+
+    response = HttpResponse(buf.getvalue(), content_type='image/png')
+
+    f.clear()
+
+    response['Content-Length'] = str(len(response.content))
+
+    return response
+
+def logPlot(request, name):
+    #argsList = args.split("#")
+    data = readfile(name, "", "")
+#str(plotSimTYpe(data))+"@"+str(plotExercise(data))
+    dataDict = plotSimTYpe(data)
+    #return render(request, 'prototypePolls/blank.html', plotSimTYpe(data))
+
+    index = []
+    entries = []
+    users = list(dataDict.keys())
+    for d in users:
+        index += list(dataDict[d].keys())
+        entries += list(dataDict[d].values())
+
+    f = plt.figure()
+    axes = f.add_axes([0.15, 0.15, 0.75, 0.75]) # [left, bottom, width, height]
+    axes.plot(index, entries)
+    axes.set_xlabel("Users")
+    axes.set_ylabel("Entries")
+    axes.set_title("PLOT 1")
+
+    buf = io.BytesIO()
+    canvas = FigureCanvasAgg(f)
+    canvas.print_png(buf)
+
+    response = HttpResponse(buf.getvalue(), content_type='image/png')
+
+    f.clear()
+
+    response['Content-Length'] = str(len(response.content))
+
+    return response
 
 
 

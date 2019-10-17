@@ -1,0 +1,151 @@
+[Fri Oct 04 07:35:02.432053 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Fri Oct 04 07:35:02.432072 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Fri Oct 04 07:35:02.432731 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Fri Oct 04 07:35:02.432748 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Oct 04 08:53:43.278241 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Fri Oct 04 08:53:43.481105 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Fri Oct 04 08:53:43.481127 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Fri Oct 04 08:53:43.481629 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Fri Oct 04 08:53:43.481655 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Oct 04 08:53:53.380951 2019] [wsgi:error] [pid 30964:tid 140555483674368] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Fri Oct 04 08:53:53.380977 2019] [wsgi:error] [pid 30964:tid 140555483674368]   return self.cursor.execute(query, args)
+[Fri Oct 04 08:53:59.335667 2019] [wsgi:error] [pid 30964:tid 140555483674368] 5.97218298912
+[Fri Oct 04 08:56:17.127980 2019] [wsgi:error] [pid 30964:tid 140555466888960] 9.37334012985
+[Fri Oct 04 09:00:57.735994 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Fri Oct 04 09:00:57.841007 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Fri Oct 04 09:00:57.841028 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Fri Oct 04 09:00:57.841835 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Fri Oct 04 09:00:57.841866 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Oct 04 09:01:05.529623 2019] [wsgi:error] [pid 32450:tid 140555483674368] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Fri Oct 04 09:01:05.529644 2019] [wsgi:error] [pid 32450:tid 140555483674368]   return self.cursor.execute(query, args)
+[Fri Oct 04 09:01:15.747420 2019] [wsgi:error] [pid 32450:tid 140555483674368] 10.2301211357
+[Fri Oct 04 09:04:36.039851 2019] [wsgi:error] [pid 32450:tid 140555483674368] 4.2307100296
+[Fri Oct 04 09:05:12.109284 2019] [wsgi:error] [pid 32450:tid 140555492067072] 3.80747890472
+[Fri Oct 04 09:05:45.996503 2019] [wsgi:error] [pid 32450:tid 140555483674368] 8.49777793884
+[Fri Oct 04 09:06:27.310641 2019] [wsgi:error] [pid 32450:tid 140555492067072] 3.46632289886
+[Fri Oct 04 09:07:08.784486 2019] [wsgi:error] [pid 32450:tid 140555483674368] 8.4536690712
+[Fri Oct 04 09:08:12.266666 2019] [wsgi:error] [pid 32450:tid 140555492067072] 10.1633989811
+[Fri Oct 04 09:08:40.609801 2019] [wsgi:error] [pid 32450:tid 140555483674368] 9.07040214539
+[Fri Oct 04 09:09:52.841536 2019] [wsgi:error] [pid 32450:tid 140555483674368] 7.90735292435
+[Fri Oct 04 09:14:51.380978 2019] [wsgi:error] [pid 32450:tid 140555492067072] 9.10900306702
+[Fri Oct 04 09:19:46.080930 2019] [wsgi:error] [pid 32450:tid 140555492067072] 2.69679188728
+[Fri Oct 04 09:20:03.256953 2019] [wsgi:error] [pid 32450:tid 140555483674368] 4.75339412689
+[Fri Oct 04 09:21:20.518840 2019] [wsgi:error] [pid 32450:tid 140555483674368] 2.67234921455
+[Fri Oct 04 09:22:27.197357 2019] [wsgi:error] [pid 32450:tid 140555483674368] 2.91827821732
+[Fri Oct 04 09:24:18.531327 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Fri Oct 04 09:24:18.636337 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Fri Oct 04 09:24:18.636347 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Fri Oct 04 09:24:18.637066 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Fri Oct 04 09:24:18.637097 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Oct 04 09:24:42.535237 2019] [wsgi:error] [pid 6854:tid 140555466888960] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Fri Oct 04 09:24:42.535259 2019] [wsgi:error] [pid 6854:tid 140555466888960]   return self.cursor.execute(query, args)
+[Fri Oct 04 09:24:45.249849 2019] [wsgi:error] [pid 6854:tid 140555466888960] 2.7243578434
+[Fri Oct 04 09:26:24.717236 2019] [wsgi:error] [pid 6854:tid 140555433318144] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 09:26:24.717281 2019] [wsgi:error] [pid 6854:tid 140555433318144] \x1b[93m No existen archivos de la practica playground_pibot_scratch del usuario admin en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 09:26:39.958029 2019] [wsgi:error] [pid 6854:tid 140555466888960] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 09:26:39.958062 2019] [wsgi:error] [pid 6854:tid 140555466888960] \x1b[93m No existen archivos de la practica playground_drone_scratch del usuario admin en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 09:27:07.649409 2019] [wsgi:error] [pid 6854:tid 140555433318144] 9.1863219738
+[Fri Oct 04 09:27:52.245935 2019] [wsgi:error] [pid 6854:tid 140555466888960] 5.59814786911
+[Fri Oct 04 09:28:41.556769 2019] [wsgi:error] [pid 6854:tid 140555433318144] 5.56278800964
+[Fri Oct 04 09:29:17.348548 2019] [wsgi:error] [pid 6854:tid 140555466888960] 9.19731712341
+[Fri Oct 04 09:29:47.281280 2019] [wsgi:error] [pid 6854:tid 140555466888960] 9.0895049572
+[Fri Oct 04 09:30:25.126535 2019] [wsgi:error] [pid 6854:tid 140555466888960] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 09:30:25.126566 2019] [wsgi:error] [pid 6854:tid 140555466888960] \x1b[93m No existen archivos de la practica chocagira_pibot_scratch del usuario admin en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 10:07:34.837494 2019] [wsgi:error] [pid 6854:tid 140555129526016] /usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+[Fri Oct 04 10:07:34.837516 2019] [wsgi:error] [pid 6854:tid 140555129526016]   self._cipher = factory.new(key, *args, **kwargs)
+[Fri Oct 04 10:07:35.619842 2019] [wsgi:error] [pid 6854:tid 140555433318144] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:07:46.326520 2019] [wsgi:error] [pid 6854:tid 140555433318144] 12.3445029259
+[Fri Oct 04 10:08:51.733400 2019] [wsgi:error] [pid 6854:tid 140555433318144] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:09:01.488786 2019] [wsgi:error] [pid 6854:tid 140555433318144] 11.460162878
+[Fri Oct 04 10:11:01.876928 2019] [wsgi:error] [pid 6854:tid 140555433318144] 14.3543319702
+[Fri Oct 04 10:12:12.030565 2019] [wsgi:error] [pid 6854:tid 140555433318144] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc03.kibotics.org
+[Fri Oct 04 10:12:22.382364 2019] [wsgi:error] [pid 6854:tid 140555433318144] 12.9614899158
+[Fri Oct 04 10:13:42.893660 2019] [wsgi:error] [pid 6854:tid 140555433318144] 12.9938769341
+[Fri Oct 04 10:43:32.260642 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Fri Oct 04 10:43:32.365307 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Fri Oct 04 10:43:32.365318 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Fri Oct 04 10:43:32.365642 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Fri Oct 04 10:43:32.365652 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Fri Oct 04 10:43:45.309984 2019] [wsgi:error] [pid 16914:tid 140555374569216] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Fri Oct 04 10:43:45.310008 2019] [wsgi:error] [pid 16914:tid 140555374569216]   return self.cursor.execute(query, args)
+[Fri Oct 04 10:43:46.148561 2019] [wsgi:error] [pid 16914:tid 140555133720320] /usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+[Fri Oct 04 10:43:46.148580 2019] [wsgi:error] [pid 16914:tid 140555133720320]   self._cipher = factory.new(key, *args, **kwargs)
+[Fri Oct 04 10:43:46.947852 2019] [wsgi:error] [pid 16914:tid 140555374569216] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:43:56.190571 2019] [wsgi:error] [pid 16914:tid 140555374569216] 10.8914940357
+[Fri Oct 04 10:48:30.582335 2019] [wsgi:error] [pid 16914:tid 140555374569216] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:48:35.945845 2019] [wsgi:error] [pid 16914:tid 140555374569216] 7.55922818184
+[Fri Oct 04 10:49:11.894618 2019] [wsgi:error] [pid 16914:tid 140555391354624] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:49:12.498908 2019] [wsgi:error] [pid 16914:tid 140555391354624] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/cuadrado_tello/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:49:16.169224 2019] [wsgi:error] [pid 16914:tid 140555391354624] 5.84608006477
+[Fri Oct 04 10:52:29.373329 2019] [wsgi:error] [pid 16914:tid 140555391354624] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:52:30.034083 2019] [wsgi:error] [pid 16914:tid 140555391354624] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/choca_gira_us/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:52:40.213385 2019] [wsgi:error] [pid 16914:tid 140555391354624] 13.499861002
+[Fri Oct 04 10:54:01.293124 2019] [wsgi:error] [pid 16914:tid 140555399747328] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 10:54:01.293171 2019] [wsgi:error] [pid 16914:tid 140555399747328] \x1b[93m No existen archivos de la practica introduccion_python del usuario carriers en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 10:54:02.926115 2019] [wsgi:error] [pid 16914:tid 140555492067072] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 10:54:02.926146 2019] [wsgi:error] [pid 16914:tid 140555492067072] \x1b[93m No existen archivos de la practica introduccion_python del usuario albertoymanu en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 10:54:03.278274 2019] [wsgi:error] [pid 16914:tid 140555374569216] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 10:54:03.278300 2019] [wsgi:error] [pid 16914:tid 140555374569216] \x1b[93m No existen archivos de la practica introduccion_python del usuario Vitijuna69 en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 10:54:03.734489 2019] [wsgi:error] [pid 16914:tid 140555382961920] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 10:54:03.734555 2019] [wsgi:error] [pid 16914:tid 140555382961920] \x1b[93m No existen archivos de la practica introduccion_python del usuario Carolinaana03 en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 10:54:04.265773 2019] [wsgi:error] [pid 16914:tid 140555408140032] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 10:54:04.268996 2019] [wsgi:error] [pid 16914:tid 140555408140032] \x1b[93m No existen archivos de la practica introduccion_python del usuario manuja03 en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 10:54:06.603193 2019] [wsgi:error] [pid 16914:tid 140555416532736] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 10:54:06.603276 2019] [wsgi:error] [pid 16914:tid 140555416532736] \x1b[93m No existen archivos de la practica introduccion_python del usuario PedroNora en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 10:54:09.285854 2019] [wsgi:error] [pid 16914:tid 140555433318144] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 10:54:09.285880 2019] [wsgi:error] [pid 16914:tid 140555433318144] \x1b[93m No existen archivos de la practica introduccion_python del usuario EvaFausto en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 10:54:12.175534 2019] [wsgi:error] [pid 16914:tid 140555399747328] 11.2081108093
+[Fri Oct 04 10:54:13.534167 2019] [wsgi:error] [pid 16914:tid 140555391354624] 13.4248249531
+[Fri Oct 04 10:54:14.982958 2019] [wsgi:error] [pid 16914:tid 140555492067072] 12.4557950497
+[Fri Oct 04 10:54:15.576843 2019] [wsgi:error] [pid 16914:tid 140555374569216] 12.7154450417
+[Fri Oct 04 10:54:15.993991 2019] [wsgi:error] [pid 16914:tid 140555382961920] 12.8994731903
+[Fri Oct 04 10:54:17.380312 2019] [wsgi:error] [pid 16914:tid 140555408140032] 13.6580839157
+[Fri Oct 04 10:54:19.388869 2019] [wsgi:error] [pid 16914:tid 140555416532736] 13.2099421024
+[Fri Oct 04 10:54:20.495185 2019] [wsgi:error] [pid 16914:tid 140555433318144] 16.2345070839
+[Fri Oct 04 10:54:21.884949 2019] [wsgi:error] [pid 16914:tid 140555441710848] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 10:54:21.884974 2019] [wsgi:error] [pid 16914:tid 140555441710848] \x1b[93m No existen archivos de la practica introduccion_python del usuario Pabloyparra en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 10:54:31.817946 2019] [wsgi:error] [pid 16914:tid 140555416532736] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 10:54:31.817980 2019] [wsgi:error] [pid 16914:tid 140555416532736] \x1b[93m No existen archivos de la practica introduccion_python del usuario paulajulia en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 10:54:31.899472 2019] [wsgi:error] [pid 16914:tid 140555441710848] 10.3177530766
+[Fri Oct 04 10:54:33.836845 2019] [wsgi:error] [pid 16914:tid 140555408140032] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 10:54:33.836871 2019] [wsgi:error] [pid 16914:tid 140555408140032] \x1b[93m No existen archivos de la practica introduccion_python del usuario Miguelon en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 10:54:40.183817 2019] [wsgi:error] [pid 16914:tid 140555416532736] 8.80074214935
+[Fri Oct 04 10:54:42.683446 2019] [wsgi:error] [pid 16914:tid 140555408140032] 9.22747802734
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/Carolinaana03/introduccion_python/introduccion_python.ipynb to notebook
+[NbConvertApp] Writing 24984 bytes to /var/www/kibotics/jderobot_server/users/Carolinaana03/introduccion_python/introduccion_python.ipynb
+[Fri Oct 04 10:54:55.092559 2019] [wsgi:error] [pid 16914:tid 140555106969344] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 10:54:55.092595 2019] [wsgi:error] [pid 16914:tid 140555106969344] \x1b[93m No existen archivos de la practica introduccion_python del usuario Carolinaana03 en el directorio /users/Carolinaana03/introduccion_python. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 10:54:56.258846 2019] [wsgi:error] [pid 16914:tid 140555106969344] {'content': ContentFile(path="users/Carolinaana03/introduccion_python/introduccion_python.ipynb"), 'commit': Commit(sha="dcdfc322669798771acfe3dbd24dfb7ca4b9c4f3")}
+[Fri Oct 04 10:54:56.258873 2019] [wsgi:error] [pid 16914:tid 140555106969344] \x1b[94m Archivo /users/Carolinaana03/introduccion_python/introduccion_python.ipynb subido a GitHub\x1b[0m
+[Fri Oct 04 10:55:04.694166 2019] [wsgi:error] [pid 16914:tid 140555416532736] La carpeta /var/lib/jderobot/Academy-Farm/users/Carolinaana03/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:55:05.238170 2019] [wsgi:error] [pid 16914:tid 140555416532736] La carpeta /var/lib/jderobot/Academy-Farm/users/Carolinaana03/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:55:13.682868 2019] [wsgi:error] [pid 16914:tid 140555416532736] 11.0447919369
+[Fri Oct 04 10:55:14.437318 2019] [wsgi:error] [pid 16914:tid 140555408140032] La carpeta /var/lib/jderobot/Academy-Farm/users/Pabloyparra/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:55:15.097858 2019] [wsgi:error] [pid 16914:tid 140555408140032] La carpeta /var/lib/jderobot/Academy-Farm/users/Pabloyparra/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:55:23.296709 2019] [wsgi:error] [pid 16914:tid 140555408140032] 10.4503378868
+[Fri Oct 04 10:55:28.241146 2019] [wsgi:error] [pid 16914:tid 140555416532736] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:55:28.935925 2019] [wsgi:error] [pid 16914:tid 140555416532736] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:55:37.368849 2019] [wsgi:error] [pid 16914:tid 140555416532736] 11.7591810226
+[Fri Oct 04 10:57:37.888769 2019] [wsgi:error] [pid 16914:tid 140555408140032] La carpeta /var/lib/jderobot/Academy-Farm/users/Carolinaana03/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:57:38.614682 2019] [wsgi:error] [pid 16914:tid 140555408140032] La carpeta /var/lib/jderobot/Academy-Farm/users/Carolinaana03/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 10:57:46.894064 2019] [wsgi:error] [pid 16914:tid 140555408140032] 11.1138970852
+[Fri Oct 04 11:53:29.806759 2019] [wsgi:error] [pid 16914:tid 140555416532736] \x1b[93m Simulacion en Websim con usuario no registrado. Cargando plantilla de codigo por defecto /var/www/kibotics/jderobot_server/exercises/scratch/siguelinea_pibot_scratch_vision/siguelinea_pibot_scratch_vision.xml\x1b[0m
+[Fri Oct 04 15:03:16.947833 2019] [wsgi:error] [pid 16914:tid 140555408140032] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 15:03:16.947872 2019] [wsgi:error] [pid 16914:tid 140555408140032] \x1b[93m No existen archivos de la practica sigue_linea_ir del usuario cawadall en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 15:03:27.640280 2019] [wsgi:error] [pid 16914:tid 140555408140032] 11.031621933
+[Fri Oct 04 18:22:43.464788 2019] [wsgi:error] [pid 16914:tid 140555433318144] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 18:22:43.464827 2019] [wsgi:error] [pid 16914:tid 140555433318144] \x1b[93m No existen archivos de la practica sigue_linea_ir del usuario _nere_2104 en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 18:23:37.809696 2019] [wsgi:error] [pid 16914:tid 140555433318144] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 18:23:37.809723 2019] [wsgi:error] [pid 16914:tid 140555433318144] \x1b[93m No existen archivos de la practica sigue_linea_ir del usuario naflash2016 en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 18:23:49.562939 2019] [wsgi:error] [pid 16914:tid 140555433318144] 12.0915448666
+[Fri Oct 04 18:26:24.329187 2019] [wsgi:error] [pid 16914:tid 140555433318144] La carpeta /var/lib/jderobot/Academy-Farm/users/naflash2016/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 18:26:25.016014 2019] [wsgi:error] [pid 16914:tid 140555433318144] La carpeta /var/lib/jderobot/Academy-Farm/users/naflash2016/sigue_linea_ir/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 18:26:34.693492 2019] [wsgi:error] [pid 16914:tid 140555433318144] 12.0212290287
+[Fri Oct 04 18:29:03.915987 2019] [wsgi:error] [pid 16914:tid 140555433318144] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 18:29:03.916016 2019] [wsgi:error] [pid 16914:tid 140555433318144] \x1b[93m No existen archivos de la practica introduccion_python del usuario naflash2016 en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 18:29:04.802412 2019] [wsgi:error] [pid 16914:tid 140555433318144] La carpeta /var/lib/jderobot/Academy-Farm/users/naflash2016/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Fri Oct 04 18:29:13.668983 2019] [wsgi:error] [pid 16914:tid 140555433318144] 10.3297421932
+[Fri Oct 04 20:25:04.904173 2019] [wsgi:error] [pid 16914:tid 140555433318144] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Fri Oct 04 20:25:04.904203 2019] [wsgi:error] [pid 16914:tid 140555433318144] \x1b[93m No existen archivos de la practica sigue_linea_ir del usuario legion_55 en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Fri Oct 04 20:25:15.771603 2019] [wsgi:error] [pid 16914:tid 140555433318144] 11.2028710842
+[Sat Oct 05 07:35:02.156472 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart

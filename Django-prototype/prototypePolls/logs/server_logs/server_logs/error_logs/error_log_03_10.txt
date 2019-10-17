@@ -1,0 +1,398 @@
+Thu Oct 03 07:35:02.455546 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Thu Oct 03 07:35:02.455565 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Thu Oct 03 07:35:02.455918 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Thu Oct 03 07:35:02.455929 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 03 09:18:06.169418 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 09:18:06.169633 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 09:18:06.173191 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 09:18:06.181000 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 09:20:47.372203 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 09:20:47.372376 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 09:20:47.372430 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 09:20:47.379220 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 09:25:31.361960 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 09:25:31.362239 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 09:25:31.362313 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 09:25:31.369696 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 09:26:09.735035 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 09:26:09.735236 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 09:26:09.735293 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 09:26:09.741280 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 09:31:26.180063 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 09:31:26.180326 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 09:31:26.180396 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 09:31:26.186917 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 09:58:41.745671 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 09:58:41.745864 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 09:58:41.745918 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 09:58:41.750144 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:11:53.250610 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:11:53.250779 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:11:53.250843 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:11:53.254608 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:12:15.432613 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:12:15.432807 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:12:15.432872 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:12:15.438937 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:12:36.097720 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:12:36.098153 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:12:36.098283 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:12:36.106185 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:12:44.338085 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:12:44.338428 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:12:44.338484 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:12:44.344557 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:13:06.526326 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:13:06.526909 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:13:06.527058 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:13:06.532820 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:13:32.146313 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:13:32.146699 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:13:32.146753 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:13:32.152700 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:13:48.782930 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:13:48.783202 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:13:48.783265 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:13:48.789439 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:29:51.392319 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:29:51.392504 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:29:51.392558 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:29:51.398584 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:30:43.450462 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:30:43.450686 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:30:43.450749 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:30:43.456605 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:32:00.955478 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:32:00.955880 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:32:00.955941 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:32:00.959892 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:35:14.034821 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:35:14.035118 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:35:14.035189 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:35:14.041753 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:36:03.790541 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:36:03.790758 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:36:03.790814 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:36:03.796073 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:38:09.554368 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:38:09.554580 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:38:09.554635 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:38:09.558540 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:39:53.817412 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:39:53.817688 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:39:53.817757 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:39:53.824672 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:40:29.294398 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:40:29.294983 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:40:29.295141 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:40:29.302786 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:40:44.657495 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:40:44.658028 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:40:44.658172 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:40:44.662008 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:42:57.058317 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:42:57.058651 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:42:57.058742 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:42:57.064750 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:44:06.006017 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:44:06.006502 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:44:06.006633 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:44:06.012772 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:44:18.012918 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:44:18.013111 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:44:18.013179 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:44:18.019920 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:44:37.854893 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:44:37.855085 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:44:37.855146 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:44:37.859681 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:45:21.795887 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:45:21.796095 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:45:21.796151 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:45:21.802257 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:45:49.300450 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:45:49.300830 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:45:49.300936 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:45:49.309878 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:46:13.886591 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:46:13.886994 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:46:13.887121 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:46:13.893028 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:55:00.855395 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:55:00.855589 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:55:00.855645 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:55:00.861387 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:55:11.237898 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:55:11.238092 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:55:11.238155 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:55:11.244765 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:55:28.518415 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:55:28.518602 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:55:28.518656 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:55:28.524644 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:55:42.504692 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:55:42.504872 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:55:42.504924 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:55:42.510887 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:55:54.781852 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:55:54.782042 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:55:54.782096 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:55:54.785518 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:56:09.825186 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:56:09.825374 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:56:09.825425 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:56:09.831473 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 11:56:31.943437 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:56:31.943633 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 11:56:31.943687 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:56:31.947291 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 11:56:48.367371 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 11:56:48.367565 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 11:56:48.367626 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 11:56:48.373418 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 12:09:56.301970 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 12:09:56.302166 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 12:09:56.302219 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 12:09:56.308333 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 12:11:20.861215 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 12:11:20.861451 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 12:11:20.861588 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 12:11:20.869047 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 12:12:42.193588 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 12:12:42.193777 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 12:12:42.193843 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 12:12:42.199671 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 13:02:57.770660 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 13:02:57.770850 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 13:02:57.770969 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 13:02:57.779154 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 13:08:52.604899 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 13:08:52.605453 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 13:08:52.605589 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 13:08:52.612074 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 13:09:22.836064 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 13:09:22.836534 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 13:09:22.836667 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 13:09:22.842231 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 13:09:33.106355 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 13:09:33.106849 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 13:09:33.106972 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 13:09:33.112852 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 13:10:33.303425 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 13:10:33.303617 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 13:10:33.303674 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 13:10:33.307343 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 13:10:51.779503 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 13:10:51.780019 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 13:10:51.780167 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 13:10:51.787866 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 13:16:49.510390 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 13:16:49.510579 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 13:16:49.510634 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 13:16:49.516441 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 13:19:07.759592 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 13:19:07.759989 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 13:19:07.760096 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 13:19:07.769035 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 13:22:51.654019 2019] [wsgi:error] [pid 19256:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 13:22:51.654237 2019] [wsgi:error] [pid 19256:tid 140555492067072] Folder doesn't exists
+[Thu Oct 03 13:22:51.654293 2019] [wsgi:error] [pid 19256:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 13:22:51.658428 2019] [wsgi:error] [pid 19256:tid 140555492067072] Python code: 
+[Thu Oct 03 13:23:01.949687 2019] [wsgi:error] [pid 19256:tid 140555374569216] NODE generic: <class '_ast.Module'>
+[Thu Oct 03 13:23:01.949868 2019] [wsgi:error] [pid 19256:tid 140555374569216] Folder doesn't exists
+[Thu Oct 03 13:23:01.949922 2019] [wsgi:error] [pid 19256:tid 140555374569216] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Thu Oct 03 13:23:01.958348 2019] [wsgi:error] [pid 19256:tid 140555374569216] Python code: 
+[Thu Oct 03 14:42:30.456725 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Thu Oct 03 14:42:30.561892 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Thu Oct 03 14:42:30.561901 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Thu Oct 03 14:42:30.562182 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Thu Oct 03 14:42:30.562192 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 03 14:42:48.937630 2019] [wsgi:error] [pid 16828:tid 140555374569216] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Thu Oct 03 14:42:48.937669 2019] [wsgi:error] [pid 16828:tid 140555374569216]   return self.cursor.execute(query, args)
+[Thu Oct 03 14:42:56.915232 2019] [wsgi:error] [pid 16828:tid 140555374569216] 7.9902369976
+[Thu Oct 03 14:44:12.377105 2019] [wsgi:error] [pid 16828:tid 140555374569216] 8.85939884186
+[Thu Oct 03 14:45:24.870358 2019] [wsgi:error] [pid 16828:tid 140555492067072] 13.5345258713
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/admin/sigue_pelota_picam/siguePelotaPiCam.ipynb to notebook
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/admin/sigue_pelota_picam/sigue_pelota_picam_solution.ipynb to notebook
+[NbConvertApp] Writing 2496 bytes to /var/www/kibotics/jderobot_server/users/admin/sigue_pelota_picam/siguePelotaPiCam.ipynb
+[NbConvertApp] Writing 555 bytes to /var/www/kibotics/jderobot_server/users/admin/sigue_pelota_picam/sigue_pelota_picam_solution.ipynb
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/admin/sigue_pelota_picam/sigue_pelota_picam.ipynb to notebook
+[NbConvertApp] Writing 1735 bytes to /var/www/kibotics/jderobot_server/users/admin/sigue_pelota_picam/sigue_pelota_picam.ipynb
+[Thu Oct 03 14:46:03.394215 2019] [wsgi:error] [pid 16828:tid 140555122706176] {'content': ContentFile(path="users/admin/sigue_pelota_picam/sigue_pelota_picam_solution.ipynb"), 'commit': Commit(sha="7a31c8d4800736607cd835f2d00bb0654cf44667")}
+[Thu Oct 03 14:46:03.394241 2019] [wsgi:error] [pid 16828:tid 140555122706176] \x1b[94m Archivo /users/admin/sigue_pelota_picam/sigue_pelota_picam_solution.ipynb actualizado en GitHub\x1b[0m
+[Thu Oct 03 14:46:04.942339 2019] [wsgi:error] [pid 16828:tid 140555131098880] {'content': ContentFile(path="users/admin/sigue_pelota_picam/siguePelotaPiCam.ipynb"), 'commit': Commit(sha="0ce69eb3b0d92b50c3121d38413604a88562b471")}
+[Thu Oct 03 14:46:04.942365 2019] [wsgi:error] [pid 16828:tid 140555131098880] \x1b[94m Archivo /users/admin/sigue_pelota_picam/siguePelotaPiCam.ipynb actualizado en GitHub\x1b[0m
+[Thu Oct 03 14:46:06.225967 2019] [wsgi:error] [pid 16828:tid 140555114313472] {'content': ContentFile(path="users/admin/sigue_pelota_picam/sigue_pelota_picam.ipynb"), 'commit': Commit(sha="3d18e62fb7fa75fcd4dab68b8ccc74a5ddde2fc7")}
+[Thu Oct 03 14:46:06.225997 2019] [wsgi:error] [pid 16828:tid 140555114313472] \x1b[94m Archivo /users/admin/sigue_pelota_picam/sigue_pelota_picam.ipynb actualizado en GitHub\x1b[0m
+[Thu Oct 03 14:46:14.945501 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Thu Oct 03 14:46:15.048468 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Thu Oct 03 14:46:15.048479 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Thu Oct 03 14:46:15.048749 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Thu Oct 03 14:46:15.048760 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 03 14:46:19.253623 2019] [wsgi:error] [pid 18451:tid 140555492067072] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Thu Oct 03 14:46:19.253645 2019] [wsgi:error] [pid 18451:tid 140555492067072]   return self.cursor.execute(query, args)
+[Thu Oct 03 14:46:27.847889 2019] [wsgi:error] [pid 18451:tid 140555492067072] 8.60788393021
+[Thu Oct 03 14:46:31.993761 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Thu Oct 03 14:46:32.197238 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Thu Oct 03 14:46:32.197273 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Thu Oct 03 14:46:32.198139 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Thu Oct 03 14:46:32.198171 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 03 14:46:39.222264 2019] [wsgi:error] [pid 18878:tid 140555492067072] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Thu Oct 03 14:46:39.222298 2019] [wsgi:error] [pid 18878:tid 140555492067072]   return self.cursor.execute(query, args)
+[Thu Oct 03 14:46:47.925911 2019] [wsgi:error] [pid 18878:tid 140555492067072] 8.72299289703
+[Thu Oct 03 14:47:49.861989 2019] [wsgi:error] [pid 18878:tid 140555382961920] 10.4609827995
+[Thu Oct 03 14:52:59.065674 2019] [wsgi:error] [pid 18878:tid 140555382961920] 10.177448988
+[Thu Oct 03 14:55:49.809824 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Thu Oct 03 14:55:50.020552 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Thu Oct 03 14:55:50.020566 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Thu Oct 03 14:55:50.020849 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Thu Oct 03 14:55:50.020863 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 03 14:56:04.725971 2019] [wsgi:error] [pid 20903:tid 140555450103552] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Thu Oct 03 14:56:04.726028 2019] [wsgi:error] [pid 20903:tid 140555450103552]   return self.cursor.execute(query, args)
+[Thu Oct 03 14:56:16.661813 2019] [wsgi:error] [pid 20903:tid 140555450103552] 11.9512500763
+[Thu Oct 03 14:58:04.202238 2019] [wsgi:error] [pid 20903:tid 140555450103552] 9.42622303963
+[Thu Oct 03 14:59:00.741011 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Thu Oct 03 14:59:00.941240 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Thu Oct 03 14:59:00.941271 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Thu Oct 03 14:59:00.942225 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Thu Oct 03 14:59:00.942256 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 03 14:59:12.628122 2019] [wsgi:error] [pid 22343:tid 140555466888960] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Thu Oct 03 14:59:12.628142 2019] [wsgi:error] [pid 22343:tid 140555466888960]   return self.cursor.execute(query, args)
+[Thu Oct 03 14:59:21.744646 2019] [wsgi:error] [pid 22343:tid 140555466888960] 9.16113185883
+[Thu Oct 03 15:00:01.761722 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Thu Oct 03 15:00:01.959167 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Thu Oct 03 15:00:01.959180 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Thu Oct 03 15:00:01.959775 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Thu Oct 03 15:00:01.959802 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 03 15:00:14.621778 2019] [wsgi:error] [pid 22931:tid 140555433318144] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Thu Oct 03 15:00:14.621797 2019] [wsgi:error] [pid 22931:tid 140555433318144]   return self.cursor.execute(query, args)
+[Thu Oct 03 15:00:24.234597 2019] [wsgi:error] [pid 22931:tid 140555433318144] 9.62833094597
+[Thu Oct 03 15:01:45.344610 2019] [wsgi:error] [pid 22931:tid 140555433318144] 9.40071392059
+[Thu Oct 03 15:02:22.064365 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Thu Oct 03 15:02:22.264681 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Thu Oct 03 15:02:22.264703 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Thu Oct 03 15:02:22.265414 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Thu Oct 03 15:02:22.265441 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Thu Oct 03 15:02:46.921961 2019] [wsgi:error] [pid 23904:tid 140555475281664] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Thu Oct 03 15:02:46.921992 2019] [wsgi:error] [pid 23904:tid 140555475281664]   return self.cursor.execute(query, args)
+[Thu Oct 03 15:02:56.057126 2019] [wsgi:error] [pid 23904:tid 140555475281664] 9.14975380898
+[Thu Oct 03 15:09:20.555277 2019] [wsgi:error] [pid 23904:tid 140555131098880] /usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+[Thu Oct 03 15:09:20.555293 2019] [wsgi:error] [pid 23904:tid 140555131098880]   self._cipher = factory.new(key, *args, **kwargs)
+[Thu Oct 03 15:09:33.711562 2019] [wsgi:error] [pid 23904:tid 140555466888960] 13.9317190647
+[Thu Oct 03 18:12:37.673807 2019] [wsgi:error] [pid 23904:tid 140555475281664] 19.4977779388
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/ralvarezmar/introduccion_python/introduccion_python.ipynb to notebook
+[NbConvertApp] Writing 24986 bytes to /var/www/kibotics/jderobot_server/users/ralvarezmar/introduccion_python/introduccion_python.ipynb
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/ralvarezmar/introduccion_python/introduccion_python.ipynb to notebook
+[NbConvertApp] Writing 24986 bytes to /var/www/kibotics/jderobot_server/users/ralvarezmar/introduccion_python/introduccion_python.ipynb
+[Thu Oct 03 18:12:58.085420 2019] [wsgi:error] [pid 23904:tid 140555131098880] {'content': ContentFile(path="users/ralvarezmar/introduccion_python/introduccion_python.ipynb"), 'commit': Commit(sha="25b7f8b8bc3ca711fde69e84d1d058438c975699")}
+[Thu Oct 03 18:12:58.085460 2019] [wsgi:error] [pid 23904:tid 140555131098880] \x1b[94m Archivo /users/ralvarezmar/introduccion_python/introduccion_python.ipynb actualizado en GitHub\x1b[0m
+[Thu Oct 03 18:12:59.540421 2019] [wsgi:error] [pid 23904:tid 140555122706176] {'content': ContentFile(path="users/ralvarezmar/introduccion_python/introduccion_python.ipynb"), 'commit': Commit(sha="6ddc7cd3c88e62e5dda0f1d7fa5f3954e43fbd21")}
+[Thu Oct 03 18:12:59.540468 2019] [wsgi:error] [pid 23904:tid 140555122706176] \x1b[94m Archivo /users/ralvarezmar/introduccion_python/introduccion_python.ipynb actualizado en GitHub\x1b[0m
+[Thu Oct 03 18:12:59.540621 2019] [wsgi:error] [pid 23904:tid 140555433318144] [Errno 2] No such file or directory: '/var/www/kibotics/jderobot_server/users/ralvarezmar/introduccion_python/'
+[Thu Oct 03 18:12:59.540644 2019] [wsgi:error] [pid 23904:tid 140555433318144] \x1b[93m No se ha encontrado la carpeta /var/www/kibotics/jderobot_server/users/ralvarezmar/introduccion_python/\x1b[0m
+[Thu Oct 03 18:12:59.548825 2019] [wsgi:error] [pid 23904:tid 140555433318144] 404 Client Error: Not Found ("No such container: 3d5206263724520b098a9ff4c81b95f2108e7ca4c54a9d46b3cce6adc74149fa")
+[Thu Oct 03 18:12:59.548906 2019] [wsgi:error] [pid 23904:tid 140555433318144] \x1b[93m Error al eliminar el Docker 3d5206263724520b098a9ff4c81b95f2108e7ca4c54a9d46b3cce6adc74149fa en 212.128.254.65. Contenedor no encontrado.\x1b[0m
+[Thu Oct 03 18:13:17.041728 2019] [wsgi:error] [pid 23904:tid 140555475281664] 12.9463839531
+[Thu Oct 03 18:13:53.077172 2019] [wsgi:error] [pid 23904:tid 140555433318144] La carpeta /var/lib/jderobot/Academy-Farm/users/ralvarezmar/ ya existe en la maquina f-l3209-pc07.kibotics.org
+[Thu Oct 03 18:14:04.639460 2019] [wsgi:error] [pid 23904:tid 140555433318144] 13.3032689095
+[Fri Oct 04 07:35:02.233016 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart

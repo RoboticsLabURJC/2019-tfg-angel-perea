@@ -1,0 +1,147 @@
+[Tue Oct 08 07:35:01.919765 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Tue Oct 08 07:35:01.919801 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Tue Oct 08 07:35:01.920449 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Tue Oct 08 07:35:01.920460 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 08 07:59:27.454338 2019] [wsgi:error] [pid 368:tid 140555296114432] (20014)Internal error (specific information not available): [client 176.58.124.134:48418] mod_wsgi (pid=368): Unable to get bucket brigade for request.
+[Tue Oct 08 07:59:27.455390 2019] [wsgi:error] [pid 367:tid 140555458496256] [remote 176.58.124.134:1451] mod_wsgi (pid=367): Exception occurred processing WSGI script '/var/www/kibotics/jderobot_server/jderobot_server/wsgi.py'.
+[Tue Oct 08 07:59:27.455415 2019] [wsgi:error] [pid 367:tid 140555458496256] [remote 176.58.124.134:1451] IOError: failed to write data
+[Tue Oct 08 10:13:47.841160 2019] [wsgi:error] [pid 367:tid 140555458496256] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Tue Oct 08 10:13:47.841198 2019] [wsgi:error] [pid 367:tid 140555458496256]   return self.cursor.execute(query, args)
+[Tue Oct 08 10:13:48.849853 2019] [wsgi:error] [pid 367:tid 140555133720320] /usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+[Tue Oct 08 10:13:48.849871 2019] [wsgi:error] [pid 367:tid 140555133720320]   self._cipher = factory.new(key, *args, **kwargs)
+[Tue Oct 08 10:13:49.636549 2019] [wsgi:error] [pid 367:tid 140555458496256] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 10:13:50.297221 2019] [wsgi:error] [pid 367:tid 140555458496256] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/cuadrado_tello/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 10:13:54.178195 2019] [wsgi:error] [pid 367:tid 140555458496256] 6.34940218925
+[Tue Oct 08 13:32:28.328662 2019] [wsgi:error] [pid 367:tid 140555466888960] La carpeta /var/lib/jderobot/Academy-Farm/users/Miguelon/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:32:29.068202 2019] [wsgi:error] [pid 367:tid 140555466888960] La carpeta /var/lib/jderobot/Academy-Farm/users/Miguelon/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:32:37.461036 2019] [wsgi:error] [pid 367:tid 140555466888960] 10.7980668545
+[Tue Oct 08 13:32:41.346047 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/paulajulia/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:32:41.915785 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/paulajulia/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:32:46.610735 2019] [wsgi:error] [pid 367:tid 140555466888960] La carpeta /var/lib/jderobot/Academy-Farm/users/carriers/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:32:47.235428 2019] [wsgi:error] [pid 367:tid 140555466888960] La carpeta /var/lib/jderobot/Academy-Farm/users/carriers/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:32:49.063658 2019] [wsgi:error] [pid 367:tid 140555450103552] 9.31139492989
+[Tue Oct 08 13:32:54.827770 2019] [wsgi:error] [pid 367:tid 140555458496256] La carpeta /var/lib/jderobot/Academy-Farm/users/manuja03/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:32:55.407233 2019] [wsgi:error] [pid 367:tid 140555466888960] 10.8413689137
+[Tue Oct 08 13:32:55.527280 2019] [wsgi:error] [pid 367:tid 140555458496256] La carpeta /var/lib/jderobot/Academy-Farm/users/manuja03/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:32:56.847399 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/Carolinaana03/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:32:57.615785 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/Carolinaana03/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:33:03.855441 2019] [wsgi:error] [pid 367:tid 140555458496256] 10.6626780033
+[Tue Oct 08 13:33:05.840584 2019] [wsgi:error] [pid 367:tid 140555450103552] 10.9818658829
+[Tue Oct 08 13:33:53.370387 2019] [wsgi:error] [pid 367:tid 140555466888960] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:33:54.064046 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/amartinoc/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:33:54.174948 2019] [wsgi:error] [pid 367:tid 140555466888960] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:33:54.827811 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/amartinoc/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:34:02.539777 2019] [wsgi:error] [pid 367:tid 140555466888960] 10.8610150814
+[Tue Oct 08 13:34:02.947357 2019] [wsgi:error] [pid 367:tid 140555450103552] 11.0469231606
+[Tue Oct 08 13:34:03.849187 2019] [wsgi:error] [pid 367:tid 140555458496256] La carpeta /var/lib/jderobot/Academy-Farm/users/PedroNora/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:34:04.539460 2019] [wsgi:error] [pid 367:tid 140555458496256] La carpeta /var/lib/jderobot/Academy-Farm/users/PedroNora/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:34:07.056336 2019] [wsgi:error] [pid 367:tid 140555441710848] La carpeta /var/lib/jderobot/Academy-Farm/users/Vitijuna69/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:34:07.744111 2019] [wsgi:error] [pid 367:tid 140555441710848] La carpeta /var/lib/jderobot/Academy-Farm/users/Vitijuna69/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:34:12.459368 2019] [wsgi:error] [pid 367:tid 140555458496256] 10.1760458946
+[Tue Oct 08 13:34:15.456567 2019] [wsgi:error] [pid 367:tid 140555441710848] 10.2387628555
+[Tue Oct 08 13:35:33.766549 2019] [wsgi:error] [pid 367:tid 140555441710848] La carpeta /var/lib/jderobot/Academy-Farm/users/Pabloyparra/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:35:34.437960 2019] [wsgi:error] [pid 367:tid 140555441710848] La carpeta /var/lib/jderobot/Academy-Farm/users/Pabloyparra/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:35:42.537601 2019] [wsgi:error] [pid 367:tid 140555441710848] 10.3120148182
+[Tue Oct 08 13:35:51.225813 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/EvaFausto/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:35:51.912441 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/EvaFausto/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:36:00.348466 2019] [wsgi:error] [pid 367:tid 140555450103552] 10.7667930126
+[Tue Oct 08 13:45:12.675586 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:45:13.347734 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 13:45:21.831032 2019] [wsgi:error] [pid 367:tid 140555450103552] 13.2090790272
+[Tue Oct 08 14:05:30.504616 2019] [wsgi:error] [pid 367:tid 140555441710848] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Tue Oct 08 14:05:30.504668 2019] [wsgi:error] [pid 367:tid 140555441710848] \x1b[93m No existen archivos de la practica sigue_linea_ir del usuario smkdavidrodriguez en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Tue Oct 08 14:05:41.256111 2019] [wsgi:error] [pid 367:tid 140555441710848] 11.1026489735
+[Tue Oct 08 14:07:12.094975 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/Miguelon/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:07:12.831761 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/Miguelon/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:07:18.062172 2019] [wsgi:error] [pid 367:tid 140555450103552] 7.8422191143
+[Tue Oct 08 14:10:52.070954 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:10:52.810130 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:10:53.453039 2019] [wsgi:error] [pid 367:tid 140555450103552] [Errno 13] Permission denied
+[Tue Oct 08 14:10:53.453069 2019] [wsgi:error] [pid 367:tid 140555450103552] Error ==> Se ha producido un error en la conexion via ssh con la maquina 212.128.255.74 para copiar los archivos de la practica
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/introduccion_python.ipynb to notebook
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/Untitled.ipynb to notebook
+[NbConvertApp] Writing 1697 bytes to /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/Untitled.ipynb
+[NbConvertApp] Writing 24986 bytes to /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/introduccion_python.ipynb
+[Tue Oct 08 14:12:08.678645 2019] [wsgi:error] [pid 367:tid 140555133720320] {'content': ContentFile(path="users/albertoymanu/introduccion_python/Untitled.ipynb"), 'commit': Commit(sha="93664ad9fda2229dd08942594684b3ac60767e1e")}
+[Tue Oct 08 14:12:08.678677 2019] [wsgi:error] [pid 367:tid 140555133720320] \x1b[94m Archivo /users/albertoymanu/introduccion_python/Untitled.ipynb actualizado en GitHub\x1b[0m
+[Tue Oct 08 14:12:10.280003 2019] [wsgi:error] [pid 367:tid 140555116934912] {'content': ContentFile(path="users/albertoymanu/introduccion_python/introduccion_python.ipynb"), 'commit': Commit(sha="0dfd1cb00f0ce73c28cdebebf37549ed3da4816f")}
+[Tue Oct 08 14:12:10.280028 2019] [wsgi:error] [pid 367:tid 140555116934912] \x1b[94m Archivo /users/albertoymanu/introduccion_python/introduccion_python.ipynb actualizado en GitHub\x1b[0m
+[Tue Oct 08 14:12:19.521385 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:12:20.150354 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:12:20.768183 2019] [wsgi:error] [pid 367:tid 140555450103552] [Errno 13] Permission denied
+[Tue Oct 08 14:12:20.768205 2019] [wsgi:error] [pid 367:tid 140555450103552] Error ==> Se ha producido un error en la conexion via ssh con la maquina 212.128.255.74 para copiar los archivos de la practica
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/introduccion_python.ipynb to notebook
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/Untitled.ipynb to notebook
+[NbConvertApp] Writing 1697 bytes to /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/Untitled.ipynb
+[NbConvertApp] Writing 24986 bytes to /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/introduccion_python.ipynb
+[Tue Oct 08 14:13:33.049399 2019] [wsgi:error] [pid 367:tid 140555133720320] {'content': ContentFile(path="users/albertoymanu/introduccion_python/Untitled.ipynb"), 'commit': Commit(sha="d7a1b377810e48987fe1cc47017cb486911396a9")}
+[Tue Oct 08 14:13:33.049425 2019] [wsgi:error] [pid 367:tid 140555133720320] \x1b[94m Archivo /users/albertoymanu/introduccion_python/Untitled.ipynb actualizado en GitHub\x1b[0m
+[Tue Oct 08 14:13:34.684294 2019] [wsgi:error] [pid 367:tid 140555116934912] {'content': ContentFile(path="users/albertoymanu/introduccion_python/introduccion_python.ipynb"), 'commit': Commit(sha="cb5f52e72f945b72c00e4c807419640bc068e4f4")}
+[Tue Oct 08 14:13:34.684362 2019] [wsgi:error] [pid 367:tid 140555116934912] \x1b[94m Archivo /users/albertoymanu/introduccion_python/introduccion_python.ipynb actualizado en GitHub\x1b[0m
+[Tue Oct 08 14:13:42.571736 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:13:43.201609 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:13:43.844208 2019] [wsgi:error] [pid 367:tid 140555450103552] [Errno 13] Permission denied
+[Tue Oct 08 14:13:43.844227 2019] [wsgi:error] [pid 367:tid 140555450103552] Error ==> Se ha producido un error en la conexion via ssh con la maquina 212.128.255.74 para copiar los archivos de la practica
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/introduccion_python.ipynb to notebook
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/Untitled.ipynb to notebook
+[NbConvertApp] Writing 1697 bytes to /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/Untitled.ipynb
+[NbConvertApp] Writing 24986 bytes to /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/introduccion_python.ipynb
+[Tue Oct 08 14:16:42.335150 2019] [wsgi:error] [pid 367:tid 140555133720320] {'content': ContentFile(path="users/albertoymanu/introduccion_python/Untitled.ipynb"), 'commit': Commit(sha="a78af305c9ac016754914e87eacae95e1041136e")}
+[Tue Oct 08 14:16:42.335176 2019] [wsgi:error] [pid 367:tid 140555133720320] \x1b[94m Archivo /users/albertoymanu/introduccion_python/Untitled.ipynb actualizado en GitHub\x1b[0m
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/Untitled.ipynb to notebook
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/introduccion_python.ipynb to notebook
+[NbConvertApp] Writing 1697 bytes to /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/Untitled.ipynb
+[NbConvertApp] Writing 24986 bytes to /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/introduccion_python.ipynb
+[Tue Oct 08 14:16:43.990823 2019] [wsgi:error] [pid 367:tid 140555116934912] {'content': ContentFile(path="users/albertoymanu/introduccion_python/introduccion_python.ipynb"), 'commit': Commit(sha="7622288701911a38a1f23cec3b4d42fb8b92ff4e")}
+[Tue Oct 08 14:16:43.990850 2019] [wsgi:error] [pid 367:tid 140555116934912] \x1b[94m Archivo /users/albertoymanu/introduccion_python/introduccion_python.ipynb actualizado en GitHub\x1b[0m
+[Tue Oct 08 14:16:45.532557 2019] [wsgi:error] [pid 367:tid 140555107493632] {'content': ContentFile(path="users/albertoymanu/introduccion_python/Untitled.ipynb"), 'commit': Commit(sha="4b21731503c39d721de9caf5dd6d0c49abf9bffa")}
+[Tue Oct 08 14:16:45.532582 2019] [wsgi:error] [pid 367:tid 140555107493632] \x1b[94m Archivo /users/albertoymanu/introduccion_python/Untitled.ipynb actualizado en GitHub\x1b[0m
+[Tue Oct 08 14:16:47.128531 2019] [wsgi:error] [pid 367:tid 140555133720320] {'content': ContentFile(path="users/albertoymanu/introduccion_python/introduccion_python.ipynb"), 'commit': Commit(sha="af135615291b042cb221025e767939cfd22da932")}
+[Tue Oct 08 14:16:47.128578 2019] [wsgi:error] [pid 367:tid 140555133720320] \x1b[94m Archivo /users/albertoymanu/introduccion_python/introduccion_python.ipynb actualizado en GitHub\x1b[0m
+[Tue Oct 08 14:16:47.128719 2019] [wsgi:error] [pid 367:tid 140555458496256] [Errno 2] No such file or directory: '/var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/'
+[Tue Oct 08 14:16:47.128736 2019] [wsgi:error] [pid 367:tid 140555458496256] \x1b[93m No se ha encontrado la carpeta /var/www/kibotics/jderobot_server/users/albertoymanu/introduccion_python/\x1b[0m
+[Tue Oct 08 14:17:30.151883 2019] [wsgi:error] [pid 367:tid 140555441710848] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:17:30.866456 2019] [wsgi:error] [pid 367:tid 140555441710848] La carpeta /var/lib/jderobot/Academy-Farm/users/albertoymanu/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:17:31.582273 2019] [wsgi:error] [pid 367:tid 140555441710848] [Errno 13] Permission denied
+[Tue Oct 08 14:17:31.582353 2019] [wsgi:error] [pid 367:tid 140555441710848] Error ==> Se ha producido un error en la conexion via ssh con la maquina 212.128.255.74 para copiar los archivos de la practica
+[Tue Oct 08 14:18:24.925340 2019] [wsgi:error] [pid 367:tid 140555450103552] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Tue Oct 08 14:18:24.925429 2019] [wsgi:error] [pid 367:tid 140555450103552] \x1b[93m No existen archivos de la practica introduccion_python del usuario smkdavidrodriguez en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Tue Oct 08 14:18:25.852502 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/smkdavidrodriguez/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:18:35.158221 2019] [wsgi:error] [pid 367:tid 140555450103552] 10.7912321091
+[Tue Oct 08 14:22:23.222964 2019] [wsgi:error] [pid 367:tid 140555450103552] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Tue Oct 08 14:22:23.222999 2019] [wsgi:error] [pid 367:tid 140555450103552] \x1b[93m No existen archivos de la practica cuadrado_drone_scratch del usuario cawadall en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Tue Oct 08 14:25:10.051138 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/smkdavidrodriguez/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:25:10.773971 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/smkdavidrodriguez/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:25:18.861761 2019] [wsgi:error] [pid 367:tid 140555450103552] 10.8374381065
+[Tue Oct 08 14:59:03.889578 2019] [wsgi:error] [pid 367:tid 140555450103552] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Tue Oct 08 14:59:03.889607 2019] [wsgi:error] [pid 367:tid 140555450103552] \x1b[93m No existen archivos de la practica introduccion_python del usuario cawadall en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Tue Oct 08 14:59:04.781744 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/cawadall/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 14:59:13.560400 2019] [wsgi:error] [pid 367:tid 140555450103552] 10.2797958851
+[Tue Oct 08 22:24:53.795157 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/EvaFausto/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 22:24:54.476131 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/EvaFausto/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 22:24:55.213173 2019] [wsgi:error] [pid 367:tid 140555450103552] [Errno 13] Permission denied
+[Tue Oct 08 22:24:55.213200 2019] [wsgi:error] [pid 367:tid 140555450103552] Error ==> Se ha producido un error en la conexion via ssh con la maquina 212.128.255.74 para copiar los archivos de la practica
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/EvaFausto/introduccion_python/introduccion_python.ipynb to notebook
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/EvaFausto/introduccion_python/Untitled1.ipynb to notebook
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/EvaFausto/introduccion_python/Untitled.ipynb to notebook
+[NbConvertApp] Writing 1256 bytes to /var/www/kibotics/jderobot_server/users/EvaFausto/introduccion_python/Untitled.ipynb
+[NbConvertApp] Writing 2016 bytes to /var/www/kibotics/jderobot_server/users/EvaFausto/introduccion_python/Untitled1.ipynb
+[NbConvertApp] Writing 24986 bytes to /var/www/kibotics/jderobot_server/users/EvaFausto/introduccion_python/introduccion_python.ipynb
+[Tue Oct 08 22:26:33.370518 2019] [wsgi:error] [pid 367:tid 140555116934912] {'content': ContentFile(path="users/EvaFausto/introduccion_python/Untitled1.ipynb"), 'commit': Commit(sha="8482b39089fc6c371e3ca52dc20b5d1928fcb9d3")}
+[Tue Oct 08 22:26:33.370547 2019] [wsgi:error] [pid 367:tid 140555116934912] \x1b[94m Archivo /users/EvaFausto/introduccion_python/Untitled1.ipynb actualizado en GitHub\x1b[0m
+[Tue Oct 08 22:26:34.639924 2019] [wsgi:error] [pid 367:tid 140555107493632] {'content': ContentFile(path="users/EvaFausto/introduccion_python/Untitled.ipynb"), 'commit': Commit(sha="874f109b38dee0f70d68e47a54a3cf1050854bc2")}
+[Tue Oct 08 22:26:34.639952 2019] [wsgi:error] [pid 367:tid 140555107493632] \x1b[94m Archivo /users/EvaFausto/introduccion_python/Untitled.ipynb actualizado en GitHub\x1b[0m
+[Tue Oct 08 22:26:36.469642 2019] [wsgi:error] [pid 367:tid 140555133720320] {'content': ContentFile(path="users/EvaFausto/introduccion_python/introduccion_python.ipynb"), 'commit': Commit(sha="09775b865f8e5eb5f9a9be8c660a0e0de9c6d1a6")}
+[Tue Oct 08 22:26:36.469751 2019] [wsgi:error] [pid 367:tid 140555133720320] \x1b[94m Archivo /users/EvaFausto/introduccion_python/introduccion_python.ipynb actualizado en GitHub\x1b[0m
+[Tue Oct 08 22:26:55.034745 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/EvaFausto/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 22:26:55.725874 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/EvaFausto/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 22:26:56.449234 2019] [wsgi:error] [pid 367:tid 140555450103552] [Errno 13] Permission denied
+[Tue Oct 08 22:26:56.449259 2019] [wsgi:error] [pid 367:tid 140555450103552] Error ==> Se ha producido un error en la conexion via ssh con la maquina 212.128.255.74 para copiar los archivos de la practica
+[Tue Oct 08 22:42:06.156444 2019] [wsgi:error] [pid 367:tid 140555441710848] \x1b[93m Simulacion en Websim con usuario no registrado. Cargando plantilla de codigo por defecto /var/www/kibotics/jderobot_server/exercises/scratch/siguelinea_pibot_scratch_vision/siguelinea_pibot_scratch_vision.xml\x1b[0m
+[Tue Oct 08 22:47:11.008612 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 22:47:11.691475 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 22:47:20.298953 2019] [wsgi:error] [pid 367:tid 140555450103552] 11.4715418816
+[Tue Oct 08 22:48:10.181616 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/ralvarezmar/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 22:48:10.870404 2019] [wsgi:error] [pid 367:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/ralvarezmar/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 08 22:48:18.980217 2019] [wsgi:error] [pid 367:tid 140555450103552] 10.4356188774
+[Wed Oct 09 07:35:01.664547 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart

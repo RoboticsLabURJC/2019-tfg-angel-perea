@@ -1,0 +1,8 @@
+[Sun Oct 06 07:35:02.037496 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Sun Oct 06 07:35:02.037514 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Sun Oct 06 07:35:02.037873 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Sun Oct 06 07:35:02.037887 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Sun Oct 06 08:03:44.498778 2019] [wsgi:error] [pid 1161:tid 140555492067072] \x1b[93m Simulacion en Websim con usuario no registrado. Cargando plantilla de codigo por defecto /var/www/kibotics/jderobot_server/exercises/scratch/siguelinea_pibot_scratch_vision/siguelinea_pibot_scratch_vision.xml\x1b[0m
+[Sun Oct 06 08:03:44.500008 2019] [wsgi:error] [pid 1161:tid 140555492067072] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Sun Oct 06 08:03:44.500116 2019] [wsgi:error] [pid 1161:tid 140555492067072]   return self.cursor.execute(query, args)
+[Mon Oct 07 07:35:02.118309 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart

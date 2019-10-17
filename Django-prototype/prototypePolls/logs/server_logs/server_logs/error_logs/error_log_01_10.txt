@@ -1,0 +1,126 @@
+[Tue Oct 01 07:35:02.299650 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Tue Oct 01 07:35:02.299681 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Tue Oct 01 07:35:02.300315 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Tue Oct 01 07:35:02.300342 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 01 09:03:03.159636 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Tue Oct 01 09:03:03.263841 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Tue Oct 01 09:03:03.263882 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Tue Oct 01 09:03:03.264975 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Tue Oct 01 09:03:03.265005 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 01 09:08:46.200357 2019] [wsgi:error] [pid 12047:tid 140555483674368] NODE generic: <class '_ast.Module'>
+[Tue Oct 01 09:20:32.584434 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Tue Oct 01 09:20:32.689145 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Tue Oct 01 09:20:32.689163 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Tue Oct 01 09:20:32.689459 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Tue Oct 01 09:20:32.689469 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 01 09:21:46.111437 2019] [wsgi:error] [pid 13352:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Tue Oct 01 09:43:27.654086 2019] [wsgi:error] [pid 13352:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Tue Oct 01 09:45:11.379854 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Tue Oct 01 09:45:11.483355 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Tue Oct 01 09:45:11.483365 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Tue Oct 01 09:45:11.483662 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Tue Oct 01 09:45:11.483676 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 01 09:45:33.928403 2019] [wsgi:error] [pid 15108:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Tue Oct 01 09:45:33.928813 2019] [wsgi:error] [pid 15108:tid 140555492067072] Folder doesn't exists
+[Tue Oct 01 09:45:33.934201 2019] [wsgi:error] [pid 15108:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Tue Oct 01 09:45:33.938369 2019] [wsgi:error] [pid 15108:tid 140555492067072] Python code: 
+[Tue Oct 01 09:50:06.577195 2019] [wsgi:error] [pid 15108:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Tue Oct 01 09:50:06.577476 2019] [wsgi:error] [pid 15108:tid 140555492067072] Folder doesn't exists
+[Tue Oct 01 09:50:06.577554 2019] [wsgi:error] [pid 15108:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Tue Oct 01 09:50:06.584768 2019] [wsgi:error] [pid 15108:tid 140555492067072] Python code: 
+[Tue Oct 01 09:55:41.508605 2019] [wsgi:error] [pid 15108:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Tue Oct 01 09:55:41.508943 2019] [wsgi:error] [pid 15108:tid 140555492067072] Folder doesn't exists
+[Tue Oct 01 09:55:41.509003 2019] [wsgi:error] [pid 15108:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Tue Oct 01 09:55:41.513164 2019] [wsgi:error] [pid 15108:tid 140555492067072] Python code: 
+[Tue Oct 01 10:47:22.843275 2019] [wsgi:error] [pid 15108:tid 140555374569216] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Tue Oct 01 10:47:22.843292 2019] [wsgi:error] [pid 15108:tid 140555374569216]   return self.cursor.execute(query, args)
+[Tue Oct 01 10:47:32.536245 2019] [wsgi:error] [pid 15108:tid 140555374569216] 9.70564508438
+[Tue Oct 01 11:25:18.231550 2019] [wsgi:error] [pid 15108:tid 140555492067072] 9.8484120369
+[Tue Oct 01 11:46:13.261021 2019] [wsgi:error] [pid 15108:tid 140555492067072] 10.2180399895
+[Tue Oct 01 12:24:17.216137 2019] [wsgi:error] [pid 15108:tid 140555492067072] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Tue Oct 01 12:24:17.216229 2019] [wsgi:error] [pid 15108:tid 140555492067072] \x1b[93m No existen archivos de la practica follow_ball_drone_scratch del usuario admin en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Tue Oct 01 12:28:44.767069 2019] [wsgi:error] [pid 15108:tid 140555374569216] 9.63530182838
+[Tue Oct 01 12:33:56.786377 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Tue Oct 01 12:33:56.991269 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Tue Oct 01 12:33:56.991280 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Tue Oct 01 12:33:56.991589 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Tue Oct 01 12:33:56.991600 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Tue Oct 01 12:34:12.376274 2019] [wsgi:error] [pid 28814:tid 140555450103552] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Tue Oct 01 12:34:12.376297 2019] [wsgi:error] [pid 28814:tid 140555450103552]   return self.cursor.execute(query, args)
+[Tue Oct 01 12:34:22.408931 2019] [wsgi:error] [pid 28814:tid 140555450103552] 10.0462048054
+[Tue Oct 01 12:35:57.495924 2019] [wsgi:error] [pid 28814:tid 140555450103552] 9.91100311279
+[Tue Oct 01 12:42:37.447508 2019] [wsgi:error] [pid 28814:tid 140555450103552] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Tue Oct 01 12:42:37.447543 2019] [wsgi:error] [pid 28814:tid 140555450103552] \x1b[93m No existen archivos de la practica follow_ball_drone_scratch del usuario admin en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Tue Oct 01 12:47:09.897433 2019] [wsgi:error] [pid 28814:tid 140555450103552] 9.24062395096
+[Tue Oct 01 12:49:23.109946 2019] [wsgi:error] [pid 28814:tid 140555131098880] /usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+[Tue Oct 01 12:49:23.109994 2019] [wsgi:error] [pid 28814:tid 140555131098880]   self._cipher = factory.new(key, *args, **kwargs)
+[Tue Oct 01 12:49:23.956808 2019] [wsgi:error] [pid 28814:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 12:49:24.657180 2019] [wsgi:error] [pid 28814:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/mbot_dummy_example/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 12:49:29.758752 2019] [wsgi:error] [pid 28814:tid 140555450103552] 16.4357368946
+[Tue Oct 01 13:35:54.770850 2019] [wsgi:error] [pid 28814:tid 140555492067072] 9.17054009438
+[Tue Oct 01 13:47:23.594431 2019] [wsgi:error] [pid 28814:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Tue Oct 01 13:47:23.594672 2019] [wsgi:error] [pid 28814:tid 140555492067072] Folder doesn't exists
+[Tue Oct 01 13:47:23.598808 2019] [wsgi:error] [pid 28814:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Tue Oct 01 13:47:23.608488 2019] [wsgi:error] [pid 28814:tid 140555492067072] Python code: 
+[Tue Oct 01 13:56:35.022157 2019] [wsgi:error] [pid 28814:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 13:56:35.720768 2019] [wsgi:error] [pid 28814:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/cuadrado_tello/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 13:56:39.658631 2019] [wsgi:error] [pid 28814:tid 140555492067072] 6.27212500572
+[Tue Oct 01 14:03:31.884022 2019] [wsgi:error] [pid 28814:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 14:03:32.562542 2019] [wsgi:error] [pid 28814:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/cuadrado_tello/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 14:03:36.311780 2019] [wsgi:error] [pid 28814:tid 140555399747328] 6.09304285049
+[Tue Oct 01 14:09:18.174459 2019] [wsgi:error] [pid 28814:tid 140555492067072] NODE generic: <class '_ast.Module'>
+[Tue Oct 01 14:09:18.174629 2019] [wsgi:error] [pid 28814:tid 140555492067072] Folder doesn't exists
+[Tue Oct 01 14:09:18.174687 2019] [wsgi:error] [pid 28814:tid 140555492067072] Linux
+Makefile:9: /usr/share/arduino/Arduino.mk: No such file or directory
+make: *** No rule to make target '/usr/share/arduino/Arduino.mk'.  Stop.
+[Tue Oct 01 14:09:18.181181 2019] [wsgi:error] [pid 28814:tid 140555492067072] Python code: 
+[Tue Oct 01 14:14:14.429581 2019] [wsgi:error] [pid 28814:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 14:14:15.100046 2019] [wsgi:error] [pid 28814:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/cuadrado_tello/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 14:14:18.927685 2019] [wsgi:error] [pid 28814:tid 140555399747328] 6.23648905754
+[Tue Oct 01 16:40:32.995452 2019] [wsgi:error] [pid 28814:tid 140555492067072] 10.5834839344
+[Tue Oct 01 16:41:31.160038 2019] [wsgi:error] [pid 28814:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 16:41:42.882358 2019] [wsgi:error] [pid 28814:tid 140555399747328] 13.2741210461
+[Tue Oct 01 16:43:44.209085 2019] [wsgi:error] [pid 28814:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 16:43:44.900247 2019] [wsgi:error] [pid 28814:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 16:43:57.380355 2019] [wsgi:error] [pid 28814:tid 140555492067072] 14.9220020771
+[Tue Oct 01 16:46:02.251512 2019] [wsgi:error] [pid 28814:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 16:46:02.881341 2019] [wsgi:error] [pid 28814:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/choca_gira_us/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 16:46:14.490704 2019] [wsgi:error] [pid 28814:tid 140555399747328] 15.5959589481
+[Tue Oct 01 16:48:27.630046 2019] [wsgi:error] [pid 28814:tid 140555492067072] 9.5473139286
+[Tue Oct 01 16:50:21.743790 2019] [wsgi:error] [pid 28814:tid 140555399747328] 9.36931705475
+[Tue Oct 01 16:51:23.050081 2019] [wsgi:error] [pid 28814:tid 140555492067072] 8.95948696136
+[Tue Oct 01 16:52:40.563664 2019] [wsgi:error] [pid 28814:tid 140555492067072] 36.7672770023
+[Tue Oct 01 16:53:17.204047 2019] [wsgi:error] [pid 28814:tid 140555399747328] 9.01734018326
+[Tue Oct 01 17:05:11.466288 2019] [wsgi:error] [pid 28814:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/ralvarezmar/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 17:05:12.136953 2019] [wsgi:error] [pid 28814:tid 140555399747328] La carpeta /var/lib/jderobot/Academy-Farm/users/ralvarezmar/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 17:05:23.679774 2019] [wsgi:error] [pid 28814:tid 140555399747328] 13.925194025
+[Tue Oct 01 17:06:50.061423 2019] [wsgi:error] [pid 28814:tid 140555458496256] La carpeta /var/lib/jderobot/Academy-Farm/users/ralvarezmar/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 17:06:50.748188 2019] [wsgi:error] [pid 28814:tid 140555458496256] La carpeta /var/lib/jderobot/Academy-Farm/users/ralvarezmar/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 17:07:02.860965 2019] [wsgi:error] [pid 28814:tid 140555458496256] 14.4333910942
+[Tue Oct 01 17:10:21.010509 2019] [wsgi:error] [pid 28814:tid 140555492067072] 8.93469500542
+[Tue Oct 01 17:14:03.189567 2019] [wsgi:error] [pid 28814:tid 140555492067072] 8.99961090088
+[Tue Oct 01 17:16:15.283147 2019] [wsgi:error] [pid 28814:tid 140555458496256] La carpeta /var/lib/jderobot/Academy-Farm/users/ralvarezmar/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 17:16:15.997912 2019] [wsgi:error] [pid 28814:tid 140555458496256] La carpeta /var/lib/jderobot/Academy-Farm/users/ralvarezmar/introduccion_python/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Tue Oct 01 17:16:27.572448 2019] [wsgi:error] [pid 28814:tid 140555458496256] 13.9960780144
+[Tue Oct 01 20:57:04.780334 2019] [wsgi:error] [pid 28814:tid 140555458496256] 10.3600969315
+[Tue Oct 01 21:10:17.022928 2019] [wsgi:error] [pid 28814:tid 140555458496256] \x1b[93m Simulacion en Websim con usuario no registrado. Cargando plantilla de codigo por defecto /var/www/kibotics/jderobot_server/exercises/scratch/siguelinea_pibot_scratch_vision/siguelinea_pibot_scratch_vision.xml\x1b[0m
+[Tue Oct 01 21:14:22.656628 2019] [wsgi:error] [pid 28814:tid 140555458496256] 9.24399495125
+[Tue Oct 01 21:47:23.215448 2019] [wsgi:error] [pid 28814:tid 140555492067072] 10.5327451229
+[Wed Oct 02 01:24:37.481947 2019] [wsgi:error] [pid 28814:tid 140555492067072] 8.94487094879
+[Wed Oct 02 01:30:23.733484 2019] [wsgi:error] [pid 28814:tid 140555492067072] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Wed Oct 02 01:30:23.733533 2019] [wsgi:error] [pid 28814:tid 140555492067072] \x1b[93m No existen archivos de la practica choca_gira_us del usuario Erickalexand17 en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Wed Oct 02 01:30:24.655231 2019] [wsgi:error] [pid 28814:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/Erickalexand17/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Wed Oct 02 01:30:35.538896 2019] [wsgi:error] [pid 28814:tid 140555492067072] 12.1183121204
+[Wed Oct 02 01:34:11.000232 2019] [wsgi:error] [pid 28814:tid 140555458496256] 8.95984578133
+[Wed Oct 02 01:38:20.159184 2019] [wsgi:error] [pid 28814:tid 140555458496256] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Wed Oct 02 01:38:20.159218 2019] [wsgi:error] [pid 28814:tid 140555458496256] \x1b[93m No existen archivos de la practica sigue_pelota_picam del usuario Erickalexand17 en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Wed Oct 02 01:38:28.474478 2019] [wsgi:error] [pid 28814:tid 140555458496256] 8.63456988335
+[Wed Oct 02 07:35:02.388197 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart

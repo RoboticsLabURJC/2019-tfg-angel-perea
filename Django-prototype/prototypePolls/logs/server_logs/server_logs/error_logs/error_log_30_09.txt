@@ -1,0 +1,77 @@
+[Mon Sep 30 07:35:02.009531 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Mon Sep 30 07:35:02.009551 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Mon Sep 30 07:35:02.009858 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Mon Sep 30 07:35:02.009870 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 30 09:38:21.717304 2019] [wsgi:error] [pid 31664:tid 140555492067072] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Mon Sep 30 09:38:21.717325 2019] [wsgi:error] [pid 31664:tid 140555492067072]   return self.cursor.execute(query, args)
+[Mon Sep 30 09:38:22.714712 2019] [wsgi:error] [pid 31664:tid 140555133458176] /usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+[Mon Sep 30 09:38:22.714727 2019] [wsgi:error] [pid 31664:tid 140555133458176]   self._cipher = factory.new(key, *args, **kwargs)
+[Mon Sep 30 09:38:23.514160 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/sergiopaniego/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 09:38:24.225940 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/sergiopaniego/cuadrado_tello/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 09:38:29.163141 2019] [wsgi:error] [pid 31664:tid 140555492067072] 7.45773887634
+[Mon Sep 30 09:39:00.092491 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 09:39:00.767421 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/cuadrado_tello/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 09:39:04.466833 2019] [wsgi:error] [pid 31664:tid 140555492067072] 5.94992113113
+[Mon Sep 30 09:39:24.720183 2019] [wsgi:error] [pid 31664:tid 140555374569216] 10.263010025
+[Mon Sep 30 09:41:43.022475 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 09:41:43.595302 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/cuadrado_tello/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 09:41:47.386804 2019] [wsgi:error] [pid 31664:tid 140555492067072] 7.88353800774
+[Mon Sep 30 09:42:14.954499 2019] [wsgi:error] [pid 31664:tid 140555374569216] 5.2298309803
+[Mon Sep 30 09:42:20.799123 2019] [wsgi:error] [pid 31664:tid 140555382961920] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 09:42:21.474775 2019] [wsgi:error] [pid 31664:tid 140555382961920] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/cuadrado_tello/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 09:42:25.377416 2019] [wsgi:error] [pid 31664:tid 140555382961920] 6.14047884941
+[Mon Sep 30 09:42:32.828139 2019] [wsgi:error] [pid 31664:tid 140555374569216] 11.5352518559
+[Mon Sep 30 09:44:40.255697 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 09:44:40.927376 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/donperfecto/cuadrado_tello/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 09:44:44.666198 2019] [wsgi:error] [pid 31664:tid 140555492067072] 5.94676184654
+[Mon Sep 30 09:45:43.637216 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 09:45:44.327222 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/cuadrado_tello/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 09:45:48.230048 2019] [wsgi:error] [pid 31664:tid 140555492067072] 6.070707798
+[Mon Sep 30 11:14:22.271786 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 11:14:22.977826 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/mbot_dummy_example/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 11:14:26.704809 2019] [wsgi:error] [pid 31664:tid 140555492067072] 5.95862698555
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/admin/mbot_dummy_example/mbot_dummy_example.ipynb to notebook
+[NbConvertApp] Writing 3661 bytes to /var/www/kibotics/jderobot_server/users/admin/mbot_dummy_example/mbot_dummy_example.ipynb
+[Mon Sep 30 11:17:39.017988 2019] [wsgi:error] [pid 31664:tid 140555133458176] {'content': ContentFile(path="users/admin/mbot_dummy_example/mbot_dummy_example.ipynb"), 'commit': Commit(sha="b6fc893691ab653d871397b385697c6108a841f3")}
+[Mon Sep 30 11:17:39.018014 2019] [wsgi:error] [pid 31664:tid 140555133458176] \x1b[94m Archivo /users/admin/mbot_dummy_example/mbot_dummy_example.ipynb actualizado en GitHub\x1b[0m
+[Mon Sep 30 11:57:35.981409 2019] [wsgi:error] [pid 31664:tid 140555382961920] \x1b[93m Simulacion en Websim con usuario no registrado. Cargando plantilla de codigo por defecto /var/www/kibotics/jderobot_server/exercises/scratch/siguelinea_pibot_scratch_vision/siguelinea_pibot_scratch_vision.xml\x1b[0m
+[Mon Sep 30 13:28:36.783642 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 13:28:37.378231 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/cuadrado_tello/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 13:28:41.244342 2019] [wsgi:error] [pid 31664:tid 140555492067072] 6.09920406342
+[Mon Sep 30 14:06:06.889812 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 14:06:07.562867 2019] [wsgi:error] [pid 31664:tid 140555492067072] La carpeta /var/lib/jderobot/Academy-Farm/users/admin/mbot_dummy_example/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 14:06:11.536686 2019] [wsgi:error] [pid 31664:tid 140555492067072] 6.29511809349
+[Mon Sep 30 14:33:53.396783 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Mon Sep 30 14:33:53.501113 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Mon Sep 30 14:33:53.501125 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Mon Sep 30 14:33:53.501405 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Mon Sep 30 14:33:53.501416 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 30 14:36:50.049175 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
+[Mon Sep 30 14:36:50.152622 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Mon Sep 30 14:36:50.152647 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Mon Sep 30 14:36:50.153532 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Mon Sep 30 14:36:50.153573 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Mon Sep 30 14:36:58.869328 2019] [wsgi:error] [pid 28489:tid 140555458496256] NODE generic: <class '_ast.Module'>
+[Mon Sep 30 14:37:06.301175 2019] [wsgi:error] [pid 28489:tid 140555433318144] NODE generic: <class '_ast.Module'>
+[Mon Sep 30 14:37:19.638151 2019] [wsgi:error] [pid 28489:tid 140555458496256] NODE generic: <class '_ast.Module'>
+[Mon Sep 30 14:45:19.748554 2019] [wsgi:error] [pid 28489:tid 140555433318144] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Mon Sep 30 14:45:19.748572 2019] [wsgi:error] [pid 28489:tid 140555433318144]   return self.cursor.execute(query, args)
+[Mon Sep 30 14:45:48.995126 2019] [wsgi:error] [pid 28489:tid 140555458496256] 10.3535718918
+[Mon Sep 30 15:04:38.991440 2019] [wsgi:error] [pid 28489:tid 140555458496256] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Mon Sep 30 15:04:38.991472 2019] [wsgi:error] [pid 28489:tid 140555458496256] \x1b[93m No existen archivos de la practica chocagira_pibot_scratch del usuario admin en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Mon Sep 30 15:19:57.065180 2019] [wsgi:error] [pid 28489:tid 140555133196032] /usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+[Mon Sep 30 15:19:57.065199 2019] [wsgi:error] [pid 28489:tid 140555133196032]   self._cipher = factory.new(key, *args, **kwargs)
+[Mon Sep 30 15:19:57.829921 2019] [wsgi:error] [pid 28489:tid 140555433318144] La carpeta /var/lib/jderobot/Academy-Farm/users/ralvarezmar/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 15:19:58.554116 2019] [wsgi:error] [pid 28489:tid 140555433318144] La carpeta /var/lib/jderobot/Academy-Farm/users/ralvarezmar/choca_gira_us/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Mon Sep 30 15:20:08.976109 2019] [wsgi:error] [pid 28489:tid 140555433318144] 12.7168591022
+[Mon Sep 30 15:22:54.238947 2019] [wsgi:error] [pid 28489:tid 140555433318144] 9.38811397552
+[Mon Sep 30 15:26:09.283747 2019] [wsgi:error] [pid 28489:tid 140555458496256] 9.20965313911
+[Mon Sep 30 15:29:00.288359 2019] [wsgi:error] [pid 28489:tid 140555433318144] 9.05530905724
+[Mon Sep 30 15:31:34.893622 2019] [wsgi:error] [pid 28489:tid 140555433318144] 8.97734212875
+[Mon Sep 30 15:33:38.879619 2019] [wsgi:error] [pid 28489:tid 140555433318144] 9.46691584587
+[Mon Sep 30 15:34:20.902329 2019] [wsgi:error] [pid 28489:tid 140555433318144] 8.95170283318
+[Mon Sep 30 17:41:38.152006 2019] [wsgi:error] [pid 28489:tid 140555466888960] \x1b[93m Simulacion en Websim con usuario no registrado. Cargando plantilla de codigo por defecto /var/www/kibotics/jderobot_server/exercises/scratch/siguelinea_pibot_scratch_vision/siguelinea_pibot_scratch_vision.xml\x1b[0m
+[Mon Sep 30 20:46:13.642403 2019] [wsgi:error] [pid 28489:tid 140555433318144] 404 {u'documentation_url': u'https://developer.github.com/v3/repos/contents/#get-contents', u'message': u'Not Found'}
+[Mon Sep 30 20:46:13.642442 2019] [wsgi:error] [pid 28489:tid 140555433318144] \x1b[93m No existen archivos de la practica siguelinea_f1_scratch_vision del usuario ralvarezmar en el repositorio. Copiando archivos por defecto.\x1b[0m
+[Mon Sep 30 21:29:29.468003 2019] [wsgi:error] [pid 28489:tid 140555466888960] 16.5718121529
+[Tue Oct 01 07:35:02.195652 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart

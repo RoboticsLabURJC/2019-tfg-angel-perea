@@ -1,0 +1,22 @@
+[Sat Oct 05 07:35:02.358157 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Compiled for Python/2.7.11.
+[Sat Oct 05 07:35:02.358170 2019] [wsgi:warn] [pid 26641:tid 140555675871104] mod_wsgi: Runtime using Python/2.7.12.
+[Sat Oct 05 07:35:02.358470 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00489: Apache/2.4.18 (Ubuntu) OpenSSL/1.0.2g mod_wsgi/4.3.0 Python/2.7.12 configured -- resuming normal operations
+[Sat Oct 05 07:35:02.358485 2019] [core:notice] [pid 26641:tid 140555675871104] AH00094: Command line: '/usr/sbin/apache2'
+[Sat Oct 05 08:17:07.075227 2019] [wsgi:error] [pid 2990:tid 140555492067072] \x1b[93m Simulacion en Websim con usuario no registrado. Cargando plantilla de codigo por defecto /var/www/kibotics/jderobot_server/exercises/scratch/siguelinea_pibot_scratch_vision/siguelinea_pibot_scratch_vision.xml\x1b[0m
+[Sat Oct 05 08:17:07.075925 2019] [wsgi:error] [pid 2990:tid 140555492067072] /usr/local/lib/python2.7/dist-packages/django/db/backends/mysql/base.py:101: Warning: (1364L, u"Field 'main_server_ip' doesn't have a default value")
+[Sat Oct 05 08:17:07.075934 2019] [wsgi:error] [pid 2990:tid 140555492067072]   return self.cursor.execute(query, args)
+[Sat Oct 05 22:46:11.955897 2019] [wsgi:error] [pid 2990:tid 140555450103552] \x1b[93m Simulacion en Websim con usuario no registrado. Cargando plantilla de codigo por defecto /var/www/kibotics/jderobot_server/exercises/scratch/siguelinea_pibot_scratch_vision/siguelinea_pibot_scratch_vision.xml\x1b[0m
+[Sat Oct 05 22:48:05.059417 2019] [wsgi:error] [pid 2990:tid 140555492067072] \x1b[93m Simulacion en Websim con usuario no registrado. Cargando plantilla de codigo por defecto /var/www/kibotics/jderobot_server/exercises/scratch/siguelinea_pibot_scratch_vision/siguelinea_pibot_scratch_vision.xml\x1b[0m
+[Sun Oct 06 00:23:54.464842 2019] [wsgi:error] [pid 2990:tid 140555131885312] /usr/lib/python2.7/dist-packages/Crypto/Cipher/blockalgo.py:141: FutureWarning: CTR mode needs counter parameter, not IV
+[Sun Oct 06 00:23:54.464857 2019] [wsgi:error] [pid 2990:tid 140555131885312]   self._cipher = factory.new(key, *args, **kwargs)
+[Sun Oct 06 00:23:55.276476 2019] [wsgi:error] [pid 2990:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/legion_55/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Sun Oct 06 00:23:55.959518 2019] [wsgi:error] [pid 2990:tid 140555450103552] La carpeta /var/lib/jderobot/Academy-Farm/users/legion_55/sigue_linea_ir/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Sun Oct 06 00:24:00.037859 2019] [wsgi:error] [pid 2990:tid 140555450103552] 6.3110909462
+[NbConvertApp] Converting notebook /var/www/kibotics/jderobot_server/users/legion_55/sigue_linea_ir/sigue_linea_ir.ipynb to notebook
+[NbConvertApp] Writing 4498 bytes to /var/www/kibotics/jderobot_server/users/legion_55/sigue_linea_ir/sigue_linea_ir.ipynb
+[Sun Oct 06 00:52:17.447531 2019] [wsgi:error] [pid 2990:tid 140555131885312] {'content': ContentFile(path="users/legion_55/sigue_linea_ir/sigue_linea_ir.ipynb"), 'commit': Commit(sha="f28891e0a2fc7bf35d8f2938ac9d1cf7f712ef86")}
+[Sun Oct 06 00:52:17.447602 2019] [wsgi:error] [pid 2990:tid 140555131885312] \x1b[94m Archivo /users/legion_55/sigue_linea_ir/sigue_linea_ir.ipynb actualizado en GitHub\x1b[0m
+[Sun Oct 06 00:52:24.982144 2019] [wsgi:error] [pid 2990:tid 140555475281664] La carpeta /var/lib/jderobot/Academy-Farm/users/legion_55/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Sun Oct 06 00:52:25.670084 2019] [wsgi:error] [pid 2990:tid 140555475281664] La carpeta /var/lib/jderobot/Academy-Farm/users/legion_55/sigue_linea_ir/ ya existe en la maquina f-l3209-pc10.kibotics.org
+[Sun Oct 06 00:52:34.886532 2019] [wsgi:error] [pid 2990:tid 140555475281664] 11.3748090267
+[Sun Oct 06 07:35:01.838141 2019] [mpm_event:notice] [pid 26641:tid 140555675871104] AH00493: SIGUSR1 received.  Doing graceful restart
