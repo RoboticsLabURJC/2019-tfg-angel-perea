@@ -3,8 +3,9 @@ from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
 from django.views import generic
 from django.utils import timezone
+from django.shortcuts import render_to_response
 
-from .models import Question
+from .models import Question, Session, Simulation
 
 
 from django.http import HttpResponse
@@ -13,6 +14,95 @@ import io
 import pandas as pd
 import matplotlib.pyplot as plt
 import numpy as np
+#import datetime
+from datetime import datetime, timedelta, date
+
+def daterange(start_date, end_date):
+    for n in range(int ((end_date - start_date).days)):
+        yield start_date + timedelta(n)
+
+def formatStringDate(strDate):
+    datetime_object = datetime.strptime(strDate, '%d/%m/%Y %H:%M:%S')
+    return datetime.strptime(strDate, "%d/%m/%Y %H:%M:%S").strftime("%Y-%m-%d %H:%M:%S")
+
+def addSession(type, data):
+    datetime_str = str(data[1])
+    datetime_object = datetime.strptime(datetime_str, '%d/%m/%Y %H:%M:%S')
+    s = Session(
+        type = type,
+        date = formatStringDate(data[1]),
+        username = data[2],
+        client_ip = data[3],
+        user_agent = data[4]
+    )
+    s.save()
+
+def addSimulation(type, data):
+    datetime_str = str(data[1])
+    datetime_object = datetime.strptime(datetime_str, '%d/%m/%Y %H:%M:%S')
+    Simulation(
+        type = type,
+        date = formatStringDate(data[1]),
+        username = data[2],
+        client_ip = data[3],
+        simulation_type = data[4],
+        exercise_id = data[5],
+        host_ip = data[6],
+        container_id = data[7],
+        user_agent = data[8]
+    ).save()
+
+
+def loadDDBB(request):
+    fromDate = request.GET.get('from_date')
+    toDate = request.GET.get('to_date')
+    if(fromDate != ''and toDate != ""):
+        start_date = date(int(fromDate.split(" ")[0]), int(fromDate.split(" ")[1]), int(fromDate.split(" ")[2]))
+        end_date = date(int(toDate.split(" ")[0]), int(toDate.split(" ")[1]), int(toDate.split(" ")[2]))
+        for single_date in daterange(start_date, end_date):
+            file = single_date.strftime("%Y-%m-%d")+'-log.txt'
+            try:
+                dir = 'prototypePolls/logs/temporalDir/' + file
+                print(dir)
+                f = open(dir,"r")
+                for line in f:
+                    lineList = line.split(" | ")
+                    if(lineList[0] == "1"):
+                        addSession("New", lineList)
+                    elif (lineList[0] == "2"):
+                        addSession("End", lineList)
+                    elif (lineList[0] == "3"):
+                        addSimulation("New", lineList)
+                    elif (lineList[0] == "4"):
+                        addSimulation("End", lineList)
+                f.close
+            except FileNotFoundError as e:
+                print(e)
+
+    s = Session.objects.all()
+    s2 = Simulation.objects.all()
+    context = {'Session': s, 'Simulation': s2}
+    return render(request, 'prototypePolls/interactivePlot.html', context)
+
+
+def deleteDDBB(request):
+    Simulation.objects.all().delete()
+    Session.objects.all().delete()
+    s = Session.objects.all()
+    s2 = Simulation.objects.all()
+    context = {'Session': s, 'Simulation': s2}
+    return render(request, 'prototypePolls/interactivePlot.html', context)
+
+def interactivePlot(request):
+    s = Session.objects.all()
+    s2 = Simulation.objects.all()
+    context = {'Session': s, 'Simulation': s2}
+    return render(request, 'prototypePolls/interactivePlot.html', context)
+
+
+
+
+
 
 def readfile_OLD():
     f= open("prototypePolls/logs/login.log","r")
@@ -204,8 +294,6 @@ def logPlot(request, name):
     response['Content-Length'] = str(len(response.content))
 
     return response
-
-
 
 
 def index(request):

@@ -12,6 +12,8 @@ urlpatterns = [
     path('logPlotAll', views.logPlotAll, name='logPlotAll'),
     path('logPlotAll/', views.logPlotAll, name='logPlotAll'),
     path('logPlot/<str:name>', views.logPlot, name='logPlot'),
-    path('logPlot/<str:name>/', views.logPlot, name='logPlot')
-
+    path('logPlot/<str:name>/', views.logPlot, name='logPlot'),
+    path('interactivePlot/', views.interactivePlot, name='interactivePlot'),
+    path('deleteDDBB/', views.deleteDDBB, name='deleteDDBB'),
+    path('loadDDBB/', views.loadDDBB, name='loadDDBB')
 ]

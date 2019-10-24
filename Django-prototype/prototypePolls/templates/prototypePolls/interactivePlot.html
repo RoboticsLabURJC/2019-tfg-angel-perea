@@ -1,0 +1,36 @@
+<form action="/prototypePolls/loadDDBB/" method="get">
+    <label for="from_date">From date: </label>
+    <input id="from_date" type="text" name="from_date" value="{{ from_date }}">
+    <label for="to_date">To date: </label>
+    <input id="to_date" type="text" name="to_date" value="{{ to_date }}">
+    <input type="submit" value="Load DDBB">
+</form>
+<a href="/prototypePolls/deleteDDBB/" class="button">delete DDBB</a>
+
+{% if Session %}
+    <ul>
+    {% for s in Session %}
+    <p><b>{{ s.type }}</b>
+    <b>{{ s.date }}</b>
+    <b>{{ s.username }}</b>
+    <b>{{ s.client_ip }}</b>
+    <b>{{ s.user_agent }}</b></p>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Session are available.</p>
+{% endif %}
+<p><b>................................</b></p>
+{% if Simulation %}
+    <ul>
+    {% for s in Simulation %}
+    <p><b>{{ s.type }}</b>
+    <b>{{ s.date }}</b>
+    <b>{{ s.username }}</b>
+    <b>{{ s.client_ip }}</b>
+    <b>{{ s.user_agent }}</b></p>
+    {% endfor %}
+    </ul>
+{% else %}
+    <p>No Simulation are available.</p>
+{% endif %}
