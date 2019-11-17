@@ -1,0 +1,12 @@
+3 | 23/10/2019 07:45:57 | donperfecto | 80.26.203.72 | real | mbot_dummy_example | 212.128.255.74 | 4f271f74cc8b65fd074a03f22e183317c67aec7baf6e17fc94bfec0a43b8d9d7 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+3 | 23/10/2019 07:49:11 | donperfecto | 80.26.203.72 | real | cuadrado_tello | 212.128.255.74 | 74dd85d73a2ca3c5cf1ef704c2170af9b7ed804bd3e96f180e2f0db51a5c3822 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+3 | 23/10/2019 07:56:02 | donperfecto | 80.26.203.72 | simulator | sigue_linea_f1 | 212.128.254.198 | 3f2b213fa83c0a9410e5e02d9de8a5e7da9e204f773fc4f2ffa43f9857aab77d | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+2 | 23/10/2019 07:56:57 | donperfecto | 80.26.203.72 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+1 | 23/10/2019 10:27:59 | donperfecto | 79.148.107.151 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+2 | 23/10/2019 10:29:45 | donperfecto | 79.148.107.151 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+1 | 23/10/2019 10:30:25 | donperfecto | 79.148.107.151 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+3 | 23/10/2019 10:30:48 | donperfecto | 79.148.107.151 | simulator | sigue_linea_f1 | 212.128.254.198 | 0b91000d60193db5ff806d4e9ff5f8cbb201202feb80fdb09154026e64270409 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+3 | 23/10/2019 10:33:34 | donperfecto | 79.148.107.151 | real | mbot_dummy_example | 212.128.255.74 | eb674535b6a52922e31b2ae42e79410651b1ccf21cc6cf0c41d6940afd213288 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+3 | 23/10/2019 10:34:38 | donperfecto | 79.148.107.151 | real | mbot_dummy_example | 212.128.255.74 | b609b3c8ec09317a73bff598cd523119b9fef2ce1bffa487aca4156569c7a0c6 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+3 | 23/10/2019 10:36:35 | donperfecto | 79.148.107.151 | real | cuadrado_tello | 212.128.255.74 | cd7e9d261228f7c84892335f72e27d3adeaab8209d14ccbdf0a6f5bb419b9226 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:65.0) Gecko/20100101 Firefox/65.0
+3 | 23/10/2019 12:19:30 | sergiopaniego | 10.1.140.59 | simulator | sigue_linea_f1 | 212.128.254.198 | 60ec13e6015f4a640e2bb9ec81d354ef58a3941df726e19b0d920bafc8555f53 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_0) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36

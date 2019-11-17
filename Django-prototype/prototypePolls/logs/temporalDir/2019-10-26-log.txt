@@ -1,0 +1,6 @@
+1 | 26/10/2019 12:07:35 | EvaFausto | 83.53.168.44 | Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+3 | 26/10/2019 12:08:00 | EvaFausto | 83.53.168.44 | simulator | introduccion_python | 212.128.255.74 | 0ca3ada3faf00943df864b678b37b516e56db6b8f5d0bb5bb614735c04676c07 | Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+2 | 26/10/2019 12:29:04 | EvaFausto | 83.53.168.44 | Mozilla/5.0 (Windows NT 6.1; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+1 | 26/10/2019 13:21:16 | _nere_2104 | 82.158.197.174 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+3 | 26/10/2019 13:33:51 | _nere_2104 | 82.158.197.174 | simulator | choca_gira_us | 212.128.255.74 | 0aa5b2fae297e32f7fb6b22d5df3bfec8d5e1a5ff7766c3d6e5a210a551f8a10 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36
+2 | 26/10/2019 13:57:51 | _nere_2104 | 82.158.197.174 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.90 Safari/537.36

@@ -1,0 +1,2 @@
+1 | 03/11/2019 21:32:09 | EvaFausto | 83.53.168.44 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36
+3 | 03/11/2019 21:32:28 | EvaFausto | 83.53.168.44 | simulator | introduccion_python | 212.128.255.74 | 33c0a15be7cf0b92f7a2ef6adf730b9f1cf6c300ae8540bd757bfa14917497c9 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36

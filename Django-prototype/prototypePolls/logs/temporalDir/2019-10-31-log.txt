@@ -1,0 +1,14 @@
+1 | 31/10/2019 09:55:53 | ralvarezmar | 212.128.255.18 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36
+1 | 31/10/2019 12:11:21 | amartinoc | 85.91.81.253 | Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+3 | 31/10/2019 12:11:38 | amartinoc | 85.91.81.253 | simulator | introduccion_python | 212.128.255.74 | b2be6d435a47bbb1ce374775a16205a42ae99578c9f1b9e1394e28bfdda6994f | Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+2 | 31/10/2019 12:18:34 | amartinoc | 85.91.81.253 | Mozilla/5.0 (X11; Linux x86_64; rv:60.0) Gecko/20100101 Firefox/60.0
+1 | 31/10/2019 12:23:00 | Pabloyparra | 83.43.242.156 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36
+3 | 31/10/2019 12:23:47 | Pabloyparra | 83.43.242.156 | simulator | introduccion_python | 212.128.255.74 | 691fd83a638cad32a7a23f7349c28efedf72a2648c5ce27dfa21c022f2eef614 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36
+3 | 31/10/2019 12:37:04 | Pabloyparra | 83.43.242.156 | simulator | introduccion_python | 212.128.255.74 | 865ba45fe56cfb69675736cef9bb4821e13207993e532fe47d8a0bbf3c62276a | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36
+2 | 31/10/2019 12:58:06 | Pabloyparra | 83.43.242.156 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36
+2 | 31/10/2019 14:06:32 | donperfecto | 193.147.79.191 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+1 | 31/10/2019 14:06:35 | cawadall | 193.147.79.191 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+1 | 31/10/2019 14:33:25 | Pabloyparra | 83.43.242.156 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36
+3 | 31/10/2019 14:33:49 | Pabloyparra | 83.43.242.156 | simulator | introduccion_python | 212.128.255.74 | 79479747f8cbd0f98734c903f1ab105273b958a0287117054e5b1715f022b510 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36
+3 | 31/10/2019 16:57:17 | Pabloyparra | 83.43.242.156 | simulator | introduccion_python | 212.128.255.74 | 5314be5ffd14db04c9d32c408909fc493779ef6d934c4b0022e3e1af043131ce | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36
+2 | 31/10/2019 17:29:40 | Pabloyparra | 83.43.242.156 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_5) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.70 Safari/537.36

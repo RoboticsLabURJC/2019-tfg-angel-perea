@@ -1,3 +1,12 @@
+'''www'''
+import matplotlib
+matplotlib.use("Agg")
+import matplotlib.pyplot as plt
+
+from io import BytesIO
+import base64
+'''www'''
+
 from django.http import HttpResponseRedirect
 from django.shortcuts import get_object_or_404, render
 from django.urls import reverse
@@ -16,6 +25,9 @@ import matplotlib.pyplot as plt
 import numpy as np
 #import datetime
 from datetime import datetime, timedelta, date
+
+import pymongo
+
 
 def daterange(start_date, end_date):
     for n in range(int ((end_date - start_date).days)):
@@ -52,6 +64,21 @@ def addSimulation(type, data):
         user_agent = data[8]
     ).save()
 
+def addEndSimulation(type, data):
+    datetime_str = str(data[1])
+    datetime_object = datetime.strptime(datetime_str, '%d/%m/%Y %H:%M:%S')
+    Simulation(
+        type = type,
+        date = formatStringDate(data[1]),
+        username = data[2],
+        client_ip = data[3],
+        simulation_type = data[4],
+        exercise_id = data[5],
+        host_ip = "",
+        container_id = "",
+        user_agent = ""
+    ).save()
+
 
 def loadDDBB(request):
     fromDate = request.GET.get('from_date')
@@ -74,7 +101,7 @@ def loadDDBB(request):
                     elif (lineList[0] == "3"):
                         addSimulation("New", lineList)
                     elif (lineList[0] == "4"):
-                        addSimulation("End", lineList)
+                        addEndSimulation("End", lineList)
                 f.close
             except FileNotFoundError as e:
                 print(e)
@@ -94,9 +121,151 @@ def deleteDDBB(request):
     return render(request, 'prototypePolls/interactivePlot.html', context)
 
 def interactivePlot(request):
-    s = Session.objects.all()
-    s2 = Simulation.objects.all()
-    context = {'Session': s, 'Simulation': s2}
+    '''
+    class Simulation(models.Model):
+        type = models.CharField(max_length=40, choices=typeSymulation)
+        date = models.DateTimeField()
+        username = models.CharField(max_length=200)
+        client_ip = models.CharField(max_length=200)
+        simulation_type = models.CharField(max_length=200)
+        exercise_id = models.CharField(max_length=200)
+        host_ip = models.CharField(max_length=200)
+        container_id = models.CharField(max_length=200)
+        user_agent = models.CharField(max_length=200)
+
+    class Session(models.Model):
+        type = models.CharField(max_length=40, choices=typeSession)
+        date = models.DateTimeField()
+        username = models.CharField(max_length=200)
+        client_ip = models.CharField(max_length=200)
+        user_agent = models.CharField(max_length=200)
+    '''
+    myclient = pymongo.MongoClient("mongodb://localhost:27017/")
+
+    mydb = myclient["kiboticsDDBB"]
+
+    print(mydb)
+
+
+
+
+
+
+    sessionUsernames = Session.objects.all().values('username').distinct()
+    print(sessionUsernames);
+    simulationUsernames = Simulation.objects.all().values('username').distinct()
+    print(simulationUsernames);
+    
+    index = []
+    entries = []
+    for line in sessionUsernames:
+        if line['username'] != 'admin':
+            index += [line['username']]
+            entries += [len(Session.objects.filter(username=line['username']).filter(type='New').values('date').distinct())]
+
+    index2 = []
+    entries2 = []
+    for line in simulationUsernames:
+        if line['username'] != 'admin':
+            index2 += [line['username']]
+            entries2 += [len(Simulation.objects.filter(username=line['username']).filter(type='New').values('date').distinct())]
+
+    f = plt.figure(figsize=(20, 6))
+    axes = f.add_axes([0.1, 0.20, 0.75, 0.75]) # [left, bottom, width, height]
+
+    axes.plot(index, entries, 'o')
+    axes.set_xlabel("Users")
+    axes.set_ylabel("Entries")
+    axes.set_title("SESSIONES POR USUARIO")
+    axes.tick_params(axis='x', rotation=20)
+
+    buf = BytesIO()
+    plt.savefig(buf, format='png', dpi=300)
+    image_base64 = base64.b64encode(buf.getvalue()).decode('utf-8').replace('\n', '')
+    buf.close()
+
+
+    ''''''''''''''''''''''''''''''''''''''''''''''''''''''
+
+    fig, axs = plt.subplots(2, figsize=(20, 15), tight_layout=True)
+    axs[0].plot(index, entries, 'o')
+    axs[0].tick_params(axis='x', rotation=20)
+    axs[0].set_xlabel("Users")
+    axs[0].set_ylabel("Entries")
+    axs[0].set_title("SESSIONES POR USUARIO")
+    axs[0].grid(True)
+
+    axs[1].plot(index2, entries2, 'rx')
+    axs[1].tick_params(axis='x', rotation=20)
+    axs[1].set_xlabel("Users")
+    axs[1].set_ylabel("Entries")
+    axs[1].set_title("SIMULACIONES POR USUARIO")
+    axs[1].grid(True)
+
+    buf = BytesIO()
+    plt.savefig(buf, format='png', dpi=300)
+    image_base64_2 = base64.b64encode(buf.getvalue()).decode('utf-8').replace('\n', '')
+    buf.close()
+
+    ''''''''''''''''''''''''''''''''''''''''''''''''''''''
+    datesNewSimforUsername = Simulation.objects.filter(username='admin').filter(type='New').values('date').distinct()
+    datesEndSimforUsername = Simulation.objects.filter(username='admin').filter(type='End').values('date').distinct()
+    print(len(datesNewSimforUsername))
+    print(len(datesEndSimforUsername))
+    datesNewSesforUsername = Session.objects.filter(username='admin').filter(type='New').values('date').distinct()
+    datesEndSesforUsername = Session.objects.filter(username='admin').filter(type='End').values('date').distinct()
+    print(len(datesNewSesforUsername))
+    print(len(datesEndSesforUsername))
+
+    datesNewSesforUsername = Session.objects.filter(username='admin').values('client_ip').distinct()
+    for d in datesNewSesforUsername:
+        print(d)
+
+
+    '''''''''''''''''''''''''MONGODB'''''''''''''''''''''''''''
+    sessionUsernames = mydb["newSession"].find({}).distinct("username")
+    print(sessionUsernames);
+
+    simulationUsernames = mydb["newSimulation"].find({}).distinct("username")
+    print(simulationUsernames);
+
+    index4 = sessionUsernames
+    entries4 = []
+    for user in sessionUsernames:
+        entries4 += [mydb["newSession"].find({"username" : user}).count()]
+        if(user == "admin"):
+            entries4[-1] = 0
+            
+    index5 = simulationUsernames
+    entries5 = []
+    for user in simulationUsernames:
+        entries5 += [mydb["newSimulation"].find({"username" : user}).count()]
+        if(user == "admin"):
+            entries5[-1] = 0
+
+    fig, axs = plt.subplots(2, figsize=(20, 15), tight_layout=True)
+    axs[0].plot(index4, entries4, 'o')
+    axs[0].tick_params(axis='x', rotation=20)
+    axs[0].set_xlabel("Users")
+    axs[0].set_ylabel("Entries")
+    axs[0].set_title("SESSIONES POR USUARIO")
+    axs[0].grid(True)
+
+    axs[1].plot(index5, entries5, 'rx')
+    axs[1].tick_params(axis='x', rotation=20)
+    axs[1].set_xlabel("Users")
+    axs[1].set_ylabel("Entries")
+    axs[1].set_title("SIMULACIONES POR USUARIO")
+    axs[1].grid(True)
+
+    buf = BytesIO()
+    plt.savefig(buf, format='png', dpi=300)
+    image_base64_3 = base64.b64encode(buf.getvalue()).decode('utf-8').replace('\n', '')
+    buf.close()
+    ''''''''''''''''''''''''''''MONGODB'''''''''''''''''''''''
+
+
+    context = {'image_base64': image_base64, 'image_base64_2': image_base64_2, 'image_base64_3': image_base64_3}
     return render(request, 'prototypePolls/interactivePlot.html', context)
 
 

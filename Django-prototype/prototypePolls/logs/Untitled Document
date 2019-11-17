@@ -1,0 +1,14 @@
+import pymongo
+import os
+
+path = '/home/angel/TFG/2019-tfg-angel-perea/Django-prototype/prototypePolls/logs/temporalDir/'
+
+folders = []
+
+# r=root, d=directories, f = files
+for r, d, f in os.walk(path):
+    for folder in d:
+        folders.append(os.path.join(r, folder))
+
+for f in folders:
+    print(f)

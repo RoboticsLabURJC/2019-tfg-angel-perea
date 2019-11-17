@@ -1,0 +1,7 @@
+1 | 13/11/2019 09:19:12 | donperfecto | 10.1.144.18 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+1 | 13/11/2019 09:33:25 | paulajulia | 217.127.138.58 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+3 | 13/11/2019 09:34:04 | paulajulia | 217.127.138.58 | simulator | introduccion_python | 212.128.255.74 | e9ea5e79f7cbd6d040ec0bce46fc3c5f524cccd61f004d47cdf0b4d4d02d4aa3 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+2 | 13/11/2019 09:40:24 | donperfecto | 10.1.144.18 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/69.0.3497.100 Safari/537.36
+3 | 13/11/2019 09:40:48 | paulajulia | 217.127.138.58 | simulator | sigue_pelota_picam | 212.128.254.198 | 964bc5799b650146f42fcb182698e96ecd8088519227c3927cc37db138deee6e | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+3 | 13/11/2019 09:41:35 | paulajulia | 217.127.138.58 | simulator | sigue_pelota_picam | 212.128.254.198 | 4c7659a9eca605d4a28bfdd43c5e485723fb6cd4127e25919054d36d9e0632a0 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+2 | 13/11/2019 10:09:34 | paulajulia | 217.127.138.58 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
