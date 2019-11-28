@@ -1,0 +1,2 @@
+1 | 17/11/2019 18:48:54 | Daniel | 82.158.65.60 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36
+3 | 17/11/2019 18:49:37 | Daniel | 82.158.65.60 | simulator | sigue_pelota_picam | 212.128.254.198 | 7b69b50d656597ef7adb3509fa8f4f330204ec1ff56359afc3a99536d3c36aa9 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.87 Safari/537.36
