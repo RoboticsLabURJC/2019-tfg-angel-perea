@@ -1,0 +1,2 @@
+3 | 24/11/2019 07:59:34 | AnonymusUser | 46.4.60.249 | websim | siguelinea_pibot_scratch_vision | 46.4.60.249 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)
+3 | 24/11/2019 13:05:09 | AnonymusUser | 141.8.142.31 | websim | siguelinea_pibot_scratch_vision | 141.8.142.31 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; YandexBot/3.0; +http://yandex.com/bots)

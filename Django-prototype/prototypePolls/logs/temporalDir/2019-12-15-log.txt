@@ -1,0 +1,4 @@
+3 | 15/12/2019 15:39:33 | AnonymusUser | 92.221.145.57 | websim | siguelinea_pibot_scratch_vision | 92.221.145.57 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; MJ12bot/v1.4.8; http://mj12bot.com/)
+3 | 15/12/2019 19:12:46 | AnonymusUser | 216.244.66.238 | websim | siguelinea_pibot_scratch_vision | 216.244.66.238 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)
+3 | 15/12/2019 21:36:33 | AnonymusUser | 87.218.75.86 | websim | siguelinea_pibot_scratch_vision | 87.218.75.86 | [NO CONTAINER] Browser | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36
+4 | 15/12/2019 21:37:09 | AnonymusUser | 87.218.75.86 | websim | siguelinea_pibot_scratch_vision | 87.218.75.86 | [NO CONTAINER] Browser | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36

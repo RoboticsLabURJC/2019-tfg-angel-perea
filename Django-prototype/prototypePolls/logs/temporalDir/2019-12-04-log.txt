@@ -1,0 +1,22 @@
+3 | 04/12/2019 00:59:40 | AnonymusUser | 200.121.220.199 | websim | siguelinea_pibot_scratch_vision | 200.121.220.199 | [NO CONTAINER] Browser | Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+4 | 04/12/2019 01:02:33 | AnonymusUser | 200.121.220.199 | websim | siguelinea_pibot_scratch_vision | 200.121.220.199 | [NO CONTAINER] Browser | Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/76.0.3809.100 Safari/537.36
+1 | 04/12/2019 09:59:35 | paulajulia | 217.127.138.58 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+3 | 04/12/2019 10:00:21 | paulajulia | 217.127.138.58 | simulator | sigue_linea_f1 | 212.128.254.198 | 37e9e5707dd579ec72199729c422fb8fe8fc146010dc74c61f9368590a3b1e3e | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/72.0.3626.109 Safari/537.36
+4 | 04/12/2019 10:01:10 | paulajulia | 217.127.138.58 | simulator | sigue_linea_f1 | 212.128.254.198 | 37e9e5707dd579ec72199729c422fb8fe8fc146010dc74c61f9368590a3b1e3e | 
+3 | 04/12/2019 14:09:31 | ralvarezmar | 83.32.2.187 | websim | pyonbrowser_dummy_example | 83.32.2.187 | [NO CONTAINER] Browser | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 OPR/65.0.3467.48
+2 | 04/12/2019 14:09:39 | ralvarezmar | 83.32.2.187 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 OPR/65.0.3467.48
+1 | 04/12/2019 14:09:46 | admin | 83.32.2.187 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 OPR/65.0.3467.48
+3 | 04/12/2019 14:15:12 | admin | 83.32.2.187 | real | mbot_real_scratch | 83.32.2.187 | [NO CONTAINER] Browser | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 OPR/65.0.3467.48
+4 | 04/12/2019 14:26:28 | admin | 83.32.2.187 | real | mbot_real_scratch | 83.32.2.187 | [NO CONTAINER] Browser | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 OPR/65.0.3467.48
+3 | 04/12/2019 14:26:33 | admin | 83.32.2.187 | websim | forest_scratch | 83.32.2.187 | [NO CONTAINER] Browser | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 OPR/65.0.3467.48
+4 | 04/12/2019 14:26:49 | admin | 83.32.2.187 | websim | forest_scratch | 83.32.2.187 | [NO CONTAINER] Browser | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.97 Safari/537.36 OPR/65.0.3467.48
+5 | 500 Internal Server Error
+3 | 04/12/2019 14:45:09 | admin | 193.147.79.191 | websim | pyonbrowser_dummy_example | 193.147.79.191 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+3 | 04/12/2019 14:45:38 | AnonymusUser | 193.147.79.191 | websim | pyonbrowser_dummy_example | 193.147.79.191 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+4 | 04/12/2019 14:46:17 | admin | 193.147.79.191 | websim | pyonbrowser_dummy_example | 193.147.79.191 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+3 | 04/12/2019 14:46:37 | admin | 193.147.79.191 | websim | pyonbrowser_dummy_example | 193.147.79.191 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+4 | 04/12/2019 14:49:10 | admin | 193.147.79.191 | websim | pyonbrowser_dummy_example | 193.147.79.191 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+3 | 04/12/2019 14:49:25 | admin | 193.147.79.191 | websim | pyonbrowser_dummy_example | 193.147.79.191 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+4 | 04/12/2019 14:50:29 | admin | 193.147.79.191 | websim | pyonbrowser_dummy_example | 193.147.79.191 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+5 | 500 Internal Server Error
+2 | 04/12/2019 14:52:06 | admin | 193.147.79.191 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0

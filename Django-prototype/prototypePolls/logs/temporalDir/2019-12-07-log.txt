@@ -1,0 +1,10 @@
+3 | 07/12/2019 08:46:57 | AnonymusUser | 207.46.13.59 | websim | siguelinea_pibot_scratch_vision | 207.46.13.59 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+3 | 07/12/2019 12:28:15 | admin | 81.44.100.244 | simulator | gato_raton | 212.128.254.198 | f37044669eb7d5c3a83b6a53a076b23616190876f86f3a85e7e5d27038dcb687 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+4 | 07/12/2019 12:29:07 | admin | 81.44.100.244 | simulator | gato_raton | 212.128.254.198 | f37044669eb7d5c3a83b6a53a076b23616190876f86f3a85e7e5d27038dcb687 | 
+3 | 07/12/2019 12:31:50 | admin | 81.44.100.244 | simulator | introduccion_python | 212.128.255.74 | 19b4a659380f2f4e3181905c5a403444fdb63fe46a938d2ccfddfb199dbc8d97 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+4 | 07/12/2019 12:45:16 | admin | 81.44.100.244 | simulator | introduccion_python | 212.128.255.74 | 19b4a659380f2f4e3181905c5a403444fdb63fe46a938d2ccfddfb199dbc8d97 | 
+3 | 07/12/2019 12:45:35 | admin | 81.44.100.244 | websim | siguelinea_pibot_scratch_vision | 81.44.100.244 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+4 | 07/12/2019 12:46:43 | admin | 81.44.100.244 | websim | siguelinea_pibot_scratch_vision | 81.44.100.244 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+3 | 07/12/2019 12:47:05 | admin | 81.44.100.244 | simulator | sigue_linea_ir | 212.128.254.198 | 5581df845cf3fe7caad05702390718b208b1e13994a3bd5a55c861bfbfa7ab42 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:70.0) Gecko/20100101 Firefox/70.0
+4 | 07/12/2019 12:59:39 | admin | 81.44.100.244 | simulator | sigue_linea_ir | 212.128.254.198 | 5581df845cf3fe7caad05702390718b208b1e13994a3bd5a55c861bfbfa7ab42 | 
+3 | 07/12/2019 23:56:32 | AnonymusUser | 173.234.151.209 | websim | siguelinea_pibot_scratch_vision | 173.234.151.209 | [NO CONTAINER] Browser | Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4091.2 Safari/537.36
