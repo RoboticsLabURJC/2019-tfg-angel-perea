@@ -1,0 +1,9 @@
+3 | 29/01/2020 04:37:03 | AnonymusUser | 50.16.241.117 | websim | sigue_linea_f1_python_websim | 50.16.241.117 | [NO CONTAINER] Browser | ''
+3 | 29/01/2020 04:37:07 | AnonymusUser | 50.16.241.117 | websim | sigue_linea_f1_python_websim | 50.16.241.117 | [NO CONTAINER] Browser | ''
+3 | 29/01/2020 04:37:29 | AnonymusUser | 50.16.241.117 | websim | siguelinea_pibot_scratch_vision | 50.16.241.117 | [NO CONTAINER] Browser | ''
+4 | 29/01/2020 04:37:32 | AnonymusUser | 50.16.241.117 | websim | siguelinea_pibot_scratch_vision | 50.16.241.117 | [NO CONTAINER] Browser | ''
+3 | 29/01/2020 04:37:33 | AnonymusUser | 50.16.241.117 | websim | siguelinea_pibot_scratch_vision | 50.16.241.117 | [NO CONTAINER] Browser | ''
+4 | 29/01/2020 04:37:36 | AnonymusUser | 50.16.241.117 | websim | siguelinea_pibot_scratch_vision | 50.16.241.117 | [NO CONTAINER] Browser | ''
+3 | 29/01/2020 15:20:53 | ralvarezmar | 81.0.25.246 | simulator | introduccion_python | 212.128.254.65 | da2d7561493b1cbf947ba9ccc5bb8b5791712b49679da0bb12bd587d688e6ac9 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36 OPR/66.0.3515.44
+4 | 29/01/2020 15:26:32 | ralvarezmar | 81.0.25.246 | simulator | introduccion_python | 212.128.254.65 | da2d7561493b1cbf947ba9ccc5bb8b5791712b49679da0bb12bd587d688e6ac9 | 
+3 | 29/01/2020 16:02:08 | AnonymusUser | 142.44.167.43 | websim | sigue_linea_f1_python_websim | 142.44.167.43 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; YaK/1.0; http://linkfluence.com/; bot@linkfluence.com)

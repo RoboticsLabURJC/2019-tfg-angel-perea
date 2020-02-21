@@ -1,0 +1,11 @@
+3 | 24/12/2019 00:08:18 | AnonymusUser | 216.244.66.230 | websim | siguelinea_pibot_scratch_vision | 216.244.66.230 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; DotBot/1.1; http://www.opensiteexplorer.org/dotbot, help@moz.com)
+2 | 24/12/2019 00:09:15 | donperfecto | 139.47.0.171 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+1 | 24/12/2019 00:09:26 | jconde99 | 139.47.0.171 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+2 | 24/12/2019 00:10:06 | jconde99 | 139.47.0.171 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+1 | 24/12/2019 00:10:10 | jconde99 | 139.47.0.171 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+3 | 24/12/2019 08:51:38 | AnonymusUser | 157.55.39.153 | websim | siguelinea_pibot_scratch_vision | 157.55.39.153 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+1 | 24/12/2019 10:47:59 | d.valladaresv | 79.145.52.215 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15
+3 | 24/12/2019 10:49:25 | d.valladaresv | 79.145.52.215 | simulator | sigue_linea_ir | 212.128.254.198 | 747a7de9dc5b3fe0847157270518e58f07050a59fd8c7ce69967692744919d33 | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15
+4 | 24/12/2019 10:54:11 | d.valladaresv | 79.145.52.215 | simulator | sigue_linea_ir | 212.128.254.198 | 747a7de9dc5b3fe0847157270518e58f07050a59fd8c7ce69967692744919d33 | 
+3 | 24/12/2019 11:29:57 | d.valladaresv | 79.145.52.215 | websim | cuadrado_drone_scratch | 79.145.52.215 | [NO CONTAINER] Browser | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15
+4 | 24/12/2019 11:30:49 | d.valladaresv | 79.145.52.215 | websim | cuadrado_drone_scratch | 79.145.52.215 | [NO CONTAINER] Browser | Mozilla/5.0 (Macintosh; Intel Mac OS X 10_14_6) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/13.0.2 Safari/605.1.15

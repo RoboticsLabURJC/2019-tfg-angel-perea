@@ -1,0 +1,14 @@
+3 | 06/01/2020 09:55:25 | AnonymusUser | 216.173.66.54 | websim | siguelinea_pibot_scratch_vision | 216.173.66.54 | [NO CONTAINER] Browser | Dispatch/0.11.3
+3 | 06/01/2020 10:36:35 | AnonymusUser | 158.69.26.144 | websim | siguelinea_pibot_scratch_vision | 158.69.26.144 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; Dataprovider.com)
+3 | 06/01/2020 10:36:37 | AnonymusUser | 158.69.26.144 | websim | sigue_linea_f1_python_websim | 158.69.26.144 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; Dataprovider.com)
+3 | 06/01/2020 15:14:42 | AnonymusUser | 46.229.168.153 | websim | sigue_linea_f1_python_websim | 46.229.168.153 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; SemrushBot/6~bl; +http://www.semrush.com/bot.html)
+3 | 06/01/2020 15:37:31 | AnonymusUser | 46.229.168.151 | websim | sigue_linea_f1_python_websim | 46.229.168.151 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; SemrushBot/6~bl; +http://www.semrush.com/bot.html)
+1 | 06/01/2020 15:52:38 | Erickalexand17 | 190.131.179.175 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+3 | 06/01/2020 17:44:42 | AnonymusUser | 46.229.168.133 | websim | siguelinea_pibot_scratch_vision | 46.229.168.133 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; SemrushBot/6~bl; +http://www.semrush.com/bot.html)
+1 | 06/01/2020 23:43:04 | jconde99 | 189.45.84.233 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+2 | 06/01/2020 23:43:11 | jconde99 | 189.45.84.233 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+1 | 06/01/2020 23:44:22 | jconde99 | 189.45.84.233 | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+3 | 06/01/2020 23:45:58 | jconde99 | 189.45.84.233 | websim | playground_drone_scratch | 189.45.84.233 | [NO CONTAINER] Browser | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+4 | 06/01/2020 23:46:22 | jconde99 | 189.45.84.233 | websim | playground_drone_scratch | 189.45.84.233 | [NO CONTAINER] Browser | Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.88 Safari/537.36
+1 | 06/01/2020 23:47:49 | donperfecto | 189.45.84.233 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0
+3 | 06/01/2020 23:51:34 | donperfecto | 189.45.84.233 | simulator | sigue_linea_ir | 212.128.254.198 | dcfab00aa5027bde9b1557cb76dde6f400c3eea39e6a9712284e5b0006522967 | Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:68.0) Gecko/20100101 Firefox/68.0

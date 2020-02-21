@@ -1,0 +1,9 @@
+1 | 30/12/2019 11:58:44 | admin | 79.155.18.78 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+3 | 30/12/2019 11:58:58 | admin | 79.155.18.78 | websim | cuadrado_drone_scratch | 79.155.18.78 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+3 | 30/12/2019 11:59:17 | AnonymusUser | 79.155.18.78 | websim | cuadrado_drone_scratch | 79.155.18.78 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+4 | 30/12/2019 12:02:43 | admin | 79.155.18.78 | websim | cuadrado_drone_scratch | 79.155.18.78 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+3 | 30/12/2019 14:15:19 | admin | 79.155.18.78 | websim | cuadrado_drone_scratch | 79.155.18.78 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+4 | 30/12/2019 14:15:50 | admin | 79.155.18.78 | websim | cuadrado_drone_scratch | 79.155.18.78 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+3 | 30/12/2019 14:33:06 | admin | 79.155.18.78 | websim | playground_drone_scratch | 79.155.18.78 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+3 | 30/12/2019 14:33:41 | AnonymusUser | 79.155.18.78 | websim | playground_drone_scratch | 79.155.18.78 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0
+4 | 30/12/2019 14:43:09 | admin | 79.155.18.78 | websim | playground_drone_scratch | 79.155.18.78 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:71.0) Gecko/20100101 Firefox/71.0

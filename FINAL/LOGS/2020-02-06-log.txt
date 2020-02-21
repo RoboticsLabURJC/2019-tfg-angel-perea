@@ -1,0 +1,2 @@
+3 | 06/02/2020 09:51:54 | admin | 193.147.79.191 | simulator | sigue_linea_f1 | 212.128.254.198 | 0a6903b771c438da20e0e0ba28cfc3e709f56ea0ec45aa611e15fb5b50bca041 | Mozilla/5.0 (X11; Ubuntu; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0
+4 | 06/02/2020 09:52:20 | admin | 193.147.79.191 | simulator | sigue_linea_f1 | 212.128.254.198 | 0a6903b771c438da20e0e0ba28cfc3e709f56ea0ec45aa611e15fb5b50bca041 | 

@@ -1,0 +1,16 @@
+3 | 26/01/2020 04:38:30 | AnonymusUser | 54.36.150.132 | websim | sigue_linea_f1_python_websim | 54.36.150.132 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; AhrefsBot/6.1; +http://ahrefs.com/robot/)
+3 | 26/01/2020 09:07:43 | AnonymusUser | 207.46.13.70 | websim | sigue_linea_f1_python_websim | 207.46.13.70 | [NO CONTAINER] Browser | Mozilla/5.0 (compatible; bingbot/2.0; +http://www.bing.com/bingbot.htm)
+3 | 26/01/2020 11:27:00 | ralvarezmar | 81.0.25.145 | simulator | sigue_linea_ir | 212.128.254.198 | a26f320c057f35ed47111310fc45bc70f61444a33f9b9ee195e18ab7ef5350e0 | Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0
+4 | 26/01/2020 11:37:14 | ralvarezmar | 81.0.25.145 | simulator | sigue_linea_ir | 212.128.254.198 | a26f320c057f35ed47111310fc45bc70f61444a33f9b9ee195e18ab7ef5350e0 | 
+2 | 26/01/2020 11:37:55 | ralvarezmar | 81.0.25.145 | Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0
+1 | 26/01/2020 11:38:03 | donperfecto | 81.0.25.145 | Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0
+3 | 26/01/2020 11:38:10 | donperfecto | 81.0.25.145 | websim | siguelinea_f1_scratch_vision | 81.0.25.145 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0
+3 | 26/01/2020 11:38:16 | AnonymusUser | 81.0.25.145 | websim | siguelinea_f1_scratch_vision | 81.0.25.145 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0
+4 | 26/01/2020 11:38:31 | donperfecto | 81.0.25.145 | websim | siguelinea_f1_scratch_vision | 81.0.25.145 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Linux x86_64; rv:72.0) Gecko/20100101 Firefox/72.0
+1 | 26/01/2020 11:39:01 | donperfecto | 81.0.25.145 | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+3 | 26/01/2020 11:39:08 | donperfecto | 81.0.25.145 | websim | siguelinea_f1_scratch_vision | 81.0.25.145 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+4 | 26/01/2020 11:40:22 | donperfecto | 81.0.25.145 | websim | siguelinea_f1_scratch_vision | 81.0.25.145 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+3 | 26/01/2020 11:40:27 | donperfecto | 81.0.25.145 | websim | siguelinea_pibot_scratch_ir | 81.0.25.145 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+3 | 26/01/2020 11:40:45 | donperfecto | 81.0.25.145 | websim | siguelinea_pibot_scratch_ir | 81.0.25.145 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+4 | 26/01/2020 11:40:45 | donperfecto | 81.0.25.145 | websim | siguelinea_pibot_scratch_ir | 81.0.25.145 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
+4 | 26/01/2020 11:59:52 | donperfecto | 81.0.25.145 | websim | siguelinea_pibot_scratch_ir | 81.0.25.145 | [NO CONTAINER] Browser | Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36
