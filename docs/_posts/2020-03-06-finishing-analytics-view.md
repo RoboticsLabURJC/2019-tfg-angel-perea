@@ -32,6 +32,12 @@ The code is now much simpler, it's unnecessary match the exit event to the start
 
 ## 3. Even more data stored
 the previous user_agent field has been replaced with data from the Operative System, the browser and the device the client is using. With this I've done 3 pie charts representing the percentage of each value for each parameter.  
+
 {% capture fig_img %}
 ![Foo]({{ '/assets/images/posts/pieCharts.png' | relative_url }})
 {% endcapture %}
+
+<figure>
+  {{ fig_img | markdownify | remove: "<p>" | remove: "</p>" }}
+  <figcaption>Pie Charts of User Agent data.</figcaption>
+</figure>
