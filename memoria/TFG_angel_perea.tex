@@ -862,10 +862,62 @@ $ curl -X POST "localhost:5601/api/saved_objects/_import" -H "kbn-xsrf: true"
 
 
 	\chapter{CONCLUSIONES}
+		Finalmente, en este último capítulo se exponen las conclusiones alcanzadas, así como las competencias adquiridas durante la realización de este proyecto. Además, se plantean futuros trabajos de ampliación y mejora sobre el software desarrollado.
 		\section{Conclusiones finales}
+			Repasando lo definido en el capítulo 2, el principal objetivo de este proyecto es crear una herramienta en la que visualizar y analizar el estado de la aplicación Web Kibotics Webserver. Este objetivo se ha cumplido, se ha diseñado, desarrollado y testeado un módulo de analíticas en el que visualizar estos datos de uso de la aplicación.\\
+			
+			Adicionalmente a esto, se ha mejorado el sistema de registro de logs de la aplicación. Eliminando los ficheros de log indexados por días y creando una base de datos en ElastiSearch dividida en distintos índices sobre los que se registran variedad de eventos. Aumentando así la escalabilidad de este proceso de registro de logs y eventos, con lo que se consigue que esta sea una solución robusta y duradera.
 		\section{Competencias adquiridas}
+			En esta sección se enumeran las principales habilidades que se han adquirido en el desarrollo de este proyecto:
+			\begin{itemize}
+				\item Django y Python como herramientas muy potentes y accesibles para el desarrollo Web. Además, gracias a las librerías de las que estas disponen, son herramientas muy versátiles.\\
+				
+				\item Despliegue e implementación de diferentes tipos de bases de datos en un proyecto real. Importancia de la información para monitorizar un servicio Web.\\
+				
+				\item El Stack ELK, ha sido una herramienta muy potente de la que he aprendido como es integrar varias tecnologías para crear un producto complejo, interconectado e interesante.\\
+				
+				\item GitHub, durante el desarrollo de este proyecto este repositorio ha estado siempre presente junto a la filosofía 'release often, release soon'.\\
+				
+				\item Trabajar en un software actualmente productivo sobre el que desarrollar para crear nuevas funcionalidades. Saber que no se dispone de los pasos a seguir y tener que investigar diferentes tecnologías para encontrar una solución óptima.\\
+				 
+				\item Una primera toma en contacto con el análisis de datos, sobre el que tendré que seguir aprendiendo y descubriendo nuevas tecnologías.\\
+			\end{itemize}
+			
 		\section{Competencias empleadas}
+			En el transcurso de este proyecto se han utilizado muchos de los conocimientos y habilidades adquiridos en el Grado, en especial en las asignaturas relacionadas con el desarrollo web. A continuación se enumerarán estas y otras asignaturas que me han aportado los conocimientos necesarios:
+			
+			\begin{itemize}
+				\item Informática I, con el lenguaje ’Picky’ donde aprendí los fundamentos básicos de programación.	
+				
+				\item Informática II, en la que se llevaron a cabo proyectos más complejos, centrado en el aprendizaje de punteros y estructuras de datos complejas como tablas Hash. Haciendo uso del lenguaje ADA.	
+						
+				\item Protocolos de Transmisión de Audio y Vídeo en Internet, primera toma de contacto con Python y GithHub, herramientas imprescindibles para el desarrollo de este proyecto.
+							
+				\item Gráficos y visualización 3D, introducción al desarrollo web, centrado en JavaScript y el canvas HTML.			
+			
+				\item Construcción de Servicios y Aplicaciones Audiovisuales en Internet, asignatura muy importante en la que se profundizó en las 3 tecnologías web principales: JavaScript, HTML y CSS.
+				
+				\item Laboratorios en Tecnologías y Aplicaciones Web, ampliación de la anterior asignatura en la que aprendí a trabajar con frameworks web como NodeJS o Django, base de Kibotics Webserver.
+			\end{itemize}
+			
+			
 		\section{Trabajos futuros}
+			En esta sección se proponen una serie de mejoras o ampliaciones con las que aumentar la funcionalidad del módulo de analíticas desarrollado:
+			
+			\begin{itemize}
+				\item Kibotics Webserver es una aplicación grande y en constante ampliación, añadir mas sondas con las que tener la aplicación controlada será recomendable. Con estas nuevas sondas será necesaria la creación de nuevos índices y visualizaciones.\\
+				
+				\item Actualmente los datos almacenados en ElasticSearch solo pueden ser analizados accediendo al módulo desarrollado. Una herramienta automática que analice estos datos sería muy interesante para controlar, por ejemplo que todos los ejercicios están siendo accedidos y los tiempos de desarrollo de los usuarios no son demasiado elevados.\\
+				
+				\item El Stack ELK posee, además de ElasticSeach y Kibana, otras herramientas muy interesantes como Logstash y Beats. Las cuales pueden dotar a ElasticSeach de nuevos datos procedentes de otras fuentes, como por ejemplo, logs del servidor con los que controlar los accesos que sufre la herramienta.\\
+				
+				\item Explorar otras mejoras de integración a la Web De kibotics, ya que el Iframe no es algo ideal que tener en un servicio productivo por motivos de seguridad.\\
+							
+				\item El Stack ELK es un software en constante evolución la cual añade nuevas y mejores funcionalidades constantemente. Mantener las versiones del software actualizadas es recomendable.\\
+				
+				\item Al proporcionar información muy sensible sobre el servicio, aumentar la seguridad en el servidor para acceder a estos datos es necesario.\\
+			\end{itemize}
+		
 	\chapter{REFERENCIAS}
 	Django
 https://www.djangoproject.com/
