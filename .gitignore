@@ -1,1 +1,10 @@
 kibotics-webserver/
+*.aux
+*.bbl
+*.blg
+*.lof
+*.log
+*.toc
+*.synctex.gz
+*.pytxcode
+*rev/

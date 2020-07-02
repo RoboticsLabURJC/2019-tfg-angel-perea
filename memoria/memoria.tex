@@ -396,9 +396,9 @@
 	
 
 	\cleardoublepage 
-	\chapter{Primer prototipo} 
+	\chapter{Analíticas basadas en MongoDB y Matplotlib} 
 	\label{chap:primer_prototipo} 
-		En este capítulo se describe el estado inicial de Kibotics Webserver, tanto arquitectura de la aplicación como tecnologías en las que está desarrollado. Además, se define el diseño que será implementado para el primer prototipo de la herramienta de análisis. Se exponen los pasos realizados para la integración de MongoDB como base de datos, y de Matplotlib como generador de visualizaciones de la herramienta de analíticas que se integrará en Kibotics Webserver.
+		En este capítulo se describe el estado inicial de la plataforma Kibotics en cuanto a recogida automática de datos y su análisis, tanto arquitectura de la aplicación como las tecnologías en las que está desarrollado. Además, se define el diseño que se ha implementado en el primer prototipo que mejora la funcionalidad de análisis automático en la plataforma Kibotics. Se exponen los pasos realizados para la integración de MongoDB como base de datos, y de Matplotlib como generador de visualizaciones de la herramienta de analíticas que se integrará en Kibotics Webserver.
 	
 	
 	\section{Antecedentes} 
@@ -798,38 +798,444 @@
 	
 	
 	\cleardoublepage 
-	\chapter{Segundo prototipo} 
+	\chapter{Analíticas basadas en Elasticsearch y Kibana} 
 	\label{chap:segundo_prototipo} 
-		(INCOMPLETO)
-	
+		En este capítulo se describen las nuevas tecnologías utilizadas en la versión final del módulo de analíticas que sustituyen a MongoDB y Matplotlib. Para enriquecer los datos que se estaban almacenando por las sondas del servidor, a esta nueva versión de la herramienta, se han añadido nuevas sondas y enriquecido las existentes. También se detallan la creación de recursos de prueba para que los futuros desarrolladores puedan integrar estas tecnologías en local.
 	
 	\section{Diseño} 
 	\label{sec:2_diseno} 
-		(INCOMPLETO)
-		cambiar cosas sobre la figura del cap 4
-		ahora ddbb elasticsearch xk
-		ahora se conecta a kibana para la visualizacion xk
-		descripciona panoramica
+%		cambiar cosas sobre la figura del cap 4
+%		ahora ddbb elasticsearch xk
+%		ahora se conecta a kibana para la visualizacion xk
+%		descripciona panoramica
+		Para el desarrollo de las mejoras necesarias de la herramienta de analíticas, el primer paso es realizar un diseño con los cambios a implementar así como las nuevas tecnologías involucradas. \\
+		
+		El primer prototipo  estaba basado en MongoDB como base de datos de logs, y con Matplotlib como generador de visualizaciones. Pese a ser bastante completo, carece de cierta información útil como datos de visitantes a la aplicación o acerca del \textit{software} y \textit{hardware} utilizado por los usuarios. Además, debido a la necesidad de renderizar cada una de las imágenes en Python, el subsistema de analíticas era lento. \\
+		
+		Es por esto, que se decide cambiar la tecnología de visualización de datos a Kibana. Al ser Kibana parte del stack ELK, la base de datos cambia a Elasticsearch para poder utilizar todo el potencial que este ecosistema ofrece. \\
+		
+		Para enriquecer los datos almacenados y evitar tener que cruzar datos como se detalla en la subsección \ref{subsec:matplotlib_kibotics}, se van a añadir más sondas de almacenamiento de datos, esta vez con datos relativos a la actividad de los visitantes de la plataforma educativa. Además, se van a unificar las tablas en las que se almacenarán registros similares, evitando tener así que cruzar datos. Estos cambios reducirán el coste computacional de la herramienta haciéndola así más rápida. \\
+		
+		El nuevo diseño y los cambios de tecnología involucrados en este prototipo final se pueden ver representados de forma esquemática en la Figura \ref{fig:arquitectura_kibotics_2}. 
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=13cm, keepaspectratio]{img/esquema_Kibotics_2.png}
+			\includegraphics[width=15cm, keepaspectratio]{img/esquema_Kibotics_2.png}
 			\caption{Arquitectura Kibotics segundo prototipo.}
 			\label{fig:arquitectura_kibotics_2}
 		\end{figure}
 	
-	\section{Implementacion} 
+	\section{Implementación} 
 	\label{sec:2_implementacion} 
-		(INCOMPLETO)
-		detalles de elasticsearch
-		detalles de kibana
+	
+%		detalles de elasticsearch
+%		detalles de kibana	
+		En esta sección se detallan los cambios involucrados en el desarrollo de la herramienta de analíticas para la integración de Elasticsearch como base de datos y Kibana como herramienta de visualización. Además, de esta versión final de la herramienta, se explica la generación de recursos de prueba para futuros desarrolladores de Kibotics.
+	\subsection{Elasticsearch en Webserver}
+	\label{subsec:elasticsearch_kibotics}
+	
+		El primer paso en el proceso de mejora de la herramienta es el cambio de base de datos. Para hacer uso del stack ELK, es necesario sustituir MongoDB por Elasticsearch. Para esto lo primero será instalar e iniciar un servicio de Elasticsearch en local \footnote{https://www.elastic.co/guide/en/elasticsearch/reference/current/targz.html}.\\
+				
+		Una vez iniciado el servicio Elasticsearch, ya dispondremos de la base de datos sobre la que guardar los registros de log o documentos, como se llaman en Elasticsearch. Similar a las tablas de las que hacía uso MongoDB, estos documentos se almacenan en índices, cada uno de los cuales está definido por un esquema de campos y tipologías que definen la estructura de los documentos que almacenan.\\
+		
+		Se podrán crear tantos índices como sea necesario, para consultarlos se puede lanzar una sentencia por terminal, o acceder con la IP y el puerto desde un navegador a la \texttt{API REST} configurada en instalación. Un ejemplo de llamada para un índice llamado index\_name\_test es la siguiente:
+		
+		{\footnotesize
+		\begin{verbatim}
+			http://127.0.0.1:9200/index_name_test/_search/?size=1000&pretty
+		\end{verbatim}
+		}
+		
+		El siguiente paso es la integración de Elasticsearch en Django. Se realizará haciendo uso de la librería Python \texttt{django\_elasticsearch\_dsl}. Para migrar de MongoDB a Elasticsearch se han realizado dos pasos: creación de los índices y migración de las sondas que almacenan los logs de MongoDB a Elasticsearch.\\
+		
+		
+		El primer paso consistió en crear los índices de Elasticsearch. Estos índices son muy similares a los modelos que se utilizan en Django para representar la información de la base de datos. Para esta versión de la herramienta se crean los siguientes índices: 				
+		
+		\begin{itemize}
+			\item \texttt{kibotics\_session\_log}: índice en el que se almacenan los eventos referentes a las sesiones.
+			
+			\item \texttt{kibotics\_simulation\_log}: índice en el que se almacena la información relativa a las simulaciones.
+			
+			\item \texttt{kibotics\_error\_log}: índice en el que se almacenan los eventos referentes a los errores.
+			
+			\item \texttt{kibotics\_visit\_log}: índice en el que se almacena la información relativa a las visitas.
+		\end{itemize}				
+		
+		Para evitar la problemática que surgió durante el desarrollo del primer prototipo, relativo al cálculo de la duración de los eventos, se ha eliminado el campo que almacenaba la fecha. Para sustituirlo, se han añadido dos nuevos campos a los índices de Elasticsearch los cuales establecerán el inicio y fin de cada evento, unificando así los dos registros de log que se tenían en la primera versión.\\
+		
+		Por otro lado, el campo \texttt{USER\_AGENT}, que se almacenaba anteriormente y ofrecía información acerca del dispositivo y software que utilizaban los visitantes de la web, ha sido dividido y sustituido con la información del navegador, dispositivo y sistema operativo. Cada uno con su propio campo en los esquemas de los índices de Elasticsearch. Ofreciendo así la información de forma más clara y eliminando ciertos datos no útiles para las visualizaciones que se quieren generar.\\
+		
+		Para trabajar en Kibana con mapas geográficos es necesario guardar tanto la longitud como la latitud, para lo cual se hará uso de una tipología de campo ya existente en Elasticsearch llamado \textit{Geo Point} que almacenará en un diccionario ambas variables.\\
+		
+		Para complementar las nuevas sondas, que se han mencionado anteriormente y se explicarán con más detalle a continuación, es necesario la creación de un nuevo índice de visitas, en el que se registrarán los accesos a la pagina principal de la aplicación, estén o no registrados.\\
+		
+		Un ejemplo de la definición en Django del índices de sesiones de Kibotcis Webserver en el fichero \texttt{documents.py} es:
+		
+		{\footnotesize
+		\begin{verbatim}
+			from django_elasticsearch_dsl import Document, Text, Date, Double, GeoPoint, Ip
+			
+			class SessionDocument(Document):
+			    username = Text()
+			    start_date = Date()
+			    end_date = Date()
+			    duration = Double()
+			    client_ip = Ip()
+			    browser = Text()
+			    os = Text()
+			    device = Text()
+			    location = GeoPoint()
+			
+			    class Index:
+			        name = 'kibotics_session_log'
+			        settings = {
+			            'number_of_shards': 1,
+			            'number_of_replicas': 0
+			        }		
+		\end{verbatim}
+		}
+		
+		Con todo esto, se tiene una base sólida sobre la que almacenar la información de logs, solo falta modificar el guardado en Elasticsearch, migar las sondas que almacenan los registros de log.\\
+		
+		Para enriquecer las sondas ya existentes y hacer uso de los nuevos campos e índices creados, se han añadido nuevas sondas para almacenar eventos de visitantes, así como sondas para optimizar la monitorización de salida de sesiones y simulaciones y evitar no tener un registro de inicio sin su correspondiente registro de fin de evento por un cierre busco de la aplicación o inactividad.\\
+		
+		Las sondas de inicio de los eventos son similares a las que se tenían anteriormente en MongoDB, un ejemplo para la sonda de inicio de simulación es:
+		
+		{\footnotesize
+		\begin{verbatim}
+			SimulationDocument(
+			    username = "USERNAME_TEST",
+			    start_date = start_date_object_test,
+			    end_date = start_date_object_test,
+			    duration = 0.0,
+			    client_ip = "CLIENT_IP_TEST",
+			    simulation_type = "SIMULATION_TYPE_TEST",
+			    exercise_id = "EXERCISE_ID_TEST",
+			    browser = "BROWSER_TEST",
+			    os = "OS_TEST",
+			    device = "DEVICE_TEST",
+			    location = {'lat': latitude_double_test, 'lon': longitude_double_test}
+			).save()
+		\end{verbatim}
+		}
+	
+		Sin embargo, al unificar los registros de entrada y salida en un único documento las sondas de fin de sesión/simulación cambian. Tendrán que buscar en Elasticsearch el último documento no finalizado en el índice para el usuario del cual se quiera cerrar el evento y sustituir tanto los campos \texttt{end\_date} como \texttt{duration}. \\
+		
+		Esto se realiza gracias al identificador que cada documento indexado posee al cual se le realiza una operación \textit{update} con los nuevos campos. Un ejemplo de cierre de sesión en Python es:
+		
+		
+		{\footnotesize
+		\begin{verbatim}
+			# Búsqueda del ultimo registro de sesión no cerrado
+			latest_session = Search(index="kibotics_session_log*") \
+			                .query("match", username=username) \
+			                .query('match', duration=0) \
+			                .sort({"start_date": {'order': 'desc'}})[0]
+			
+			# Actualización de los campos end_date y duration
+			for hit in latest_session:
+			    duration = datetime.now() - datetime.strptime( \
+			    hit.start_date, \
+			    "%Y-%m-%dT%H:%M:%S.%f")
+			
+			    Elasticsearch(settings.ELASTICSEARCH_DSL['default']['hosts']) \
+			        .update(index = 'kibotics_session_log', 
+			                id = hit.meta.id,
+			                body = {"doc": {
+			                            'end_date' : datetime.now(), 
+			                            'duration' : duration.total_seconds()
+			                            }
+			                        })
+		\end{verbatim}
+		}
+	
+		Durante el desarrollo de está lógica es útil hacer uso de la interfaz de Elasticsearch para comprobar que todos estos campos están siendo creados y actualizados correctamente. A esta interfaz se accede mediante la \texttt{URL} y puerto configurados durante el proceso de instalación.\\
+		
+		En esta \texttt{API}, podremos realizar filtrados por campos e índices haciendo uso de expresiones regulares \textit{Regex}, por ejemplo para acceder al índice en el que se almacenan los documentos relativos a los logs de sesiones, podremos acceder mediante la siguiente \texttt{URL}:
+		
+		{\footnotesize
+		\begin{verbatim}
+			http://127.0.0.1:9200/kibotics_session_log/_search/?size=1000&pretty
+		\end{verbatim}
+		}
+	
+		En la Figura \ref{fig:api_elasticsearch} se puede observar la respuesta que se obtiene de la API de Elasticsearch en el navegador a la llamada anterior.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=6cm, keepaspectratio]{img/api_elasticsearch.png}
+			\caption{API Rest Elasticsearch.}
+			\label{fig:api_elasticsearch}
+		\end{figure}
+		
+	
+	\subsection{Kibana en Webserver}
+	\label{subsec:kibana_kibotics}
+		Para acceder a Kibana, deberemos primero instalar y ejecutar el servicio\footnote{https://www.elastic.co/guide/en/kibana/current/targz.html}. Una vez Kibana está ejecutando podremos acceder a su interfaz gráfica mediante la URL y puerto configurado en la instalación:
+		
+		{\footnotesize
+		\begin{verbatim}
+			http://127.0.0.1:5601/app/kibana#/home
+		\end{verbatim}
+		}
+	
+		Ya con datos en Elasticsearch almacenados y como se muestra en la Figura \ref{fig:index_pattern_kibana}, Kibana nos pedirá que añadamos los índices sobre los que queremos obtener soporte y seleccionemos el campo sobre el que se filtrarán temporalmente estos logs. En este caso se utilizará el campo start\_date.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=11cm, keepaspectratio]{img/index_pattern_kibana.png}
+			\caption{Creación de índices en Kibana.}
+			\label{fig:index_pattern_kibana}
+		\end{figure}
+		
+		Configurados todos los índices en Kibana se tiene una primera visualización de los documentos indexados en Elasticsearch en la pestaña \textit{Discover} de Kibana. En esta pestaña podremos ver todos los logs que estén almacenados en los índices, así como un histograma en el que se podrá ver gráficamente la evolución de estos índices en el tiempo. Además, esta sección \textit{Discover} proporciona la posibilidad de filtrar por rangos de fechas y campos así como se tenía en el primer prototipo de este proyecto.\\
+		
+		Esta sección ya nos da una primera pincelada de la potencia de procesamiento de Kibana, así como la sencillez de implementación y despliegue. Las consultas son instantáneas, notablemente más rápidas que las realizadas en el primer prototipo desarrollado.\\
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=15cm, keepaspectratio]{img/discover_kibana.png}
+			\caption{Sección \textit{Discover} en Kibana.}
+			\label{fig:discover_kibana}
+		\end{figure}
+		
+		Kibana ofrece la posibilidad de creación de \textit{scripted fields}, campos cuyo valor deriva de otros campos o datos ya indexados. Generados en un lenguaje muy similar a \texttt{C} llamado \texttt{painless}. \\
+		
+		Para el módulo de analíticas que se quiere desarrollar, y en especial para las visualizaciones que filtran por día de la semana y por hora del día, se han creado dos \textit{scripted fields} para cada uno de los índices utilizados. Estos son \texttt{day\_of\_week} y \texttt{hour\_of\_day}, el código painless utilizado para la creación de estos campos es el siguiente:
+		
+		{\footnotesize
+		\begin{verbatim}
+			// day_of_week
+			["", "1 Lunes", "2 Martes", "3 Miercoles", "4 Jueves", "5 Viernes",
+			"6 Sabado", "7 Domingo"] [doc['start_date'].value.dayOfWeek]
+			
+			// hour_of_day
+			doc['start_date'].value.hourOfDay
+		\end{verbatim}
+		}
+	
+		Con estos \textit{scripted fields} además de los campos ya almacenados en los documentos, Kibana dispone de todos los datos necesarios para la creación de las visualizaciones. Para ello, en la sección \textit{Visualize}, Kibana tiene una colección de distintas plantillas gráficas. Estas plantillas serán las que se configuren con los índices, documentos y campos a usar para la generación de los distintos tipos de visualizaciones. En la Figura \ref{fig:visualization_selector} se muestran algunas de las visualizaciones que Kibana ofrece.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=8cm, keepaspectratio]{img/visualization_selector.png}
+			\caption{Menú creación de visualizaciones.}
+			\label{fig:visualization_selector}
+		\end{figure}
+		
+
+		Ya creadas las visualizaciones, solo quedará integrarlas en Kibotics sustituyendo las generadas en Matplotlib. Para ello se creará una vista \texttt{menú} con la que se seleccionará a que tipo de analíticas se quiere acceder. Este menú selector de analíticas es el mostrado a continuación en la Figura \ref{fig:kibotics_analytics_menu}.
+	
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=14cm, keepaspectratio]{img/kibotics_analytics_menu.png}
+			\caption{Menú de selección de analíticas en Kibotics}
+			\label{fig:kibotics_analytics_menu}
+		\end{figure}
+		
+		En esta vista se filtrará tanto por usuarios y grupos, como por fechas de las cuales se quieren analíticas. Una vez filtrado, Django generará automáticamente una \texttt{URL} con los datos seleccionados en el Menú de Kibotics. Esta \texttt{URL} dinámica apuntará a las visualizaciones de nuestro servicio de Kibana y será devuelta por el contexto de Django hasta las plantillas Django que lo insertarán en un elemento \texttt{HTML iFrame}.
+	
 
 	\section{Validación experimental} 
 	\label{sec:2_validacion_experimental} 
-	(INCOMPLETO)
-		video ilustrativo - pantallazos
-		creacion de base de datos dummy ES
-		creacion de base de datos dummy Kibana	
+%		video ilustrativo - pantallazos
+%		creacion de base de datos dummy ES
+%		creacion de base de datos dummy Kibana	
+
+
+		Para esta versión final del módulo de analíticas, se han creado una amplia selección de visualizaciones de las que obtener información de actividad de los usuarios. Divididas en dos \textit{Dashboards} o tableros, el primero reservado a los visitantes no registrados y el segundo para analíticas de sesiones y simulaciones de usuarios registrados. A continuación, se mostrarán las visualizaciones creadas así como una explicación de lo que representan.\\
+		
+		Para tener un control del número de accesos a lo largo del tiempo se creó el histograma representado en la Figura \ref{fig:kibana_histogram}. Este histograma muestra los eventos almacenados en el índice \texttt{kibotics\_session\_log} dividido día a día en el eje de abscisas.	
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=9cm, keepaspectratio]{img/kibana_01_histogram}
+			\caption{Histograma}
+			\label{fig:kibana_histogram}
+		\end{figure}
+		
+		Se ha creado un mapa de calor, que al igual que el histograma antes mencionado, representa la actividad de inicio de eventos. Dividido en columnas, cada una representa una semana con sus 7 días correspondientes. Un color más oscuro en la celda indica mayor actividad para ese día. Como se puede observar en la Figura \ref{fig:kibana_heatmap}, hay una visualización para las sesiones y otro para las simulaciones, división recurrente que se observa en distintas secciones del módulo Kibana desarrollado.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=13cm, keepaspectratio]{img/kibana_02_heatMap}
+			\caption{Mapa de calor sesiones y simulaciones}
+			\label{fig:kibana_heatmap}
+		\end{figure}
+		
+		La Figura \ref{fig:kibana_dayofweek}, dividida en dos visualizaciones, representa la actividad tanto de sesiones como de simulaciones almacenada en los índices de Elasticsearch \texttt{kibotics\_session\_log} y \texttt{kibotics\_simulation\_log} respectivamente. En formato gráfico de barras vertical, los datos, filtrados por el día de la semana en que se registraron en el campo inicio de evento \texttt{start\_date}. \\
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=14cm, keepaspectratio]{img/kibana_03_day_of_week}
+			\caption{Gráfico de barras por día de la semana}
+			\label{fig:kibana_dayofweek}
+		\end{figure}
+		
+		La Figura \ref{fig:kibana_hourofday} muestra, en dos visualizaciones con gráficas de barras verticales, la actividad en el servicio web Kibotics. Filtrados, esta vez, por la hora del día en que se registraron los eventos. Como se puede observar, cada una de estas visualizaciones corresponde a uno de los eventos que han sido logueados en Elasticsearch y almacenados en los índices \texttt{kibotics\_session\_log} y \texttt{kibotics\_simulation\_log}.\\
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=14cm, keepaspectratio]{img/kibana_04_hour_of_day}
+			\caption{Gráfico de barras por hora del día}
+			\label{fig:kibana_hourofday}
+		\end{figure}
+		\newpage		
+		
+		Para mostrar la actividad en las simulaciones que Kibotics ofrece, se han desarrollado las visualizaciones representadas en la Figura \ref{fig:kibana_simulations}. Dividido en dos gráficas de barras que representan el tiempo invertido por los usuarios. Esta información está almacenada en el campo \texttt{duration} del índice \texttt{kibotics\_simulation\_log}. La primera visualización muestra el tiempo total invertido y la última representa el tiempo medio invertido.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=13cm, keepaspectratio]{img/kibana_05_simulations}
+			\caption{Gráfico de barras para tiempo total y medio en simulaciones}
+			\label{fig:kibana_simulations}
+		\end{figure}
+		
+		En la Figura \ref{fig:kibana_map}, se representa gráficamente la superficie terrestre, en ella se muestran eventos de inicio de sesión ocurridos para el rango de fechas seleccionado. Hace uso de los datos de latitud y longitud almacenados en formato \texttt{Geo Point} del índice \texttt{kibotics\_session\_log}.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=10cm, keepaspectratio]{img/kibana_06_map}
+			\caption{Mapa geográfico de sesiones}
+			\label{fig:kibana_map}
+		\end{figure}
+		
+		Para monitorizar el \textit{hardware} y \textit{software} utilizado por los usuarios de la web, se han desarrollado las tres gráficas circulares mostradas a continuación en la figura \ref{fig:kibana_pie}. Cada una de ellas representa porcentualmente campos almacenados en el índice de sesiones  \texttt{kibotics\_session\_log} que proporcionan información acerca del sistema operativo, dispositivo y navegador utilizados.
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=14cm, keepaspectratio]{img/kibana_07_pie}
+			\caption{Gráficas circulares para SO, Dispositivo y Navegador}
+			\label{fig:kibana_pie}
+		\end{figure}
+		
+		En la figura \ref{fig:kibana_latestevent}, se muestra una última sección con dos tablas de datos con los últimos eventos de sesión y simulación almacenados en los índices \texttt{kibotics\_session\_log} y \texttt{kibotics\_simulation\_log} de Elasticsearch para cada uno de los usuarios filtrados. 
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=10cm, keepaspectratio]{img/kibana_08_latest_event}
+			\caption{Últimos eventos logueados}
+			\label{fig:kibana_latestevent}
+		\end{figure}
+		
+		Todas estas visualizaciones son interactivas y se puede filtrar por sus campos simplemente pulsando sobre ellas. Funcionalidad muy útil que no poseían las imágenes renderizadas que se generaban en el primer prototipo. Además, cada una de las visualizaciones del módulo desarrollado tiene una opción para ver los datos representados en texto plano e incluso descargarlos en formato \texttt{CSV} para su posterior tratamiento.\\
+		
+		Se han mostrado las visualizaciones referentes a la sección de sesiones y simulaciones de usuarios registrados ya que es la que más información proporciona, pero hay otra sección de analíticas de visitantes con unas visualizaciones de monitorización similares a las mostradas anteriormente.
+		
+	 	A continuación, en las siguientes figuras, se muestra Kibana ya integrado en la nueva vista de analíticas del servicio web Kibotics haciendo uso del \texttt{iFrame}.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=11cm, keepaspectratio]{img/kibana_kibotics_01.png}
+			\caption{Kibana en Kibotics parte 1}
+			\label{fig:kibana_kibotics_01}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=11cm, keepaspectratio]{img/kibana_kibotics_02.png}
+			\caption{Kibana en Kibotics parte 2}
+			\label{fig:kibana_kibotics_02}
+		\end{figure}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=12cm, keepaspectratio]{img/kibana_kibotics_03.png}
+			\caption{Kibana en Kibotics parte 3}
+			\label{fig:kibana_kibotics_03}
+		\end{figure}
+
+		Para proporcionar a los futuros desarrolladores los recursos necesarios con los que poder empezar a trabajar sin tener que crearlos de manera manual, se ha creado una base de datos dummy la cual ofrece una variedad de datos para todos los índices utilizados tanto en este proyecto, como en otros desarrollos paralelos.\\
+
+		La creación de esta base de datos de pruebas se generó mediante un \textit{script} de Python que crea los índices y su estructura haciendo uso de la librería que Elasticsearch proporciona para Python.\\
+		
+		El \textit{script} creará todos los índices con sus respectivas estructuras y tipologías de datos. Un ejemplo para el índice de sesiones es:
+		
+		{\footnotesize
+		\begin{verbatim}
+			# Import librería Elasticsearch y conexión
+			from elasticsearch import Elasticsearch
+			client = Elasticsearch()
+			
+			# JSON con la estructura del índice
+			session_mapping = {
+			    "settings": {
+			        "number_of_shards": 1,
+			        "number_of_replicas": 0 },
+			    "mappings": {
+			        "properties": {
+			            "username": { "type":"keyword" },
+			            "start_date":{ "type":"date" },
+			            "end_date":{ "type":"date" },
+			            "duration": { "type":"double" },
+			            "client_ip":{ "type":"ip" },
+			            "browser": { "type":"keyword" },
+			            "device":{ "type":"keyword" },
+			            "location": { "type": "geo_point" },
+			            "os":{ "type":"keyword" }
+			        }
+			    }
+			}
+			
+			# Creación del índice en Elasticsearch
+			client.indices.create( index="kibotics_session_log",
+			                       body=session_mapping,
+			                       ignore=400 )
+		\end{verbatim}
+		}
+	
+		Una vez creadas las estructuras de los índices, el siguiente paso es guardar todos los objetos con la información de prueba que se deseé guardar.\\
+		
+		Finalizada la ejecución del \textit{script} ya tendríamos los datos en nuestro servicio local de Elasticsearch. Para simplificar más la instalación de la base de datos, se han generado una serie de documentos \texttt{JSON} con la estructura y datos que otros usuarios importarán a su servicio Elasticsearch.\\
+		
+		Estos documentos \texttt{JSON} se han generado haciendo uso de la herramienta \texttt{elasticdump}, la cual tiene una instalación muy sencilla:
+		
+		{\footnotesize
+		\begin{verbatim}
+			$ sudo npm install elasticdump -g
+		\end{verbatim}
+		}
+		Para la generación de los documentos de datos y mapeo se han ejecutado las siguientes sentencias para cada uno de los índices usados en Elasticsearch:
+		
+		{\footnotesize
+		\begin{verbatim}
+			$ elasticdump --input=http://127.0.0.1:9200/"INDEX_NAME" 
+			--output="./mapping_elasticseach.json" --type=mapping
+			
+			$ elasticdump --input=http://127.0.0.1:9200/"INDEX_NAME" 
+			--output="./data_elasticsearch.json" --type=data
+		\end{verbatim}
+		}
+	
+		Para la importación de estos ficheros en la base de datos, el desarrollador simplemente tiene que instalar \texttt{elasticdump} y ejecutar un \textit{script bash} el cual recorre y almacena todos los ficheros al servicio Elasticsearch local:
+		
+		{\footnotesize
+		\begin{verbatim}
+			indexes="session simulation visit error classification ranking"
+			directory="./kibotics_dummy_es/"
+			
+			for index in $indexes; do
+			    elasticdump --output=http://127.0.0.1:9200/"kibotics_"$index"_log" 
+			        --input=$directory"mapping_"$index"_es.json" --type=mapping
+			
+			    elasticdump --output=http://127.0.0.1:9200/"kibotics_"$index"_log" 
+		        --input=$directory"data_"$index"_es.json" --type=data
+			done
+		\end{verbatim}
+		}
+		
+		El proceso de exportación e importación de datos de prueba para Kibana es sencillo pues la propia interfaz gráfica de Kibana nos proporciona una herramienta para realizarlo como muestra la Figura \ref{fig:export_kibana}.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=7cm, keepaspectratio]{img/export_kibana.png}
+			\caption{Exportación en interfaz Kibana.}
+			\label{fig:export_kibana}
+		\end{figure}
+		
+		Esta herramienta nos generará un fichero \texttt{NDJSON} similar a la estructura \texttt{JSON} con los patrones de índices creados, así como las visualizaciones, tablas o \textit{scripted fields} guardados en Kibana.\\
+		
+		Para que un futuro desarrollador importe estos datos simplemente podrá hacerlo por la interfaz gráfica de Kibana. Para unificar la metodología y ya que en el servidor de pre-producción/producción no se dispone de esta interfaz gráfica, esta también se puede realizar mediante la siguiente sentencia:\\
+		
+		
+		{\footnotesize
+		\begin{verbatim}
+			$ curl -X POST "localhost:5601/api/saved_objects/_import" -H "kbn-xsrf: true" 
+			--form file=@kibotics_dummy_kibana.ndjson
+		\end{verbatim}
+		}
 
 
 
