@@ -119,13 +119,13 @@
 	
 	
 	\vspace{0.5cm}
-	\textbf{Presidente: (INCOMPLETO)}
+	\textbf{Presidente: }
 	
 	\vspace{1.2cm}
-	\textbf{Secretario: (INCOMPLETO)}
+	\textbf{Secretario: }
 	
 	\vspace{1.2cm}
-	\textbf{Vocal: (INCOMPLETO)}
+	\textbf{Vocal: }
 	
 	
 	\vspace{1.2cm}
@@ -318,7 +318,7 @@
 		
 	\subsection{Elasticsearch}
 	\label{subsec:elasticsearch}
-		Elasticsearch \cite{elasticseach} es una base de datos. Junto a Logstash y Kibana, los tres proyectos open source, forman el stack ELK. En la siguiente figura \ref{fig:ELK_Stack} se muestra un diagrama de flujo de estas tecnologías involucradas en el stack ELK.\\
+		Elasticsearch \cite{elasticsearch} es una base de datos. Junto a Logstash y Kibana, los tres proyectos open source, forman el stack ELK. En la siguiente figura \ref{fig:ELK_Stack} se muestra un diagrama de flujo de estas tecnologías involucradas en el stack ELK.\\
 		
 		\begin{figure}[H]
 			\centering
@@ -403,34 +403,12 @@
 	
 	\section{Antecedentes} 
 	\label{sec:1_antecedentes} 
-%%		foto de kibotics antes de llegar -> panorámica plataforma educativa Kibotics
-%%		como recoge datos -> se graban en un fichero de Log X datos
-%				que visualiza -> no hay
-%%		describir uso típico de un user en la plataforma para dar contexto
-%%		importancia de los ejercicios
-%%		para dar sentido a la explicación de la importancia de las sondas
-%		
-%%		 ----  3 subsecciones???
-%%		1 panoramica kibotics
-%%		2 uso tipico
-%%		3 estado de data science
-%		
-%%		dibujo de la arquitectura
-%%		- servidor django
-%%		- simulador web y editor + traductores donde los usuarios se registran
-%		
-%%		pantallazo kibotics
-%		
-%%		QUITAR GRANJA + DOCKER y poner WEBSIM
-		
-		En esta sección se describe la arquitectura que poseía Kibotics Webserver al comienzo del desarrollo de este proyecto. Así como un caso de uso típico en la plataforma (INCOMPLETO) \\
-		
-		Kibotics es una plataforma educativa \textit{online} en la que se enmarca este proyecto. Ofrece herramientas centradas en la docencia en robótica y programación para alumnos de secundaria. Con una gran variedad de ejercicios en los que los alumnos pueden aprender conceptos básicos acerca de distintos lenguajes de programación como scratch o python, así como introducirse a la visión artificial o la simulación en robots reales. Estos ejercicios tienen dos secciones principales:
+		Kibotics es una plataforma educativa \textit{online}, en la que se enmarca este proyecto. Ofrece herramientas centradas en la docencia en robótica y programación para alumnos de secundaria. Con una gran variedad de ejercicios en los que los alumnos pueden aprender conceptos básicos acerca de distintos lenguajes de programación como Scratch o Python, así como introducirse a la visión artificial o la simulación en robots. Estos ejercicios tienen dos secciones principales:
 		
 		
 		\begin{enumerate}
 			\item Una primera vista con contenidos teóricos, incluye una explicación del ejercicio así como conceptos útiles en la resolución del mismo. 
-			\item La segunda y última vista será donde los alumnos desarrollen su solución. Dividida en el editor y en el simulador \texttt{WebSim} como se muestra en la figura \ref{fig:editor_simulador_kibotics}. El simulador web ejecuta el código desarrollado en el editor de texto, este se ejecuta en el cliente del servicio.
+			\item La segunda vista es donde los alumnos desarrollen su solución. Dividida en el editor y en el simulador \texttt{WebSim}, como se muestra en la Figura \ref{fig:editor_simulador_kibotics}. El simulador web ejecuta el código desarrollado en el editor de texto.
 		\end{enumerate}
 		
 		\begin{figure}[H]
@@ -440,14 +418,14 @@
 			\label{fig:editor_simulador_kibotics}
 		\end{figure}
 		
-		Una vez resuelto el problema, Kibotics generará un fichero con la solución que el usuario puede descargar para probarlo en un robot real. En el siguiente enlace se muestra un vídeo de un robot sobre el que se ha cargado código desarrollado en Kibotics. \footnote{\url{https://www.youtube.com/watch?v=a0aIqyyEEnw}} \\
+		Una vez resuelto el ejercicio, Kibotics genera un fichero con la solución que el usuario puede descargar para probarlo en un robot real. En el siguiente enlace se muestra un vídeo de un robot sobre el que se ha cargado código desarrollado en Kibotics. \footnote{\url{https://www.youtube.com/watch?v=a0aIqyyEEnw}} \\
 		
-		Kibotics es un servicio web complejo y compuesto de muchas tecnologías distintas. La figura \ref{fig:arquitectura_kibotics} muestra la arquitectura que poseía Kibotics inicialmente, en ella podemos observar:
+		Kibotics es un servicio web complejo y compuesto de muchas tecnologías distintas. La Figura \ref{fig:arquitectura_kibotics} muestra la arquitectura que poseía Kibotics 2.0 inicialmente, en ella podemos observar:
 		
 		\begin{itemize}
-			\item Kibotics Webserver: Servidor web desarrollado en Django, es el centro de Kibotics y donde se generan los logs sobre los que se trabajará en este proyecto fin de carrera. Se apoya en una base de datos MySQL para almacenar todos los datos de información estructural de la aplicación y en unos ficheros \texttt{*.txt} en los que se almacena información circunstancial de uso de la aplicación.
+			\item Webserver: Servidor web desarrollado en Django, es el centro de Kibotics y donde se generan los logs sobre los que se trabaja en este Trabajo Fin de Grado. Se apoya en una base de datos MySQL para almacenar todos los datos de información estructural de la aplicación y en unos ficheros de log \texttt{*.txt} en los que se almacena información circunstancial de uso de la aplicación.
 						
-			\item Kibotics Websim: Simulador robótico que se ejecuta unicamente en el lado del cliente. Desarrollado en A-Frame, HTML5, JavaScript. Permite a los usuarios aprender los fundamentos de la programación robótica y visión artificial.
+			\item Websim: Simulador robótico que se ejecuta únicamente en el lado del cliente. Desarrollado en A-Frame, HTML5, JavaScript. Permite a los usuarios aprender los fundamentos de la programación robótica y visión artificial.
 		\end{itemize}
 		
 		\begin{figure}[H]
@@ -457,21 +435,28 @@
 			\label{fig:arquitectura_kibotics}
 		\end{figure}
 		
+		Kibotics 2.0 necesita de datos para ofrecer su servicio, estos datos se pueden dividir en dos tipologías:
+		\begin{itemize}
+			\item Estructurales: almacenados en la base de datos MySQL, ofrecen información acerca de los usuarios registrados, ejercicios de la aplicación, permisos de acceso a estos ejercicios, etc.
+			
+			\item Circunstanciales: guardados inicialmente en ficheros de texto, proporcionan información acerca de eventos ocurridos en la aplicación por los usuarios como inicio de sesión, fin de sesión, inicio de un ejercicio o salida de un ejercicio. Son los datos que se explotarán en este Trabajo Fin de Grado.
+		\end{itemize}
 		
+		Los datos circunstanciales o logs generados por la aplicación Django se guardan en una serie de archivos indexados en el servidor con formato \texttt{yyyy-MM-dd-log.txt}. Teniendo así un fichero por día con todos los eventos registrados.\\
 		
-		Los logs generados por la aplicación Django se guardan en una serie de archivos indexados en el servidor con formato \texttt{yyyy-MM-dd-log.txt}. Teniendo así, un fichero por día con todos los eventos registrados.\\
+		Inicialmente Kibotics almacenaba 5 eventos distintos: entrada a la plataforma, salida de la plataforma, comienzo de ejercicio, fin de ejercicio y error genérico de la aplicación. \\
 		
-		Esta metodología disponía de un sistema numeral de códigos para identificar el evento que había generado cada registro de log. Cada uno de estos registros estaba separado por la cadena de caracteres: "\ |\ ". Estos códigos numéricos y su estructura son los siguientes:
+		Esta metodología de registro de datos circunstanciales disponía de un sistema numeral de códigos para identificar el evento que había generado cada registro de log. Cada uno de estos registros estaba separado por la cadena de caracteres: "\ |\ ". Estos códigos numéricos y su estructura son los siguientes:
 		
 		\begin{itemize}
 			\item Log in: "1 | date | user name | user IP | HTTP\_USER\_AGENT"
 			\item Log out: "2 | date | user name | user IP | HTTP\_USER\_AGENT"
-			\item Comienzo ejecicio: "3 | date | user name | user IP | simulation type | exercise ID | host IP | HTTP\_USER\_AGENT"
-			\item Fin ejecicio: "4 | date | user name | user IP | simulation type | exercise ID | host IP | HTTP\_USER\_AGENT"
+			\item Comienzo ejercicio: "3 | date | user name | user IP | simulation type | exercise ID | host IP | HTTP\_USER\_AGENT"
+			\item Fin ejercicio: "4 | date | user name | user IP | simulation type | exercise ID | host IP | HTTP\_USER\_AGENT"
 			\item Error 500: "5 | 500 Internal Server Error"
 		\end{itemize}
 		
-		Estos eventos logueados se generaban en el servidor Django haciendo uso de sondas Python, las cuales registran el evento en distintas partes del código para guardarlas en los ficheros. Un ejemplo de estas sondas para el registro de un evento de \textit{log in} es:
+		Estos eventos logueados se generaban en el servidor Django haciendo uso de sondas programadas en Python, las cuales registran el evento en distintas partes del código del servidor web para guardarlas en los ficheros. Un ejemplo de estas sondas para el registro de un evento de \textit{log in} es:
 		{\footnotesize
 		\begin{verbatim}
 			log = open(DIRECTORY + "/logs/" + str(date.today()) + "-log.txt", "a")
@@ -491,7 +476,7 @@
 			\item Un archivo de acceso al servidor que muestra las peticiones \texttt{HTTP} que este ha recibido.
 		\end{itemize}
 		
-		Inicialmente en Kibotics no se explotaban estos ficheros de log extraídos del servicio Django, simplemente se almacenaban sistemáticamente en el servidor y se consultaban a mano si la ocasión lo requería.
+		Inicialmente en Kibotics 2.0 no se explotaban estos ficheros de log extraídos del servicio Django, simplemente se almacenaban sistemáticamente en el servidor y se consultaban a mano si la ocasión lo requería.
 		
 		
 		
@@ -507,34 +492,31 @@
 		
 		Kibotics Webserver disponía de una tecnología primitiva de trazabilidad de logs basada en ficheros \texttt{TXT} con eventos limitados. La apertura y cierre constante de estos ficheros acarrea un gran coste computacional, limitando así la explotación masiva de estos datos para la generación de estadísticas útiles.\\
 		
-		Kibotics es una plataforma que pretende dar soporte a una gran cantidad de usuarios. Por lo tanto, se espera que la capacidad de procesamiento, almacenamiento y consulta de los logs aumente. Haciendo uso de ficheros de texto plano no se podrá conseguir la velocidad de procesamiento necesaria. \\
+		Kibotics es una plataforma digital que pretende dar servicio a una gran cantidad de usuarios. Por lo tanto, se espera que la capacidad de procesamiento, almacenamiento y consulta de los logs aumente. Haciendo uso de ficheros de texto plano no se podrá conseguir la velocidad de procesamiento necesaria. \\
 		
-		Es por esto, por lo que en un primer prototipo se decidió cambiar a un motor de bases de datos. Se ha decidido usar MongoBD, es una base de datos NoSQL que permite almacenar información de forma estructurada. Debido a esto, la velocidad en las consultas es muy alta aún con gran cantidad de datos. Ya que se espera almacenar información de forma masiva, MongoDB es una muy buena opción para la herramienta de análisis a desarrollar en este primer prototipo. \\
+		Es por esto, por lo que en un primer prototipo se decidió cambiar a un motor de bases de datos para los datos circunstanciales. Se ha decidido explorar MongoBD, es una base de datos NoSQL que permite almacenar información de forma estructurada tal y como se vio en el capítulo \ref{chap:infraestructura_utilizada}. Debido a esto, la velocidad en las consultas es muy alta aún con gran cantidad de datos. Ya que se espera almacenar información de forma masiva, MongoDB es una buena opción para la herramienta de análisis a desarrollar en este primer prototipo. \\
 
-		Para que Kibotics almacene la información de eventos, será necesario modificar las sondas ya existentes en Kibotics Webserver que almacenaban información en ficheros de texto plano \texttt{TXT} para que guarden los datos en MongoDB. \\
+		Para que Kibotics almacene la información de eventos será necesario modificar las sondas ya existentes en Kibotics Webserver que almacenaban información en ficheros de texto plano \texttt{TXT} para que guarden los datos en MongoDB. Además, se ampliará el número de eventos de los que se guarda información en la base de datos circunstanciales. \\
 		
-		Para visualizar estos datos almacenados se usará Matplotlib. Es una librería de Python por lo tanto la integración en Django será simple, se desarrollará toda la funcionalidad en un fichero Python llamado \texttt{analitycs.py}. Es a este al que Django accederá para la generación de las visualizaciones que posteriormente se enviarán a las plantillas HTML enriquecidas de DJango. \\
+		En este primer prototipo además se desarrollará e incorporará a la plataforma la capacidad de visualización de los datos circunstanciales generados, vistos de manera agregada. Para visualizar estos datos almacenados se usará Matplotlib. Es una librería de Python por lo tanto la integración en Django será simple, se desarrollará toda la funcionalidad en un fichero Python llamado \texttt{analitycs.py} y se creará una vista específica de Django para mostrar esas visualizaciones. Es a este al que Django accederá para la generación de las visualizaciones que posteriormente se enviarán a las plantillas HTML enriquecidas de Django. \\
 		
-		En la siguiente figura \ref{fig:arquitectura_kibotics} se muestra de forma esquemática los cambios que Kibotics Webserver va a sufrir en este primer prototipo, tanto el cambio en las sondas para almacenar los datos de log en MongoDB como el uso de Matplotlib como herramienta principal de generación de visualizaciones.
+		En la Figura \ref{fig:arquitectura_kibotics_1} se muestra de forma esquemática los cambios que se han explorado en este primer prototipo en Kibotics Webserver, tanto el cambio en las sondas para almacenar los datos de log en MongoDB como el uso de Matplotlib como herramienta principal de generación de visualizaciones automáticas.
 
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=15cm, keepaspectratio]{img/esquema_Kibotics_1.png}
-			\caption{Arquitectura Kibotics.}
-			\label{fig:arquitectura_kibotics}
+			\caption{Arquitectura Kibotics con funcionalidad de analíticas mejorada usando MongoDB y una vista de datos agregados basada en Matplotlib.}
+			\label{fig:arquitectura_kibotics_1}
 		\end{figure}
 
 	
 	\section{Implementación} 
 	\label{sec:1_implementacion} 
-%				
-%		detallar la implementacion de MONGODB
-%		detallar la implementación de MATPLOTLIB
-		En esta sección se detallan los pasos que ha sido necesario realizar para el desarrollo del primer prototipo de la herramienta de análisis integrada en Kibotics. Se divide en la integración de MongoDB como base de datos NoSQL de logs y de Matplotlib como generador de visualizaciones. 
+		En esta sección se detallan los pasos que ha sido necesario realizar para el desarrollo software del primer prototipo de la herramienta de análisis integrada en Kibotics. Se divide en la integración de MongoDB como base de datos NoSQL de logs y de Matplotlib como generador de visualizaciones. 
 		
-	\subsection{MongoDB en Kibotics Webserver}
+	\subsection{MongoDB en Webserver}
 	\label{subsec:mongodb_kibotics}
-		Para la integración de MongoDB en Kibotics Webserver primero se realizó una instalación local del servicio MongoDB para verificar la viabilidad de la tecnología en este primer prototipo, para ello se ejecutará la siguiente sentencia:
+		Para la integración de MongoDB en Kibotics Webserver primero se realizó una instalación local del servicio MongoDB para verificar la viabilidad de la tecnología en este primer prototipo. Para ello se ejecuta la siguiente sentencia:
 		
 		{\footnotesize
 		\begin{verbatim}
@@ -550,7 +532,7 @@
 		\end{verbatim}
 		}
 	
-		Adicionalmente a esto, podemos reiniciar o parar el servicio con los siguientes sentencias respectivamente:
+		Adicionalmente a esto, podemos reiniciar o parar el servicio con las siguientes sentencias respectivamente:
 		
 		{\footnotesize
 		\begin{verbatim}
@@ -561,7 +543,7 @@
 	
 		Con la base de datos MongoDB ya instalada y configurada el siguiente paso es migrar las sondas previamente definidas. Estas sondas, pasarán de escribir en ficheros a registrar los eventos en MongoDB. \\
 		
-		Haciendo uso de la librería \texttt{pymongo}, para comunicarnos con la base de datos, la tarea se simplifica mucho. Primero, importamos la librería y abrimos la conexión con la base de datos, para ello: 
+		Haciendo uso de la librería \texttt{pymongo} para comunicarnos con la base de datos, la tarea se simplifica mucho. Primero importamos la librería y abrimos la conexión con la base de datos, para ello: 
 		
 		{\footnotesize
 		\begin{verbatim}
@@ -571,7 +553,7 @@
 		\end{verbatim}
 		}
 	
-		Ya con las conexiones necesarias realizadas. Como se puede observar en el siguiente código Python, cada una de las sondas almacenará la información de log en una tabla distinta. Las sondas se transforman a, por ejemplo, las de nueva sesión y simulación:
+		Ya con las conexiones necesarias realizadas, como se puede observar en el siguiente código Python, cada una de las sondas almacenará la información de log en una tabla distinta. Las sondas se transforman a, por ejemplo, las de nueva sesión y nueva simulación:
 		
 		{\footnotesize
 		\begin{verbatim}
@@ -630,32 +612,34 @@
 		\end{verbatim}	
 		}
 	
-		Como se puede observar, estas sentencias de búsqueda filtran tanto por usuarios como por rangos de fechas. Esto aporta cierta flexibilidad en la obtención de los eventos, evitando así tener que recorrer datos o ficheros extra descartando registros de log como se haría con la metodología de ficheros que poseía Kibotics inicialmente.
+		Como se puede observar, estas sentencias de búsqueda filtran tanto por usuarios como por rangos de fechas. Esto aporta cierta flexibilidad en la obtención de los eventos, evitando así tener que recorrer datos o ficheros extra descartando registros de log, como se haría con la metodología de ficheros que poseía Kibotics inicialmente.
 	
 	
-	\subsection{Matplotlib en Kibotics Webserver}
+	\subsection{Matplotlib en Webserver}
 	\label{subsec:matplotlib_kibotics}
-		Matplotlib es una librería Python de generación de visualizaciones tanto estáticas, como animadas. Haciendo uso de ella, se han generado todas las visualizaciones necesarias para el primer prototipo.\\
+		Matplotlib es una librería Python de generación de visualizaciones tanto estáticas como animadas tal y como se presentó en el capítulo \ref{chap:infraestructura_utilizada}. Haciendo uso de ella, se han generado todas las visualizaciones necesarias para el primer prototipo de este Trabajo Fin de Grado.\\
 		
-		Estas visualizaciones inicialmente se han separado en dos secciones, analíticas de simulaciones y sesiones. Ambas pueden ser filtradas tanto por usuarios como rangos de fechas.\\
+		Estas visualizaciones inicialmente se han separado en dos secciones, analíticas de simulaciones y analíticas de sesiones. Ambas pueden ser filtradas tanto por usuarios como por rangos de fechas.\\
 		
-		Siguiendo la metodología detallada en las secciones anteriores surge un problema, los datos de inicio y fin, tanto para las sesiones como para las simulaciones, están separados en distintas tablas de MongoDB. Por lo tanto, para hacer una relación entre ambos eventos es necesario cruzarlos en Python para unificarlos en un único evento de sesión o simulación. \\
+		Siguiendo la metodología detallada en las secciones anteriores surgió un problema, los datos de inicio y fin, tanto para las sesiones como para las simulaciones, están separados en distintas tablas de MongoDB. Por lo tanto, para relacionar ambos eventos es necesario cruzarlos en Python para unificarlos en un único evento de sesión o simulación. \\
 		
-		Para solventar esta problemática, se desarrolló un método con esta funcionalidad de unificación de registros, con el que se consigue extraer información valiosa de duración de eventos:
+		Para solventar esta problemática se desarrolló un método con esta funcionalidad de unificación de registros, con el que se consigue extraer información valiosa de duración de eventos:
 		
-		Este código extrae todos los usuarios contenidos en el campo \texttt{username} y posteriormente recorre los registros de apertura de cada uno de ellos. Buscando por el campo \texttt{date} de los eventos de cierre hasta encontrar la inmediatamente posterior que será almacenado junto con la duración del evento. \\
+		Este código fuente extrae todos los usuarios contenidos en el campo \texttt{username} y posteriormente recorre los registros de apertura de cada uno de ellos. Buscando por el campo \texttt{date} de los eventos de cierre hasta encontrar la inmediatamente posterior que será almacenado junto con la duración del evento. \\
 		
-		Como salida del método, se devolverá un diccionario de diccionarios con cada uno de los eventos sesión/simulación para cada usuario del que haya ocurrencias.\\
+		Como salida del método, se devolverá un diccionario de diccionarios con cada uno de los eventos de sesión/simulación para cada usuario del que haya ocurrencias.\\
 		
 		{\footnotesize
 		\begin{verbatim}
+		
 			def formatDatesUser(newData, endData):
-			    USERS = newData.distinct("username")
+			
+			    users = newData.distinct("username")
 			    newData.sort([('Username', -1), ('date', -1)])
 			    endData.sort([('Username', -1), ('date', -1)])
 			    Dict = {}
 			
-			    for user in USERS:
+			    for user in users:
 			        for d in newData:
 			            for dd in endData:
 			                if(dd['username'] == d['username'] == user and \
@@ -679,10 +663,13 @@
 			    newData.rewind()
 			
 			    return Dict
+			    
+			    
+			    
         \end{verbatim}
         }
     
-		La clave de este diccionario serán los usuarios. El valor, será otro diccionario con las fechas de comienzo y fin del evento así como su duración. Un ejemplo de respuesta sera:
+		La clave de este diccionario serán los usuarios. El valor será otro diccionario con las fechas de comienzo y fin del evento así como su duración. Un ejemplo de respuesta es:
 		
 		{\footnotesize
 		\begin{verbatim}
@@ -696,7 +683,6 @@
 			            "endTime" : end_date_2,
 			            "totalTime" : end_date_2 - start_date_2
 			        },
-			        
 			        ...
 			        start_date_N : {
 			            "endTime" : end_date_N,
@@ -705,6 +691,7 @@
 			    },
 			    
 			    ...
+			    
 			    "USERNAME_TEST_N" : {
 			        start_date_1 : {
 			            "endTime" : end_date_1,
@@ -714,7 +701,6 @@
 			            "endTime" : end_date_2,
 			            "totalTime" : end_date_2 - start_date_2
 			        },
-			        
 			        ...
 			        start_date_N : {
 			            "endTime" : end_date_N,
@@ -724,20 +710,21 @@
 			}
 		\end{verbatim}
 		}
-		Una vez se ha enriquecida la información disponible, ya se puede enviar a métodos de generación de visualizaciones. Se hace uso de la librería Matplotlib para crear diversas tipologías de visualizaciones:
+		Una vez se ha enriquecido la información disponible, ya se puede enviar a métodos de generación de visualizaciones. Se hace uso de la librería Matplotlib para crear diversas visualizaciones típicas, útiles para el conocimiento de las tendencias de los usuarios, la personalización del servicio de la plataforma y su optimización: \\
 		
 
 		\begin{enumerate}
-			\item Se recorrerán los datos de entrada formateándolos a la estructura de ejes necesaria para cada una de las visualizaciones. Generalmente se compondrá de dos listas o \textit{arrays}, uno con los datos del eje-X y otro con los referentes al eje-Y. En ciertos casos como el mapa de calor, necesitaremos una matriz de datos para la correcta representación de la información.
+			\item Se recorrerán los datos de entrada formateándolos a la estructura de ejes necesaria para cada una de las visualizaciones. Generalmente se compondrá de dos listas o \textit{arrays}, uno con los datos del eje-X y otro con los referentes al eje-Y. En ciertos casos, como en el mapa de calor, necesitaremos una matriz de datos para la correcta representación de la información. \\
 			
-			\item Ya con los datos formateados, se creará la visualización y se le añadirán los datos que se formatearon en el punto primero. Este es el paso en el que se explicitará qué tipo de visualización se insertará para cada caso. Junto a la primera parte, es lo que más cambiará entre métodos.
+			\item Ya con los datos formateados, se creará la visualización y se le añadirán los datos que se formatearon en el punto primero. Este es el paso en el que se explicitará qué tipo de visualización se insertará para cada caso. Junto a la primera parte, es lo que más cambiará entre métodos. \\
 			
-			\item Se ajustará el diseño de la visualización para que encaje estéticamente tanto con las otras visualizaciones generadas para la funcionalidad de analíticas, como con el diseño ya existente en la aplicación.
+			\item Se ajustará el diseño gráfico de la visualización para que encaje estéticamente tanto con las otras visualizaciones generadas para la funcionalidad de analíticas, como con el diseño ya existente en la aplicación web.\\
 			
-			\item Finalmente, ya generada la visualización, se guardará la figura en un objeto \texttt{BytesIO}. Este objeto de bytes, se codificará a formato \texttt{*.png} y se devolverá por la salida del método. Esta parte de los métodos de creación de visualizaciones es muy lenta, ya que el proceso de renderizado de una imagen con la calidad suficiente para ser mostrada en el servidor no es un proceso instantáneo. Será una de los motivos por el que se haga un futuro cambio de tecnologías.
+			\item Finalmente, ya generada la visualización, se guardará la figura en un objeto \texttt{BytesIO}. Este objeto de bytes se codificará a formato \texttt{*.png} y se devolverá por la salida del método. Esta parte de los métodos de creación de visualizaciones es muy lenta, ya que el proceso de renderizado de una imagen con la calidad suficiente para ser mostrada en el servidor no es un proceso instantáneo. Será uno de los motivos por los que se haga un futuro cambio de tecnologías.\\
 		\end{enumerate}
 		
-		Con estos objetos de imagen ya guardados, lo único que queda es devolverlos al cliente. Para ello se utilizarán las plantillas HTML enriquecidas de Django. A continuación, se muestra una sección de una de estas plantillas en las que se puede ver como se han insertado dos imágenes:
+		\clearpage
+		Con estos objetos de imagen ya guardados el servidor crea una vista de Django en la que se muestran los resultados de analíticas creadas en Matplotlib y se la envía al navegador web del cliente como una página HTML. En este proceso se utilizan las plantillas HTML enriquecidas que ofrece Django. A continuación, se muestra una sección de una de estas plantillas creadas para la herramienta de analíticas en la que se puede ver cómo se han insertado dos visualizaciones:
 		
 		{\footnotesize
 		\begin{verbatim}
@@ -764,37 +751,32 @@
 			
 	\section{Validación experimental} 
 	\label{sec:1_validacion_experimental} 
-%		video con pantallazos de como funciona el servicio
-%		
-%		parrafos con limitaciones
-		
-		En este capítulo se puede ver el resultado final del primer prototipo desarrollado con unos datos de prueba, no productivos. El prototipo nos muestra información de interés acerca de la actividad en la aplicación web.\\
+		En esta sección se muestra el resultado final del primer prototipo de analíticas  desarrollado con unos datos de prueba, no productivos. El prototipo muestra información de interés acerca de la actividad en la aplicación web.\\
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=15.5cm, keepaspectratio]{img/primer_prototipo_1.png}
-			\caption{Primer prototipo parte 1.}
+			\includegraphics[width=17cm, keepaspectratio]{img/primer_prototipo_1.png}
+			\caption{Analíticas del primer prototipo parte 1.}
 			\label{fig:primer_prototipo_1}
 		\end{figure}
+
 		
-		En la figura anterior \ref{fig:primer_prototipo_1}, se puede observar una primera parte con dos mapas de calor, los cuales representan la actividad semana a semana (filas) en el servidor para los distintos eventos de sesión y simulación. El color será más intenso a mayor sean los minutos invertidos en ese evento para cada uno de los días o celdas.\\
+		En la Figura \ref{fig:primer_prototipo_1}, se puede observar una primera parte con dos mapas de calor, los cuales representan la actividad semana a semana (filas) en el servidor web de Kibotics para los distintos eventos de sesión y simulación. El color será más intenso cuantos más sean los minutos invertidos en ese evento para cada uno de los días o celdas.\\
 		
-		En una segunda parte de esta misma figura, se representan 4 visualizaciones más con los accesos a sesiones y simulaciones separadas en dos grupos. Una primera agrupación con los accesos por día de la semana, a continuación, el segundo grupo con accesos divididos por la hora del día a la que fueron realizadas.\\
+		En una segunda parte de esta misma figura se representan 4 visualizaciones más con los accesos a sesiones y simulaciones separadas en dos grupos. Una primera agrupación con los accesos por día de la semana, a continuación, el segundo grupo con accesos divididos por la hora del día a la que fueron realizadas.\\
 		
-		En la siguiente figura \ref{fig:primer_prototipo_2} se representan las dos últimas secciones de este primer prototipo. Una primera sección con los tiempos totales y medios que el grupo de usuarios o usuario ha pasado en cada uno de los ejercicios a los que ha accedido. Finalmente, una última visualización que representa con un mapa geográfico la localización desde la que cada usuario ha accedido a la aplicación.\\
+		En la Figura \ref{fig:primer_prototipo_2} se representan las dos últimas secciones de este primer prototipo. Una primera sección con los tiempos totales y medios que el grupo de usuarios o usuario ha pasado en cada uno de los ejercicios a los que ha accedido. Finalmente, una última visualización que representa con un mapa geográfico la localización desde la que cada usuario ha accedido a la plataforma educativa.\\
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=13cm, keepaspectratio]{img/primer_prototipo_2.png}
-			\caption{Primer prototipo parte 2.}
+			\includegraphics[width=17cm, keepaspectratio]{img/primer_prototipo_2.png}
+			\caption{Analíticas del primer prototipo parte 2.}
 			\label{fig:primer_prototipo_2}
 		\end{figure}
 		
-		Este primer prototipo es bastante completo pero tiene ciertos inconvenientes. Primero, falta cierta información útil que podría ser representada, como desde que dispositivos acceden los usuarios o la actividad de los usuarios no registrados.\\
+		Este primer prototipo desarrollado de analíticas automáticas dentro de la plataforma Kibotics es bastante completo pero también tiene ciertos inconvenientes. Primero, falta cierta información útil que podría ser representada, como desde qué dispositivos acceden los usuarios o la actividad de los usuarios no registrados que simplemente visitan la web de la plataforma pero no llegan a registrarse o usarla.\\
 		
-		Esta visualizaciones, al estar insertadas como imágenes, carecen de interactividad, la cual sería muy útil para tener información extra o poder realizar más filtrado de los datos.\\
-		
-		Además el módulo, al tener que renderizar cada una de las imágenes individualmente, tarda unos segundos en mostrar las visualizaciones.
+		Las visualizaciones generadas, al estar insertadas como imágenes, carecen de interactividad, la cual sería muy útil para tener información extra o poder realizar filtrados más finos de los datos. Además, al tener que renderizar cada una de estas imágenes individualmente, tarda unos segundos en mostrar las visualizaciones.
 	
 	
 	\cleardoublepage 
@@ -820,7 +802,7 @@
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=15cm, keepaspectratio]{img/esquema_Kibotics_2.png}
+			\includegraphics[width=16cm, keepaspectratio]{img/esquema_Kibotics_2.png}
 			\caption{Arquitectura Kibotics segundo prototipo.}
 			\label{fig:arquitectura_kibotics_2}
 		\end{figure}
@@ -1192,7 +1174,7 @@
 		{\footnotesize
 		\begin{verbatim}
 			$ elasticdump --input=http://127.0.0.1:9200/"INDEX_NAME" 
-			--output="./mapping_elasticseach.json" --type=mapping
+			--output="./mapping_elasticsearch.json" --type=mapping
 			
 			$ elasticdump --input=http://127.0.0.1:9200/"INDEX_NAME" 
 			--output="./data_elasticsearch.json" --type=data
@@ -1238,14 +1220,23 @@
 		}
 
 
-
-	\cleardoublepage
-	\appendix
-	\chapter{Ejemplo de apéndice}
-	\label{app:ejemplo_de_apendice}
-		(INCOMPLETO)
-
+	\cleardoublepage 
+	\chapter{Conclusiones} 
+	\label{chap:conclusiones} 
 	
+	
+	\section{Conclusiones finales} 
+	\label{sec:conclusiones_finales} 
+
+		
+	\section{Competencias adquiridas} 
+	\label{sec:competencias_adquiridas} 
+	
+		
+	\section{Trabajos futuros} 
+	\label{sec:trabajos_futuros} 
+
+
 	\cleardoublepage
 	
 	% Las siguientes dos instrucciones es todo lo que necesitas
@@ -1264,7 +1255,7 @@
 		
 		
 		\bibitem{HTML}
-		\textit{Estandar HTML:}
+		\textit{Estándar HTML:}
 		\url{https://html.spec.whatwg.org/}
 		
 		\bibitem{JavaScript}
@@ -1272,7 +1263,7 @@
 		\url{https://developer.mozilla.org/es/docs/Web/JavaScript}	
 		
 		\bibitem{Django MVC}
-		\textit{Patrón Django Model-View-controller:}
+		\textit{Patrón Django Model-View-Controller:}
 		\url{https://uniwebsidad.com/libros/django-1-0/capitulo-5/el-patron-de-diseno-mtv}
 		
 		\bibitem{Django}
@@ -1287,8 +1278,8 @@
 		\textit{Quíen usa MongoDB:}
 		\url{https://www.mongodb.com/who-uses-mongodb}
 		
-		\bibitem{elasticseach}
-		\textit{Documentación Elasticseach:}
+		\bibitem{elasticsearch}
+		\textit{Documentación Elasticsearch:}
 		\url{https://www.elastic.co/guide/en/elasticsearch/reference/current/index.html}
 		
 		\bibitem{versions_elasticsearch}
@@ -1307,23 +1298,6 @@
 		\bibitem{versions_kibana}
 		\textit{Histórico de versiones para Kibana:}
 		\url{https://www.elastic.co/downloads/past-releases#kibana}	
-		
-		\bibitem{name (INCOMPLETO)}
-		\textit{name:}
-		\url{url}	
-		
-		\bibitem{name2 (INCOMPLETO)}
-		\textit{name2:}
-		\url{url2}	
-		
-		\bibitem{name3 (INCOMPLETO)}
-		\textit{name3:}
-		\url{url3}	
-		
-		\bibitem{name4 (INCOMPLETO)}
-		\textit{name4:}
-		\url{url4}			
-		
 		
 		\bibitem{Matplotlib}
 		\textit{Documentación Matplotlib:}
