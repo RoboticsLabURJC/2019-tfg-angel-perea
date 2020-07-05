@@ -160,10 +160,12 @@
 		(INCOMPLETO)
 		
 	\chapter*{Resumen}
-	%\addcontentsline{toc}{chapter}{Resumen} % si queremos que aparezca en el índice
-	\markboth{RESUMEN}{RESUMEN} % encabezado
-	
-		(INCOMPLETO)
+	\markboth{RESUMEN}{RESUMEN}
+		Este Trabajo Fin de Grado se centra en las tecnologías web y la monitorización de las mismas. Mediante el desarrollo de un módulo de analíticas embebido en el propio servicio web sobre el que se trabaja, se puede visualizar información acerca de la actividad que tienen los usuarios.\\
+
+		El módulo de analíticas ha sido desarrollado sobre la web de Kibotics\footnote{https://kibotics.org/}. Dicha web ofrece un servicio de docencia centrado en introducir a los usuarios acerca de distintos ámbitos de la robótica y programación. En Kibotics era necesario un servicio de análisis de la aplicación para poder detectar patrones de uso y centrar los esfuerzos del equipo de desarrolladores en tareas que tengan un impacto real en los usuarios.\\
+		
+		Durante el desarrollo del proyecto se ha hecho uso de diferentes tecnologías de bases de datos y de representación de los mismos. Finalmente, tras un primer prototipo realizado usando MongoDB y Matplotlib, las tecnologías utilizadas han sido Elsticsearch y Kibana, ambas están incluidas en el ELK Stack.
 		
 	\chapter*{Summary}
 	%\addcontentsline{toc}{chapter}{Summary} % si queremos que aparezca en el índice
@@ -172,27 +174,17 @@
 		(INCOMPLETO)
 	
 	
-	%%%% Índice de contenidos
+
 	\tableofcontents 
-	%%%% Índice de figuras
+
 	\cleardoublepage
-	%\addcontentsline{toc}{chapter}{Lista de figuras} % para que aparezca en el indice de contenidos
-	\listoffigures % indice de figuras
-	%%%% Índice de tablas
-	%\cleardoublepage
-	%\addcontentsline{toc}{chapter}{Lista de tablas} % para que aparezca en el indice de contenidos
-	%\listoftables % indice de tablas
 	
-	%(FINAL)
+	\listoffigures 
+		
 	\cleardoublepage
 	\chapter{Introducción}
 	\label{chap:introduccion} 
 	\pagenumbering{arabic}
-		{\footnotesize
-			\begin{verbatim}
-			(INCOMPLETO)	
-			\end{verbatim}
-		}
 		informacion circunstancial vs información estructural
 		otras plataformas digitales
 			guardado masivo de datos
@@ -202,7 +194,15 @@
 	\label{sec:estructura_memoria}
 		(INCOMPLETO)
 	
-	
+	\section{Motivación}
+	\label{sec:motivación}
+		(INCOMPLETO)
+		El objetivo principal es dotar a la Web de Kibotics de sondas de almacenamiento de datos y herramientas de visualización para el análisis de estos, ya sean de visitantes a la web, registros de usuarios o uso de los ejercicios.\\
+
+		Ofreciendo así a la web y sus administradores de capacidades para recoger, estudiar y valorar los datos aportados para tener una mejor visión global de que rumbo tomar, como está funcionando el servicio y como mejorarlo. \\
+		
+		Estos datos son imprescindibles para cualquier decisión importante que se deba tomar para mejorar la satisfacción de los usuarios, aumentar la retención, mejorar los contenidos y su distribución.
+			
 	
 	\cleardoublepage 
 	\chapter{Objetivos} 
@@ -1223,21 +1223,80 @@
 	\cleardoublepage 
 	\chapter{Conclusiones} 
 	\label{chap:conclusiones} 
-	
+		Finalmente, en este último capítulo se exponen las conclusiones alcanzadas, así como las competencias adquiridas durante la realización de este proyecto. Además, se plantean futuros trabajos de ampliación y mejora sobre el software desarrollado.
 	
 	\section{Conclusiones finales} 
 	\label{sec:conclusiones_finales} 
 
+			Repasando lo definido en el capítulo \ref{chap:objetivos}, el principal objetivo de este proyecto es crear una herramienta con la que grabar datos de actividad, visualizar y analizar el uso que hacen los usuarios de la plataforma educativa Kibotics. Este objetivo global se ha cumplido satisfactoriamente, se ha diseñado, desarrollado y probado un módulo de analíticas en el que visualizar estos datos de uso de la aplicación.\\
+			
+			La herramienta desarrollada consta de la grabación de un conjunto más extenso de eventos de los que poseía inicialmente y una vista específica, llamada "Analíticas" dentro del servidor web de Kibotics. Esta nueva vista tendrá embebida los tableros o \textit{dashboards} que se generan en el servicio de Kibana.\\
+			
+			Se ha mejorado el sistema de registro de logs de la aplicación ampliando y extendiendo el conjunto de sondas que graban eventos de interés. Eliminando los ficheros de log indexados por días y creando una base de datos en Elasticsearch dividida en distintos índices sobre los que se registran variedad de eventos interesantes como inicio de sesión, entrada en cada ejercicio, desde qué sistema operativo se accede a la plataforma, etc... Aumentando así la escalabilidad de este proceso de registro de logs y eventos, con este cambio se consigue que esta sea una solución robusta y duradera. \\
+		
+			Además de las tecnologías empleadas en el segundo prototipo (Elasticsearch y Kibana), se han explorado otras opciones. En el campo de las bases de datos se hizo uso de MongoDB como soporte para toda la información circunstancial que posteriormente se visualizaba haciendo uso de la librería de Python Matplotlib. \\
+		
+			En la Tabla \ref{tabla:evolucion_analiticas} se puede observar de forma esquemática la evolución que han sufrido las sondas de datos circunstanciales, así como las tecnologías de bases de datos y de visualización utilizadas en el desarrollo de este Trabajo Fin de Grado.\\
+			
+			\begin{table}[H]
+				\begin{center}
+					\begin{tabular}{ | c | p{6cm} | c | c |} 
+						\hline
+						 & Eventos registrados & Almacenamiento & Visualización \\ 
+						\hline 
+						Kibotics 2.0 & Inicio de sesión, fin de sesión, comienzo de ejercicio, salida de ejercicio y error en aplicación & Ficheros TXT & No\\ 
+						\hline
+						Primer Prototipo & Inicio de sesión, fin de sesión, comienzo de ejercicio, salida de ejercicio y error en aplicación& MongoBD 4.2.6 & Matplotlib 3.1.2\\ 
+						\hline
+						Segundo Prototipo & Sesión unificado y enriquecido, simulación  unificado y enriquecido, visitantes y error en aplicación & Elasticsearch 7.6.2 & Kibana 7.7.0\\ 
+						\hline
+
+					\end{tabular}
+					\label{tabla:evolucion_analiticas}
+					\caption{Evolución del sistema de registro de eventos y analíticas de la plataforma educativa Kibotics.}
+				\end{center}
+			\end{table}
 		
 	\section{Competencias adquiridas} 
 	\label{sec:competencias_adquiridas} 
 	
-		
+		En esta sección se enumeran las principales habilidades que se han adquirido en el desarrollo de este proyecto:
+		\begin{itemize}
+			\item Django y Python como herramientas muy potentes y accesibles para el desarrollo Web. Además, gracias a las librerías de las que estas disponen, son herramientas muy versátiles.\\
+			
+			\item Despliegue e implementación de diferentes tipos de bases de datos MongoDB y Elasticsearch en un proyecto real. Importancia de la información para monitorizar un servicio Web.\\
+			
+			\item Se han explorado dos tecnologías diferentes para la visualización automática de información. Primero la librería de Python Matplotlib que pese a las limitaciones encontradas, ofrece una gran versatilidad y finalmente Kibana que gracias al stack ELK proporciona un ecosistema rápido, potente y escalable con el que trabajar. \\
+			
+			\item Una primera toma en contacto con el análisis de datos automático en el que ha destacado el uso del stack ELK. Este ha sido una herramienta muy potente de la que he aprendido cómo es integrar varias tecnologías para crear un producto complejo, interconectado e interesante. \\
+			
+			\item Se ha desarrollado una vista en la web de Kibotics en la que se muestran automáticamente los datos agregados que están almacenados en la base de datos. Es una vista dinámica, con los contenidos que se muestran generados en caliente, en ese mismo momento, desde los datos almacenados. Eso permite una visualización siempre actualizada. En esta vista de Django se muestran varios cortes del conjunto de datos como la ubicación geográfica desde donde se accede a la plataforma, la frecuencia y duración de las interacciones de los usuarios con la plataforma a lo largo del tiempo. \\
+			
+			\item Sistema de versiones centrado en los parches e incidencias. Haciendo uso de GitHub como repositorio en el que desarrollar este Trabajo Fin de Grado, siempre presente junto a la filosofía \textit{release often, release soon}. \\
+			
+			\item Trabajar en un software complejo y actualmente en producción sobre el que desarrollar para crear nuevas funcionalidades y sobre el que trabaja un equipo con el que es necesario estar el sincronía para realizar las integraciones de los parches. \\
+			
+		\end{itemize}
 	\section{Trabajos futuros} 
 	\label{sec:trabajos_futuros} 
 
+		En esta sección se proponen una serie de mejoras o ampliaciones con las que aumentar la funcionalidad del módulo de analíticas desarrollado:
 
-	\cleardoublepage
+		\begin{itemize}
+			\item Kibotics Webserver es una aplicación grande y en constante ampliación, añadir más sondas con las que tener la aplicación controlada será recomendable. Con estas nuevas sondas será necesaria la creación de nuevos índices en la base de datos y visualizaciones automáticas en la vista de analíticas.\\
+			
+			\item Actualmente los datos almacenados en Elasticsearch solo pueden ser analizados accediendo al módulo desarrollado. Una herramienta automática que analice estos datos sería muy interesante para controlar, por ejemplo que todos los ejercicios están siendo accedidos y los tiempos de desarrollo de los usuarios no son demasiado elevados.\\
+			
+			\item El stack ELK posee, además de Elasticsearch y Kibana, otras herramientas muy interesantes como Logstash y Beats. Las cuales pueden dotar a Elasticsearch de nuevos datos procedentes de otras fuentes, como por ejemplo, logs del servidor con los que controlar los accesos que recibe la plataforma y el servidor Apache subyacente.\\
+			
+			\item Explorar otras mejoras de integración a la Web de Kibotics, ya que el iframe no es algo ideal en un servicio productivo, principalmente por motivos de seguridad. Buscar otras configuraciones de Kibana que permitan un mejor despliegue a los servicios de \textit{Amazon Web Service} que Kibotics posee.\\
+			
+			\item El stack ELK es un software en constante evolución la cual añade nuevas y mejores funcionalidades constantemente. Mantener las versiones del software actualizadas es recomendable.\\
+			
+			\item Al proporcionar información muy sensible sobre el servicio de la plataforma, aumentar la seguridad en el servidor Kibotics para acceder a estos datos es necesario.\\
+		\end{itemize}
+
+
 	
 	% Las siguientes dos instrucciones es todo lo que necesitas
 	% para incluir las citas en la memoria
@@ -1250,7 +1309,7 @@
 	% Más información: 
 	% http://texblog.org/2014/04/22/using-google-scholar-to-download-bibtex-citations/
 	%(INCOMPLETO)
-	
+	\cleardoublepage
 	\begin{thebibliography}{7}
 		
 		
