@@ -14,7 +14,6 @@
 %% Para obtener PDF, ejecuta en la shell:
 %%   make
 %% (las imágenes deben ir en PNG o JPG)
-
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 
 \documentclass[a4paper, 12pt]{book}
@@ -32,22 +31,18 @@
 \usepackage{latexsym}  %% Logo LaTeX
 
 \title{Memoria del Proyecto(INCOMPLETO)}
-\author{Nombre del autor(INCOMPLETO)}
+\author{Ángel Perea Arias}
 
-\renewcommand{\baselinestretch}{1.5}  %% Interlineado
+\renewcommand{\baselinestretch}{1.5}
 
 \begin{document}
 	
-	\renewcommand{\refname}{Bibliografía}  %% Renombrando
+	\renewcommand{\refname}{Bibliografía}
 	\renewcommand{\appendixname}{Apéndice}
-	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	% PORTADA
-	
+		
 	\begin{titlepage}
 		\begin{center}
 			\begin{tabular}[c]{c c}
-				%\includegraphics[bb=0 0 194 352, scale=0.25]{logo} &
 				\includegraphics[scale=0.25]{img/logo_vect.png} &
 				\begin{tabular}[b]{l}
 					\Huge
@@ -81,7 +76,7 @@
 			
 			\large
 			Autor : Ángel Perea Arias \\
-			Tutor : Dr. Jose María Cañas Plaza \\
+			Tutor : Dr. José María Cañas Plaza \\
 			Co-tutor : Dr. David Roldán Álvarez 
 		\end{center}
 	\end{titlepage}
@@ -109,13 +104,13 @@
 		\vspace{1cm}
 		\large
 		\textbf{Autor :} Ángel Perea Arias \\
-		\textbf{Tutor :} Dr. Jose María Cañas Plaza \\
+		\textbf{Tutor :} Dr. José María Cañas Plaza \\
 		\textbf{Co-Tutor :} Dr. David Roldán Álvarez		
 		
 	\end{center}
 	
 	\vspace{1cm}
-	La defensa del presente Proyecto Fin de Carrera se realizó el día \qquad$\;\,$ de \qquad\qquad\qquad\qquad \newline de 2020, siendo calificada por el siguiente tribunal:
+	La defensa del presente Proyecto Fin de Grado se realizó el día \qquad$\;\,$ de \qquad\qquad\qquad\qquad \newline de 2020, siendo calificada por el siguiente tribunal:
 	
 	
 	\vspace{0.5cm}
@@ -140,9 +135,6 @@
 		Fuenlabrada, a \qquad$\;\,$ de \qquad\qquad\qquad\qquad de 2020
 	\end{flushright}
 	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	%%%% Dedicatoria
-	
 	\chapter*{}
 	\pagenumbering{Roman} % para comenzar la numeracion de paginas en numeros romanos
 	\begin{flushright}
@@ -150,28 +142,24 @@
 			mi familia y amigos}
 	\end{flushright}
 	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	%%%% Agradecimientos
-	
-	\chapter*{Agradecimientos}
+%	\chapter*{Agradecimientos}
 	%\addcontentsline{toc}{chapter}{Agradecimientos} % si queremos que aparezca en el índice
-	\markboth{AGRADECIMIENTOS}{AGRADECIMIENTOS} % encabezado 
-	
-		(INCOMPLETO)
+%	\markboth{AGRADECIMIENTOS}{AGRADECIMIENTOS} % encabezado 
+%		(INCOMPLETO)
 		
 	\chapter*{Resumen}
 	\markboth{RESUMEN}{RESUMEN}
-		Este Trabajo Fin de Grado se centra en las tecnologías web y la monitorización de las mismas. Mediante el desarrollo de un módulo de analíticas embebido en el propio servicio web sobre el que se trabaja, se puede visualizar información acerca de la actividad que tienen los usuarios.\\
+		Este Trabajo Fin de Grado (TFG) se centra en proporcionar una herramienta de analíticas de datos para una plataforma Web. Este módulo estará embebido en la propia plataforma y permitirá la visualización de información acerca de la actividad de los usuarios en ella. Mediante el desarrollo de un módulo de analíticas embebido en el propio servicio web sobre el que se trabaja, se puede visualizar información acerca de la actividad que tienen los usuarios.\\
 
-		El módulo de analíticas ha sido desarrollado sobre la web de Kibotics\footnote{https://kibotics.org/}. Dicha web ofrece un servicio de docencia centrado en introducir a los usuarios acerca de distintos ámbitos de la robótica y programación. En Kibotics era necesario un servicio de análisis de la aplicación para poder detectar patrones de uso y centrar los esfuerzos del equipo de desarrolladores en tareas que tengan un impacto real en los usuarios.\\
+		El módulo de analíticas ha sido desarrollado sobre la plataforma web de Kibotics\footnote{https://kibotics.org/}. Dicha plataforma permite a los usuarios aprender robótica y programación a través  de los diferentes ejercicios y teoría que ofrece a los usuarios. En este escenario, se hacía necesario dotar a Kibotics con una herramienta de analíticas que permitiera a los desarrolladores y administradores de la plataforma analizar cómo los usuarios finales interactuaban con ella.\\
 		
-		Durante el desarrollo del proyecto se ha hecho uso de diferentes tecnologías de bases de datos y de representación de los mismos. Finalmente, tras un primer prototipo realizado usando MongoDB y Matplotlib, las tecnologías utilizadas han sido Elsticsearch y Kibana, ambas están incluidas en el ELK Stack.
+		Durante el TFG se han empleado diferentes tecnologías de bases de datos y de representación de los mismos. Comenzando con el diseño de un primer prototipo basado en MongoDB y Matplotlib, la herramienta evolucionó hasta estar diseñada con a Elasticsearch y Kibana, ambas pertenecientes al stack ELK.
 		
 	\chapter*{Summary}
 	%\addcontentsline{toc}{chapter}{Summary} % si queremos que aparezca en el índice
 	\markboth{SUMMARY}{SUMMARY} % encabezado
 	
-		(INCOMPLETO)
+		(INCOMPLETO - traducir el resumen cuando esté ok)
 	
 	
 
@@ -185,38 +173,130 @@
 	\chapter{Introducción}
 	\label{chap:introduccion} 
 	\pagenumbering{arabic}
-		informacion circunstancial vs información estructural
-		otras plataformas digitales
-			guardado masivo de datos
-			visualizacion
+		La motivación de este TFG es dotar a la plataforma educativa \textit{online} Kibotics de una herramienta para analizar el uso de su aplicación. Se pretende que esta herramienta esté compuesta por varias secciones: sondeo de las funcionalidades principales de la aplicación, almacenamiento de los datos y visualización de analíticas.
+		
+	\section{Tecnologías Web}
+	\label{sec:1_tecnologias_web}
+		El desarrollo de una aplicación web frente a una aplicación de escritorio ofrece cada vez más y más ventajas gracias a nuevas tecnologías como AJAX o a los compiladores que los navegadores poseen y que se van haciendo más potentes con el tiempo.\\
+		
+		Algunas de las principales ventajas que una aplicación web ofrece son:
+		
+		\begin{itemize}
+			\item Toda la información necesaria para el uso de estas aplicaciones está almacenada en los servidores. Se puede acceder a la misma información desde diversos dispositivos, además de no perder datos en caso de un problema de \textit{hardware}.
+			
+			\item Al estar ejecutado en navegadores evita problemas de incompatibilidad por \textit{hardware}.
+			
+			\item No hay necesidad de descargar actualizaciones, además, estas actualizaciones serán para todos los usuarios al mismo tiempo.
+		\end{itemize}
+
+		No todo son ventajas, los navegadores siguen sin ser capaces de ofrecer un alto rendimiento en servicios que requieran de mucho uso del \textit{hardware} como, por ejemplo, videojuegos. Otro de los principales problemas que viene unido a una aplicación web, es la necesidad de conexión a Internet para ofrecer un servicio completo. \\
+			
+		Con la salida del estándar HTML 5, el uso de las tecnologías web ha aumentado considerablemente en los últimos años. Este nuevo estándar ofrece, entre otras muchas mejoras, nuevas características importantes para la transmisión de contenido multimedia con la inserción de la etiqueta vídeo y \textit{canvas} que ofrece la posibilidad incluir vídeos y generar escenas gráficos 2D y 3D de manera nativa.
+		
+		
+		
+	%	\section{Plataformas digitales}
+	%	\label{sec:1_plataformas_digitales}
+	%		(INCOMPLETO)
 	
+	
+	
+	\section{Robótica educativa}
+	\label{sec:1_robotica_edicativa}
+		La robótica es una temática transversal, ocupando áreas como las matemáticas, tecnología o ingeniería. Centrado en la programación permite desarrollar el pensamiento lógico y la capacidad de solución de problemas. \\
+		
+		Una posibilidad para iniciarse en la robótica es haciendo uso de kits de robótica con los que aprender conceptos fundamentales de electrónica y tecnología mediante la construcción de robots y herramientas en las que proporcionarles diversas funcionalidades. \\
+	
+		Otra forma de la que iniciarse en la robótica, y principalmente en la programación de robots es haciendo uso de plataformas \textit{online}, las cuales permiten es desarrollo de funcionalidades y la simulación de las mismas sin necesidad de poseer el robot físico. Dentro de este mundo de plataformas educativas \textit{online}, nos centraremos en Kibotics, plataforma en la que se enmarca este proyecto. Ofrece herramientas centradas en la docencia en robótica y programación para alumnos de secundaria. Con una gran variedad de ejercicios en los que los alumnos pueden aprender conceptos básicos acerca de distintos lenguajes de programación como Scratch o Python, así como introducirse a la visión artificial o la simulación en robots.
+		
+		
+	\section{Sistemas de monitorización}
+	\label{sec:1_sistemas_monitorizacion}
+		Disponer de un sistema de monitorización es fundamental en la gestión y administración de cualquier aplicación/plataforma. Esta necesidad se vuelve más crítica cuando la aplicación está desarrollada para ser utilizada por una gran cantidad de usuarios como lo son las aplicaciones web. \\
+		
+		Las aplicaciones hacen uso principalmente información de dos tipos:
+		\begin{itemize}
+			\item Estructural: ofrecen datos acerca de los usuarios registrados, permiso de acceso a distintas secciones, datos que componen estas secciones etc.
+			
+			\item Circunstancial: proporciona información acerca de eventos ocurridos en la aplicación por los usuarios como inicio de sesión, fin de sesión, apertura y cierre de las distintas secciones que componga la aplicación. Son los datos que se explotarán en este Trabajo Fin de Grado.
+		\end{itemize}
+		
+		Cada usuario que que accede a una aplicación espera obtener una experiencia satisfactoria. Por eso, es importante que los contenidos de la aplicación estén diseñados de acuerdo a las necesidades y exigencias de los usuarios. Una forma de comprobar la satisfacción de los usuarios es mediante la monitorización del tiempo invertido en la aplicación y en sus distintas secciones. Para conseguir estos datos es necesario un sistema de monitorización que registre y analice estos datos. \\
+		
+		Poder tener la información disponible para los administradores y desarrolladores de las aplicaciones es necesario almacenarla en una base de datos optimizada para el caudal de datos que esta genere, a mayor número de usuarios más necesidad de tener una base de datos rápida y eficiente que permita un guardado masivo de datos. \\
+		
+		Consultar estas bases de datos de manera manual es un proceso tedioso y poco eficiente si lo que se pretende es realizar estas consultas de manera frecuente y rápida. Para esto, una herramienta que analice la información almacenada en la base de datos y la presente en distintas visualizaciones se convierte en necesario.
+
+		
+%	\section{Sistemas de visualización}
+%	\label{sec:1_sistemas_visualizacion}	
+%		(INCOMPLETO - unido con monitorización)		
+		
+		
+		
 	\section{Estructura de la memoria}
-	\label{sec:estructura_memoria}
-		(INCOMPLETO)
-	
+	\label{sec:1_estructura_memoria}
+		En esta sección se detalla la estructura de la memoria. Dividida en los siguientes capítulos:
+		
+		\begin{itemize}
+		\item En el capítulo ~\ref{chap:introduccion} se introduce el proyecto ofreciendo el contexto sobre el que se va a trabajar así como la motivación que inició este TFG.
+		
+		\item En el capítulo \ref{chap:objetivos} se exponen tanto los objetivos a cumplir como la metodología seguida en el transcurso de este proyecto. 
+		
+		\item En el capítulo \ref{chap:infraestructura_utilizada} se detalla, desde un punto de vista informativo, todas las tecnologías involucradas en el desarrollo de este TFG. Dividido en tres secciones: tecnologías Web, bases de datos y tecnologías de visualización. 
+		
+		\item En el capítulo \ref{chap:primer_prototipo} se define el diseño propuesto para el primer prototipo de la herramienta de analíticas que mejora la funcionalidad de análisis automático en la plataforma Kibotics. Además, se exponen los pasos realizados para el desarrollo e integración del diseño en la plataforma.
+		
+		\item En el capítulo \ref{chap:segundo_prototipo} se expone un nuevo diseño de la herramienta de analíticas aplicando lo aprendido en el desarrollo del primer prototipo y se detallan los pasos que ha sido necesario realizar en la versión final de la herramienta.
+		
+		\item En el capítulo \ref{chap:conclusiones} se detallan las conclusiones alcanzadas, así como las competencias adquiridas durante la realización de este proyecto. Además, se plantean futuros trabajos sobre el software desarrollado con los que crear una solución mas completa.
+
+		\end{itemize}
 	\section{Motivación}
 	\label{sec:motivación}
-		(INCOMPLETO)
-		El objetivo principal es dotar a la Web de Kibotics de sondas de almacenamiento de datos y herramientas de visualización para el análisis de estos, ya sean de visitantes a la web, registros de usuarios o uso de los ejercicios.\\
+		En Kibotics los usuarios pueden interactuar de diferentes maneras, el tiempo que le dedican a cada ejercicio puede ser diferente, pueden realizar el mismo ejercicio de diferentes maneras, entran en diferentes horas del día. Toda esta información es muy valiosa para observar que partes de la plataforma generan más interés y que uso se está haciendo en ella. \\
 
-		Ofreciendo así a la web y sus administradores de capacidades para recoger, estudiar y valorar los datos aportados para tener una mejor visión global de que rumbo tomar, como está funcionando el servicio y como mejorarlo. \\
-		
-		Estos datos son imprescindibles para cualquier decisión importante que se deba tomar para mejorar la satisfacción de los usuarios, aumentar la retención, mejorar los contenidos y su distribución.
+		El objetivo de este TFG es dotar a la plataforma de Kibotics de sondas de almacenamiento de datos y herramientas de visualización para el análisis de éstos, ya sean de visitantes a la web, o usuarios registrados que estén accediendo a ejercicios.\\
+
+		Ofreciendo así a los administradores y desarrolladores de la plataforma de capacidades para recoger, estudiar y valorar los datos aportados para tener una mejor visión global de que rumbo tomar, como está funcionando el servicio y como mejorarlo. Estos datos son imprescindibles para cualquier decisión importante que se deba tomar para mejorar la satisfacción de los usuarios, aumentar la retención, mejorar los contenidos y su distribución. \\
 			
-	
+		El diseño de una herramienta de analíticas para una plataforma web no es algo trivial ya que existen diversas tecnologías que podrían ser utilizadas y todas ellas con sus ventajas e inconvenientes. En los siguientes capítulos se detallará el proceso seguido hasta el desarrollo de la herramienta final, así como las tecnologías utilizadas en este proceso.
+		
+		
+		
+		
 	\cleardoublepage 
 	\chapter{Objetivos} 
 	\label{chap:objetivos} 
-		(INCOMPLETO)
-		\textbf{desarrolar la funcionalidad analíticas en una plataforma educativa}
-		1 expandir los datos grabados
-		2 grabarlos en una base de datos moderna
-		3 que se visualicen automaticamente
+
+%		\textbf{desarrollar la funcionalidad analíticas en una plataforma educativa}
+%		1 expandir los datos grabados
+%		2 grabarlos en una base de datos moderna
+%		3 que se visualicen automáticamente
+%		
+%		primera solucion - primer prototipo 
+%		sondas
+%		mongo
+%		matplotlib
+%
+%		\item En el capítulo \ref{chap:objetivos} se exponen tanto los objetivos a cumplir como la metodología seguida en el transcurso de este proyecto. 
+		(INCOMPLETO)\\
 		
-		primera solucion - primer prototipo 
-		sondas
-		mongo
-		matplotlib
+		
+		(INCOMPLETO - DIVIDIR EL OBJETIVO PRINCIPAL EN sub-objetivos)
+		
+		El objetivo de este proyecto es desarrollar un módulo de analíticas para la monitorización de uso de la aplicación web Kibotics. Para realizar esta tarea, primero ha sido necesario estudiar, implementar y probar distintas tecnologías de recogida y almacenamiento de información como de generación de visualizaciones. Se busca que esta herramienta ofrezca a los administradores de la web información sobre aquellos eventos que se consideren importantes mientras los usuarios interactúan con ella.\\
+		
+		Para asegurar que se daban los pasos correctos para la consecución de éste objetivo se ha establecido un plan de reuniones semanales con los tutores del proyecto. En estas reuniones se presentaban los progresos de la semana. Además, se han utilizado para resolver dudas y problemas que han ido surgiendo.\\
+		
+		(INCOMPLETO - Reescribir. Comentar que durante una primera etapa, en la que se estudiaron las tecnologías y se obtuvo un conocimiento general de la plataforma Kibotics y su funcionamiento, se creo un repositorio en Github para.....)
+		Ha sido necesario el uso de un repositorio para el control de versiones, para este trabajo se han utilizado dos proyectos GitHub.\\
+		
+		El primero \footnote{https://github.com/RoboticsLabURJC/2019-tfg-angel-perea}, un proyecto personal en el que se han subido diferentes recursos como por ejemplo: \textit{scripts}, ficheros de log, o pequeñas pruebas sobre servidores Django. Al haber un único desarrollador el uso ha sido con \textit{commits}.\\
+		
+		(INCOMPLETO - Una vez adquirido el contexto y habiendo entenido la forma de trabajar a través de Github.... se trabajó en el propio código de Kibotics.)El segundo proyecto \footnote{https://github.com/jderobot-hub/kibotics-webserver} sobre el que se trabajó, es el propio del servicio web de Kibotics. Tras las reuniones semanales, se creaban \textit{issues} que explicaban diversas tareas de desarrollo a realizar en la plataforma. Estos \textit{issues} son sobre los que se trabajaba durante la semana. Para el desarrollo, se creaba una nueva rama actualizada con los últimos cambios de la rama principal. Una vez finalizados los cambios se explicaban en un comentario o \textit{commit} y se subían al repositorio. Para integrarlos con la rama principal se abrían peticiones \textit{pull request} en las que se solicita a los administradores del proyecto una verificación de los cambios subidos a la rama. Una vez aceptado el \textit{pull request}, el proceso de integración termina y se resuelve el \textit{issue}.
+		
+		(INCOMPLETO - Me cuesta entender la relación entre Github y objetivos tal y como la cuentas. Puedes rehacerlo de manera que digas que en un proyecto de desarrollo pueden trabajar  varios desarrolladores y uno de los objetivos es ser capaces de resolver problemas y añadir funcionalidad sin pisar el trabajo de los demás, respetando buenas prácticas de desarrollo... etc.)
 		
 		
 	\cleardoublepage 
@@ -810,8 +890,6 @@
 	\section{Implementación} 
 	\label{sec:2_implementacion} 
 	
-%		detalles de elasticsearch
-%		detalles de kibana	
 		En esta sección se detallan los cambios involucrados en el desarrollo de la herramienta de analíticas para la integración de Elasticsearch como base de datos y Kibana como herramienta de visualización. Además, de esta versión final de la herramienta, se explica la generación de recursos de prueba para futuros desarrolladores de Kibotics.
 	\subsection{Elasticsearch en Webserver}
 	\label{subsec:elasticsearch_kibotics}
@@ -1228,35 +1306,38 @@
 	\section{Conclusiones finales} 
 	\label{sec:conclusiones_finales} 
 
-			Repasando lo definido en el capítulo \ref{chap:objetivos}, el principal objetivo de este proyecto es crear una herramienta con la que grabar datos de actividad, visualizar y analizar el uso que hacen los usuarios de la plataforma educativa Kibotics. Este objetivo global se ha cumplido satisfactoriamente, se ha diseñado, desarrollado y probado un módulo de analíticas en el que visualizar estos datos de uso de la aplicación.\\
-			
-			La herramienta desarrollada consta de la grabación de un conjunto más extenso de eventos de los que poseía inicialmente y una vista específica, llamada "Analíticas" dentro del servidor web de Kibotics. Esta nueva vista tendrá embebida los tableros o \textit{dashboards} que se generan en el servicio de Kibana.\\
-			
-			Se ha mejorado el sistema de registro de logs de la aplicación ampliando y extendiendo el conjunto de sondas que graban eventos de interés. Eliminando los ficheros de log indexados por días y creando una base de datos en Elasticsearch dividida en distintos índices sobre los que se registran variedad de eventos interesantes como inicio de sesión, entrada en cada ejercicio, desde qué sistema operativo se accede a la plataforma, etc... Aumentando así la escalabilidad de este proceso de registro de logs y eventos, con este cambio se consigue que esta sea una solución robusta y duradera. \\
+		Repasando lo plateado en el capítulo \ref{chap:objetivos}, el principal objetivo de este proyecto es crear una herramienta con la que grabar datos de actividad, visualizar y analizar el uso que hacen los usuarios de la plataforma educativa Kibotics. Este objetivo global se ha cumplido satisfactoriamente: se ha diseñado, desarrollado y probado un módulo de analíticas en el que visualizar estos datos de uso de la aplicación.\\
 		
-			Además de las tecnologías empleadas en el segundo prototipo (Elasticsearch y Kibana), se han explorado otras opciones. En el campo de las bases de datos se hizo uso de MongoDB como soporte para toda la información circunstancial que posteriormente se visualizaba haciendo uso de la librería de Python Matplotlib. \\
+		La herramienta desarrollada consta de la grabación de un conjunto más extenso de eventos de los que poseía inicialmente y una vista específica, llamada 'Analíticas' dentro del servidor web de Kibotics. Esta nueva vista tiene embebida los tableros o \textit{dashboards} que se generan en el servicio de Kibana.\\
 		
-			En la Tabla \ref{tabla:evolucion_analiticas} se puede observar de forma esquemática la evolución que han sufrido las sondas de datos circunstanciales, así como las tecnologías de bases de datos y de visualización utilizadas en el desarrollo de este Trabajo Fin de Grado.\\
-			
-			\begin{table}[H]
-				\begin{center}
-					\begin{tabular}{ | c | p{6cm} | c | c |} 
-						\hline
-						 & Eventos registrados & Almacenamiento & Visualización \\ 
-						\hline 
-						Kibotics 2.0 & Inicio de sesión, fin de sesión, comienzo de ejercicio, salida de ejercicio y error en aplicación & Ficheros TXT & No\\ 
-						\hline
-						Primer Prototipo & Inicio de sesión, fin de sesión, comienzo de ejercicio, salida de ejercicio y error en aplicación& MongoBD 4.2.6 & Matplotlib 3.1.2\\ 
-						\hline
-						Segundo Prototipo & Sesión unificado y enriquecido, simulación  unificado y enriquecido, visitantes y error en aplicación & Elasticsearch 7.6.2 & Kibana 7.7.0\\ 
-						\hline
+		Se ha mejorado el sistema de registro de logs de la aplicación, ampliando y extendiendo el conjunto de sondas que graban eventos de interés. Eliminando los ficheros de log indexados por días y creando una base de datos en Elasticsearch dividida en distintos índices sobre los que se registran variedad de eventos interesantes como inicio de sesión, entrada en cada ejercicio, desde qué sistema operativo se accede a la plataforma, etc... Aumentando así la escalabilidad de este proceso de registro de logs y eventos, con este cambio se consigue que esta sea una solución robusta y duradera. (INCOMPLETO - REFERENCIA A SECCION)\\
+	
+		Se ha desarrollado una vista en la web de Kibotics en la que se muestran automáticamente los datos agregados que están almacenados en la base de datos. Es una vista dinámica, con los contenidos que se muestran generados en caliente, en ese mismo momento, desde los datos almacenados. Eso permite una visualización siempre actualizada. En esta vista de Django se muestran varios cortes del conjunto de datos como la ubicación geográfica desde donde se accede a la plataforma, la frecuencia y duración de las interacciones de los usuarios con la plataforma a lo largo del tiempo. (INCOMPLETO - REFERENCIA A SECCION)\\
+	
+		Además de las tecnologías empleadas en el segundo prototipo (Elasticsearch y Kibana), se han explorado otras opciones. En el campo de las bases de datos se hizo uso de MongoDB como soporte para toda la información circunstancial que posteriormente se visualizaba haciendo uso de la librería de Python Matplotlib, según se explica con detalle en el capítulo \ref{chap:primer_prototipo} \\
 
-					\end{tabular}
-					\label{tabla:evolucion_analiticas}
-					\caption{Evolución del sistema de registro de eventos y analíticas de la plataforma educativa Kibotics.}
-				\end{center}
-			\end{table}
 		
+		\begin{table}[H]
+			\begin{center}
+				\begin{tabular}{ | c | p{6cm} | c | c |} 
+					\hline
+				 & Eventos registrados & Almacenamiento & Visualización \\ 
+					\hline 
+					Kibotics 2.0 & Inicio de sesión, fin de sesión, comienzo de ejercicio, salida de ejercicio y error en aplicación & Ficheros TXT & No\\ 
+					\hline
+					Primer Prototipo & Inicio de sesión, fin de sesión, comienzo de ejercicio, salida de ejercicio y error en aplicación& MongoBD 4.2.6 & Matplotlib 3.1.2\\ 
+					\hline
+					Segundo Prototipo & Sesión unificado y enriquecido, simulación  unificado y enriquecido, visitantes y error en aplicación & Elasticsearch 7.6.2 & Kibana 7.7.0\\ 
+					\hline
+
+				\end{tabular}
+				\label{tabla:evolucion_analiticas}
+				\caption{Evolución del sistema de registro de eventos y analíticas de la plataforma educativa Kibotics.}
+			\end{center}
+		\end{table}
+	
+				
+		En la Tabla \ref{tabla:evolucion_analiticas} se puede observar de forma esquemática la evolución que han sufrido las sondas de datos circunstanciales, así como las tecnologías de bases de datos y de visualización utilizadas en el desarrollo de este Trabajo Fin de Grado.\\
 	\section{Competencias adquiridas} 
 	\label{sec:competencias_adquiridas} 
 	
@@ -1266,11 +1347,10 @@
 			
 			\item Despliegue e implementación de diferentes tipos de bases de datos MongoDB y Elasticsearch en un proyecto real. Importancia de la información para monitorizar un servicio Web.\\
 			
-			\item Se han explorado dos tecnologías diferentes para la visualización automática de información. Primero la librería de Python Matplotlib que pese a las limitaciones encontradas, ofrece una gran versatilidad y finalmente Kibana que gracias al stack ELK proporciona un ecosistema rápido, potente y escalable con el que trabajar. \\
+			\item Se han explorado dos tecnologías diferentes para la visualización automática de información. Primero la librería de Python Matplotlib, que pese a las limitaciones encontradas, ofrece una gran versatilidad. Y finalmente Kibana, que gracias al stack ELK proporciona un ecosistema rápido, potente y escalable con el que trabajar. \\
 			
 			\item Una primera toma en contacto con el análisis de datos automático en el que ha destacado el uso del stack ELK. Este ha sido una herramienta muy potente de la que he aprendido cómo es integrar varias tecnologías para crear un producto complejo, interconectado e interesante. \\
 			
-			\item Se ha desarrollado una vista en la web de Kibotics en la que se muestran automáticamente los datos agregados que están almacenados en la base de datos. Es una vista dinámica, con los contenidos que se muestran generados en caliente, en ese mismo momento, desde los datos almacenados. Eso permite una visualización siempre actualizada. En esta vista de Django se muestran varios cortes del conjunto de datos como la ubicación geográfica desde donde se accede a la plataforma, la frecuencia y duración de las interacciones de los usuarios con la plataforma a lo largo del tiempo. \\
 			
 			\item Sistema de versiones centrado en los parches e incidencias. Haciendo uso de GitHub como repositorio en el que desarrollar este Trabajo Fin de Grado, siempre presente junto a la filosofía \textit{release often, release soon}. \\
 			
@@ -1285,33 +1365,18 @@
 		\begin{itemize}
 			\item Kibotics Webserver es una aplicación grande y en constante ampliación, añadir más sondas con las que tener la aplicación controlada será recomendable. Con estas nuevas sondas será necesaria la creación de nuevos índices en la base de datos y visualizaciones automáticas en la vista de analíticas.\\
 			
-			\item Actualmente los datos almacenados en Elasticsearch solo pueden ser analizados accediendo al módulo desarrollado. Una herramienta automática que analice estos datos sería muy interesante para controlar, por ejemplo que todos los ejercicios están siendo accedidos y los tiempos de desarrollo de los usuarios no son demasiado elevados.\\
+			\item Actualmente los datos almacenados en Elasticsearch solo pueden ser analizados accediendo al módulo desarrollado. Una nueva herramienta automática externa que analice estos datos sería muy interesante para monitorizar, por ejemplo, que todos los ejercicios están siendo accedidos y los tiempos de desarrollo de los usuarios no son demasiado elevados.\\
 			
-			\item El stack ELK posee, además de Elasticsearch y Kibana, otras herramientas muy interesantes como Logstash y Beats. Las cuales pueden dotar a Elasticsearch de nuevos datos procedentes de otras fuentes, como por ejemplo, logs del servidor con los que controlar los accesos que recibe la plataforma y el servidor Apache subyacente.\\
+			\item El stack ELK posee, además de Elasticsearch y Kibana, otras herramientas muy interesantes como Logstash y Beats. Ellas pueden dotar a Elasticsearch de nuevos datos procedentes de otras fuentes, como por ejemplo, logs del servidor con los que controlar los accesos que recibe la plataforma y el servidor Apache subyacente. (INCOMPLETO - falta un verbo)\\
 			
-			\item Explorar otras mejoras de integración a la Web de Kibotics, ya que el iframe no es algo ideal en un servicio productivo, principalmente por motivos de seguridad. Buscar otras configuraciones de Kibana que permitan un mejor despliegue a los servicios de \textit{Amazon Web Service} que Kibotics posee.\\
-			
-			\item El stack ELK es un software en constante evolución la cual añade nuevas y mejores funcionalidades constantemente. Mantener las versiones del software actualizadas es recomendable.\\
-			
-			\item Al proporcionar información muy sensible sobre el servicio de la plataforma, aumentar la seguridad en el servidor Kibotics para acceder a estos datos es necesario.\\
+			\item Explorar otras mejoras de integración en la plataforma de Kibotics, ya que el iframe no es algo ideal en un servicio en producción, principalmente por motivos de seguridad. Buscar otras configuraciones de Kibana que permitan un mejor despliegue en los servicios de \textit{Amazon Web Service} desde los que se ejecuta la plataforma.\\
+						
+			\item Al proporcionar información muy sensible sobre el servicio de la plataforma, es necesario aumentar la seguridad en el servidor Kibotics para acceder a las vistas en las que se visualizan estos datos.\\
 		\end{itemize}
 
 
-	
-	% Las siguientes dos instrucciones es todo lo que necesitas
-	% para incluir las citas en la memoria
-	%%%%%%%%%%%%\bibliographystyle{abbrv}
-	%%%%%%%%%%%%\bibliography{memoria}  % memoria.bib es el nombre del fichero que contiene
-	% las referencias bibliográficas. Abre ese fichero y mira el formato que tiene,
-	% que se conoce como BibTeX. Hay muchos sitios que exportan referencias en
-	% formato BibTeX. Prueba a buscar en http://scholar.google.com por referencias
-	% y verás que lo puedes hacer de manera sencilla.
-	% Más información: 
-	% http://texblog.org/2014/04/22/using-google-scholar-to-download-bibtex-citations/
-	%(INCOMPLETO)
 	\cleardoublepage
 	\begin{thebibliography}{7}
-		
 		
 		\bibitem{HTML}
 		\textit{Estándar HTML:}
@@ -1345,7 +1410,6 @@
 		\textit{Histórico de versiones para Elasticsearch:}
 		\url{https://www.elastic.co/downloads/past-releases#elasticsearch}	
 		
-		
 		\bibitem{releases_matplotlib}
 		\textit{Versiones de Matplotlib:}
 		\url{https://github.com/matplotlib/matplotlib/releases}	
@@ -1365,14 +1429,7 @@
 		\bibitem{Elasticdump}
 		\textit{Documentación Elasticdump:}
 		\url{https://www.npmjs.com/package/elasticdump}	
-		
-		
-		
-		
-		
-		
-		
-		
+
 	\end{thebibliography}
 	
 \end{document}
