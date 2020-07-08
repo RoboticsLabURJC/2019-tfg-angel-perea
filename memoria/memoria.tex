@@ -149,11 +149,11 @@
 		
 	\chapter*{Resumen}
 	\markboth{RESUMEN}{RESUMEN}
-		Este Trabajo Fin de Grado (TFG) se centra en proporcionar una herramienta de analíticas de datos para una plataforma Web. Este módulo estará embebido en la propia plataforma y permitirá la visualización de información acerca de la actividad de los usuarios en ella. Mediante el desarrollo de un módulo de analíticas embebido en el propio servicio web sobre el que se trabaja, se puede visualizar información acerca de la actividad que tienen los usuarios.\\
+		Este Trabajo Fin de Grado (TFG) se centra en proporcionar una herramienta de analíticas de datos para una plataforma web. Esta herramienta estará embebida en la propia plataforma y permitirá la visualización de información acerca de la actividad de los usuarios. Gracias al desarrollo de esta herramienta se podrá visualizar información acerca de la actividad que tienen los usuarios y del tiempo que pasan en la plataforma.\\
 
-		El módulo de analíticas ha sido desarrollado sobre la plataforma web de Kibotics\footnote{https://kibotics.org/}. Dicha plataforma permite a los usuarios aprender robótica y programación a través  de los diferentes ejercicios y teoría que ofrece a los usuarios. En este escenario, se hacía necesario dotar a Kibotics con una herramienta de analíticas que permitiera a los desarrolladores y administradores de la plataforma analizar cómo los usuarios finales interactuaban con ella.\\
+		La herramienta de analíticas ha sido desarrollada sobre la plataforma educativa \textit{online} Kibotics\footnote{https://kibotics.org/}. Dicha plataforma permite a los usuarios aprender robótica y programación a través de los diferentes ejercicios y teoría que ofrece a los usuarios. En este escenario, y sabiendo que desde Kibotics se pretende dar servicio a una gran cantidad de usuarios, se hacía necesario dotar a la plataforma de una herramienta que permitiera a los desarrolladores y administradores analizar cómo los usuarios finales interactuaban con ella.\\
 		
-		Durante el TFG se han empleado diferentes tecnologías de bases de datos y de representación de los mismos. Comenzando con el diseño de un primer prototipo basado en MongoDB y Matplotlib, la herramienta evolucionó hasta estar diseñada con a Elasticsearch y Kibana, ambas pertenecientes al stack ELK.
+		Durante el TFG se han empleado diferentes tecnologías de bases de datos y de representación de los mismos. Comenzando con el diseño de un primer prototipo basado en MongoDB y Matplotlib, la herramienta evolucionó hasta estar diseñada con Elasticsearch y Kibana, ambas pertenecientes al stack ELK.
 		
 	\chapter*{Summary}
 	%\addcontentsline{toc}{chapter}{Summary} % si queremos que aparezca en el índice
@@ -280,23 +280,26 @@
 %		matplotlib
 %
 %		\item En el capítulo \ref{chap:objetivos} se exponen tanto los objetivos a cumplir como la metodología seguida en el transcurso de este proyecto. 
-		(INCOMPLETO)\\
+%		(INCOMPLETO)\\
+		
+		El objetivo de este proyecto es desarrollar un módulo de analíticas para la monitorización de uso de la plataforma educativa \textit{online} Kibotics. Se busca que esta herramienta ofrezca a los administradores de la web información sobre aquellos eventos que se consideren importantes mientras los usuarios interactúan con ella.\\
+		
+%		(INCOMPLETO - DIVIDIR EL OBJETIVO PRINCIPAL EN sub-objetivos)
+		Para desarrollar la herramienta primero ha sido necesario estudiar, implementar y probar distintas tecnologías de recogida, almacenamiento y generación de visualizaciones. Es en estos tres puntos en los que divide el desarrollo de la herramienta.	\\
+				
+		Para asegurar que se daban los pasos correctos para la consecución de estos subobjetivos se ha establecido un plan de reuniones semanales con los tutores del proyecto. En estas se presentaban los progresos de la semana. Además, se han utilizado para resolver dudas y problemas que han ido surgiendo.\\
+		
+		Durante la primera etapa del proyecto, se estudiaron tanto las tecnologías como la arquitectura que daba forma a Kibotics. Para mantener un control del código desarrollado,
+		ha sido necesario el uso de un repositorio de datos, para este trabajo se han utilizado dos proyectos GitHub.\\
+		
+		El primero \footnote{https://github.com/RoboticsLabURJC/2019-tfg-angel-perea}, un proyecto personal en el que se han subido periódicamente diferentes recursos como por ejemplo: \textit{scripts}, ficheros de log con los que se trabajó en los momentos iniciales del proyecto, así como pequeñas pruebas sobre servidores Django. Al haber un único desarrollador el uso ha sido con \textit{commits}.\\
 		
 		
-		(INCOMPLETO - DIVIDIR EL OBJETIVO PRINCIPAL EN sub-objetivos)
+		Una vez adquirido el contexto y habiendo entendido la forma de trabajar a través de GitHub, se comenzó a trabajar en el propio código de la plataforma. Este código está almacenado en el repositorio privado de Kibotics \footnote{https://github.com/jderobot-hub/kibotics-webserver}. Tras las reuniones semanales, se creaban \textit{issues} que explicaban problemas o mejoras que tenía el código de la plataforma. Estos \textit{issues} son sobre los que se trabajaba durante la semana. \\
 		
-		El objetivo de este proyecto es desarrollar un módulo de analíticas para la monitorización de uso de la aplicación web Kibotics. Para realizar esta tarea, primero ha sido necesario estudiar, implementar y probar distintas tecnologías de recogida y almacenamiento de información como de generación de visualizaciones. Se busca que esta herramienta ofrezca a los administradores de la web información sobre aquellos eventos que se consideren importantes mientras los usuarios interactúan con ella.\\
+		Para permitir que varios desarrolladores pudiesen añadir funcionalidad o solucionar errores de forma paralela, se creaba una nueva rama actualizada con los últimos cambios de la rama principal. Es sobre esta rama sobre la que se desarrollaba la solución, una vez finalizados los cambios se explicaban en un comentario o \textit{commit} y se subían al repositorio. Para integrarlos con la rama principal se abrían peticiones \textit{pull request} en las que se solicita a los administradores del proyecto una verificación de los cambios subidos a la rama. Una vez aceptado el \textit{pull request}, el proceso de integración termina y se resuelve el \textit{issue}. \\
 		
-		Para asegurar que se daban los pasos correctos para la consecución de éste objetivo se ha establecido un plan de reuniones semanales con los tutores del proyecto. En estas reuniones se presentaban los progresos de la semana. Además, se han utilizado para resolver dudas y problemas que han ido surgiendo.\\
-		
-		(INCOMPLETO - Reescribir. Comentar que durante una primera etapa, en la que se estudiaron las tecnologías y se obtuvo un conocimiento general de la plataforma Kibotics y su funcionamiento, se creo un repositorio en Github para.....)
-		Ha sido necesario el uso de un repositorio para el control de versiones, para este trabajo se han utilizado dos proyectos GitHub.\\
-		
-		El primero \footnote{https://github.com/RoboticsLabURJC/2019-tfg-angel-perea}, un proyecto personal en el que se han subido diferentes recursos como por ejemplo: \textit{scripts}, ficheros de log, o pequeñas pruebas sobre servidores Django. Al haber un único desarrollador el uso ha sido con \textit{commits}.\\
-		
-		(INCOMPLETO - Una vez adquirido el contexto y habiendo entenido la forma de trabajar a través de Github.... se trabajó en el propio código de Kibotics.)El segundo proyecto \footnote{https://github.com/jderobot-hub/kibotics-webserver} sobre el que se trabajó, es el propio del servicio web de Kibotics. Tras las reuniones semanales, se creaban \textit{issues} que explicaban diversas tareas de desarrollo a realizar en la plataforma. Estos \textit{issues} son sobre los que se trabajaba durante la semana. Para el desarrollo, se creaba una nueva rama actualizada con los últimos cambios de la rama principal. Una vez finalizados los cambios se explicaban en un comentario o \textit{commit} y se subían al repositorio. Para integrarlos con la rama principal se abrían peticiones \textit{pull request} en las que se solicita a los administradores del proyecto una verificación de los cambios subidos a la rama. Una vez aceptado el \textit{pull request}, el proceso de integración termina y se resuelve el \textit{issue}.
-		
-		(INCOMPLETO - Me cuesta entender la relación entre Github y objetivos tal y como la cuentas. Puedes rehacerlo de manera que digas que en un proyecto de desarrollo pueden trabajar  varios desarrolladores y uno de los objetivos es ser capaces de resolver problemas y añadir funcionalidad sin pisar el trabajo de los demás, respetando buenas prácticas de desarrollo... etc.)
+		Se ha trabajado en el repositorio siempre junto a la filosofía \textit{release often, release soon} y gracias a este sistema de ramas y pequeños parches se consigue que el código a desarrollar no sea tan extenso, permitiendo a los administradores validar e integrar los cambios más rápido.
 		
 		
 	\cleardoublepage 
