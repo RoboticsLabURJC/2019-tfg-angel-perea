@@ -70,9 +70,9 @@
 			\vspace{2.5cm}
 			
 			\LARGE
-			(INCOMPLETO)TÍTULO DEL TRABAJO EN MAYÚSCULAS
+			ANALÍTICAS AUTOMÁTICAS DE DATOS MASIVOS EN UNA PLATAFORMA DIGITAL EDUCATIVA
 			
-			\vspace{4cm}
+			\vspace{3cm}
 			
 			\large
 			Autor : Ángel Perea Arias \\
@@ -86,54 +86,55 @@
 	\thispagestyle{empty} % para que no se numere esta pagina
 	
 	
-	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-	%%%% Para firmar
-	\clearpage
-	\pagenumbering{gobble}
-	\chapter*{}
-	
-	\vspace{-4cm}
-	\begin{center}
-		\LARGE
-		\textbf{Trabajo Fin de Grado}
-		
-		\vspace{1cm}
-		\large
-		(INCOMPLETO)Título del Trabajo con Letras Capitales para Sustantivos y Adjetivos
-		
-		\vspace{1cm}
-		\large
-		\textbf{Autor :} Ángel Perea Arias \\
-		\textbf{Tutor :} Dr. José María Cañas Plaza \\
-		\textbf{Co-Tutor :} Dr. David Roldán Álvarez		
-		
-	\end{center}
-	
-	\vspace{1cm}
-	La defensa del presente Proyecto Fin de Grado se realizó el día \qquad$\;\,$ de \qquad\qquad\qquad\qquad \newline de 2020, siendo calificada por el siguiente tribunal:
-	
-	
-	\vspace{0.5cm}
-	\textbf{Presidente: }
-	
-	\vspace{1.2cm}
-	\textbf{Secretario: }
-	
-	\vspace{1.2cm}
-	\textbf{Vocal: }
-	
-	
-	\vspace{1.2cm}
-	y habiendo obtenido la siguiente calificación:
-	
-	\vspace{1cm}
-	\textbf{Calificación:}
-	
-	
-	\vspace{1cm}
-	\begin{flushright}
-		Fuenlabrada, a \qquad$\;\,$ de \qquad\qquad\qquad\qquad de 2020
-	\end{flushright}
+%	%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%	%%%% Para firmar
+%	\clearpage
+%	\pagenumbering{gobble}
+%	\chapter*{}
+%	
+%	\vspace{-4cm}
+%	\begin{center}
+%		\LARGE
+%		\textbf{Trabajo Fin de Grado}
+%		
+%		\vspace{1cm}
+%		\large
+%		Analíticas Automáticas de Datos Masivos en una Plataforma Digital Educativa
+%		
+%		
+%		\vspace{1cm}
+%		\large
+%		\textbf{Autor :} Ángel Perea Arias \\
+%		\textbf{Tutor :} Dr. José María Cañas Plaza \\
+%		\textbf{Co-Tutor :} Dr. David Roldán Álvarez		
+%		
+%	\end{center}
+%	
+%	\vspace{1cm}
+%	La defensa del presente Proyecto Fin de Grado se realizó el día \qquad$\;\,$ de \qquad\qquad\qquad\qquad \newline de 2020, siendo calificada por el siguiente tribunal:
+%	
+%	
+%	\vspace{0.5cm}
+%	\textbf{Presidente: }
+%	
+%	\vspace{1.2cm}
+%	\textbf{Secretario: }
+%	
+%	\vspace{1.2cm}
+%	\textbf{Vocal: }
+%	
+%	
+%	\vspace{1.2cm}
+%	y habiendo obtenido la siguiente calificación:
+%	
+%	\vspace{1cm}
+%	\textbf{Calificación:}
+%	
+%	
+%	\vspace{1cm}
+%	\begin{flushright}
+%		Fuenlabrada, a \qquad$\;\,$ de \qquad\qquad\qquad\qquad de 2020
+%	\end{flushright}
 	
 	\chapter*{}
 	\pagenumbering{Roman} % para comenzar la numeracion de paginas en numeros romanos
@@ -149,11 +150,14 @@
 		
 	\chapter*{Resumen}
 	\markboth{RESUMEN}{RESUMEN}
-		Este Trabajo Fin de Grado (TFG) se centra en proporcionar una herramienta de analíticas de datos para una plataforma web. Esta herramienta estará embebida en la propia plataforma y permitirá la visualización de información acerca de la actividad de los usuarios. Gracias al desarrollo de esta herramienta se podrá visualizar información acerca de la actividad que tienen los usuarios y del tiempo que pasan en la plataforma.\\
 
-		La herramienta de analíticas ha sido desarrollada sobre la plataforma educativa \textit{online} Kibotics\footnote{https://kibotics.org/}. Dicha plataforma permite a los usuarios aprender robótica y programación a través de los diferentes ejercicios y teoría que ofrece a los usuarios. En este escenario, y sabiendo que desde Kibotics se pretende dar servicio a una gran cantidad de usuarios, se hacía necesario dotar a la plataforma de una herramienta que permitiera a los desarrolladores y administradores analizar cómo los usuarios finales interactuaban con ella.\\
+		El uso de Internet crece año tras año, gracias a este aumento de demanda constante cada vez más empresas migran sus servicios a la web haciéndolo un entorno muy competitivo con una alta oferta y demanda. Con el fin de crear modelos de negocio viables, para estas plataformas es cada vez más importante mantener una alta satisfacción y retención de los usuarios. Para conseguirlo, una monitorización que refleje fielmente el uso que se hace es muy necesario. \\
 		
-		Durante el TFG se han empleado diferentes tecnologías de bases de datos y de representación de los mismos. Comenzando con el diseño de un primer prototipo basado en MongoDB y Matplotlib, la herramienta evolucionó hasta estar diseñada con Elasticsearch y Kibana, ambas pertenecientes al stack ELK.
+		Este Trabajo Fin de Grado (TFG) tiene como objetivo desarrollar una herramienta de analíticas web embebida en una plataforma \textit{online} que proporcione a los administradores y desarrolladores la información necesaria para una correcta monitorización de su servicio. Se trabajará sobre Kibotics, una plataforma educativa \textit{online} para usuarios que se quieran iniciar en el mundo de la robótica. \\
+		
+		Para el desarrollo de esta herramienta de analíticas se ha experimentado con diversas tecnologías tanto de captura y almacenamiento de datos, como de generación de visualizaciones. Inicialmente desarrollando un prototipo basado en MongoDB y Matplotlib que se sustituyó por una versión más optimizada desarrollada haciendo uso de Elasticsearch como base de datos y Kibana como generador de visualizaciones, pertenecientes al stack ELK. Estas versiones de la herramienta se han dividido en tres fases: obtención de información relevante, almacenamiento en las bases de datos y visualización de la información. \\
+		
+		Este objetivo global se ha cumplido satisfactoriamente: se ha diseñado, desarrollado y probado una herramienta de analíticas web en la que visualizar estos datos de uso de la aplicación Kibotics.
 		
 	\chapter*{Summary}
 	%\addcontentsline{toc}{chapter}{Summary} % si queremos que aparezca en el índice
@@ -172,134 +176,159 @@
 	\cleardoublepage
 	\chapter{Introducción}
 	\label{chap:introduccion} 
+	% Añadir referencias y ejemplos!! Dar contexto, hablar de lo que hay alrededor
+	% "Este TFG se encuadra al rededor de una plataforma digital para enseñar robótica" para q se sepa xk se va a hablar de todo
+	%	
+	
+	
 	\pagenumbering{arabic}
-		La motivación de este TFG es dotar a la plataforma educativa \textit{online} Kibotics de una herramienta para analizar el uso de su aplicación. Se pretende que esta herramienta esté compuesta por varias secciones: sondeo de las funcionalidades principales de la aplicación, almacenamiento de los datos y visualización de analíticas.
+		La motivación de este TFG es dotar a la plataforma educativa \textit{online} Kibotics de una herramienta para analizar el uso de su aplicación. Se pretende que esta herramienta esté compuesta por varias secciones: sondeo de los eventos principales de la aplicación, almacenamiento de la información y visualización.
 		
-	\section{Tecnologías Web}
-	\label{sec:1_tecnologias_web}
-		El desarrollo de una aplicación web frente a una aplicación de escritorio ofrece cada vez más y más ventajas gracias a nuevas tecnologías como AJAX o a los compiladores que los navegadores poseen y que se van haciendo más potentes con el tiempo.\\
+	\section{Plataformas digitales}
+	\label{sec:plataformas_digitales}
+		% Ejemplificar con plataformas digitales, "las tecnologias web cada vez resuelven mas funcionalidad y aplicaciones para las personas... Ha habido una revolucion enorme con HTML 5 y todas las tecnologías que van de la mano: websockets, webworkers..."
 		
-		Algunas de las principales ventajas que una aplicación web ofrece son:
+		% Impacto de las tecnologías web en la vida de las personas
+		% plataformas digitales - subscripciones
+		
+		% paginas web y sus subscriptores
+	
+		% incluye monitorizacion
+		Las plataformas digitales son soluciones \textit{online} que ofrecen un servicio a través de la web. Estas cada vez ofrecen más funcionalidad para las personas, un claro ejemplo son las plataformas de \textit{streaming video on demand (SVoD)}, que en los últimos años han ganado mucha popularidad como por ejemplo Netflix o HBO. Tanta es la demanda, que canales de televisión tradicionales ya están ofreciendo sus servicios a la carta en la web, como por ejemplo Atresmedia. Pese a ser un mercado joven, se estima que alrededor de un 10\% de la población mundial (cerca de 765 millones de personas) consume sus servicios mensualmente \cite{SVod}.\\
+		
+		Este aumento de consumo de contenidos \textit{online}, especialmente multimedia, ha sido en parte posible gracias a la salida del estándar HTML 5. Este nuevo estándar ofrece, entre otras mejoras, nuevas características importantes para la transmisión de contenido multimedia con la inserción de la etiqueta vídeo y \textit{canvas} que ofrece la posibilidad incluir vídeos y generar escenas gráficos 2D y 3D de manera nativa. A continuación, se detallan algunas de las principales características del estándar HTML5:
 		
 		\begin{itemize}
-			\item Toda la información necesaria para el uso de estas aplicaciones está almacenada en los servidores. Se puede acceder a la misma información desde diversos dispositivos, además de no perder datos en caso de un problema de \textit{hardware}.
-			
-			\item Al estar ejecutado en navegadores evita problemas de incompatibilidad por \textit{hardware}.
-			
-			\item No hay necesidad de descargar actualizaciones, además, estas actualizaciones serán para todos los usuarios al mismo tiempo.
+			\item WebGL: API implementada en JavaScript que permite la renderización de gráficos dentro del navegador web. Ofrece aceleración \textit{hardware} haciendo uso de la GPU lo que proporciona un procesamiento y generación de imágenes muy potente.
+			\item Webworkers: ofrece la posibilidad de ejecución multihilo en el navegador mediante la creación de \textit{workers} que ejecutan \textit{scripts} en segundo plano, paralelo a la ejecución principal.
+			\item WebSockets: Mediante el uso de una API, se hace posible la apertura de comunicaciones interactivas entre el navegador y un servidor. Gracias a un \textit{handshake}, cliente y servidor se conectan permitiendo comunicación bidireccional mediante eventos en la que los mensajes los establece el desarrollador.
+			\item WebRTC: Ofrece una API con la que retransmitir audio y vídeo entre navegadores sin necesidad de un intermediario, así como compartir datos y realizar teleconferencias \textit{peer-to-peer}, sin necesidad de complementos o \textit{software} externo.
 		\end{itemize}
-
-		No todo son ventajas, los navegadores siguen sin ser capaces de ofrecer un alto rendimiento en servicios que requieran de mucho uso del \textit{hardware} como, por ejemplo, videojuegos. Otro de los principales problemas que viene unido a una aplicación web, es la necesidad de conexión a Internet para ofrecer un servicio completo. \\
-			
-		Con la salida del estándar HTML 5, el uso de las tecnologías web ha aumentado considerablemente en los últimos años. Este nuevo estándar ofrece, entre otras muchas mejoras, nuevas características importantes para la transmisión de contenido multimedia con la inserción de la etiqueta vídeo y \textit{canvas} que ofrece la posibilidad incluir vídeos y generar escenas gráficos 2D y 3D de manera nativa.
-		
-		
-		
-	%	\section{Plataformas digitales}
-	%	\label{sec:1_plataformas_digitales}
-	%		(INCOMPLETO)
 	
+		Gracias a todas estas nuevas herramientas y a \textit{frameworks} web como A-Frame, el cual permite crear escenas 3D e incluso entornos de realidad virtual, las aplicaciones web son cada día más atractivas para las empresas y más potentes para los desarrolladores. \\		
+			
+			
+		Con este contexto tan competitivo, disponer de un sistema de monitorización es fundamental en la gestión y administración de cualquier aplicación/plataforma. Esta necesidad se vuelve más crítica cuando la aplicación está desarrollada para ser utilizada por una gran cantidad de usuarios de pago como lo son las aplicaciones web con sistema de suscripciones como Spotify Premium, Twitch Prime o Youtube Premium. \\
+		
+		Estas aplicaciones web hacen uso principalmente información de dos tipos:
+		\begin{itemize}
+			\item Estructural: ofrecen datos acerca de los usuarios registrados, permisos de los usuarios y sobre todo información acerca de los contenidos que componen estas secciones ya sean artículos, vídeos, audio, etc.
+			
+			\item Circunstancial: proporciona información acerca de eventos ocurridos en la aplicación, por ejemplo, las plataformas de vídeo guardarán información acerca de tendencias de visualización para ofrecer recomendaciones más precisas con los gustos de cada usuario. Son los datos que se explotarán en este Trabajo Fin de Grado.
+		\end{itemize}
+		
+		Cada usuario que accede a una aplicación espera obtener una experiencia satisfactoria. Por esto, es importante que los contenidos de la aplicación estén diseñados de acuerdo a las necesidades y exigencias de los usuarios. Una forma de comprobar la satisfacción de los usuarios es mediante la monitorización del tiempo invertido en la aplicación y en sus distintas secciones. Para conseguir estos datos es necesario un sistema de monitorización que registre y muestre estos datos. \\
+		
+		El almacenamiento de estos datos puede ser exponencial por lo que es muy importante tener en cuenta el tipo de base de datos a utilizar para poder tener esta información disponible, a mayor número de usuarios más necesidad de tener una base de datos rápida y eficiente que permita un guardado y consulta masivo de datos. \\
+		
+		Por otro lado, la consulta manual de los datos almacenados es un proceso tedioso y en muchas ocasiones no garantiza un correcto análisis de los acontecimientos de la plataforma. Para esto, una herramienta que obtenga la información almacenada en la base de datos y la presente en distintas visualizaciones se convierte en necesario. Existe una gran variedad de tecnologías dentro de estas herramientas de visualización de datos como, por ejemplo, Cognos Analytics, MongoDB Charts, Metabase... Este TFG se centra en Matplotlib y Kibana.
 	
 	
 	\section{Robótica educativa}
 	\label{sec:1_robotica_edicativa}
 		La robótica es una temática transversal, ocupando áreas como las matemáticas, tecnología o ingeniería. Centrado en la programación permite desarrollar el pensamiento lógico y la capacidad de solución de problemas. \\
 		
-		Una posibilidad para iniciarse en la robótica es haciendo uso de kits de robótica con los que aprender conceptos fundamentales de electrónica y tecnología mediante la construcción de robots y herramientas en las que proporcionarles diversas funcionalidades. \\
-	
-		Otra forma de la que iniciarse en la robótica, y principalmente en la programación de robots es haciendo uso de plataformas \textit{online}, las cuales permiten es desarrollo de funcionalidades y la simulación de las mismas sin necesidad de poseer el robot físico. Dentro de este mundo de plataformas educativas \textit{online}, nos centraremos en Kibotics, plataforma en la que se enmarca este proyecto. Ofrece herramientas centradas en la docencia en robótica y programación para alumnos de secundaria. Con una gran variedad de ejercicios en los que los alumnos pueden aprender conceptos básicos acerca de distintos lenguajes de programación como Scratch o Python, así como introducirse a la visión artificial o la simulación en robots.
+		Una posibilidad para iniciarse en el mundo de la robótica es haciendo uso de kits de robótica como los ofrecidos por \texttt{LEGO education}\footnote{https://education.lego.com/es-es} con los que aprender conceptos fundamentales de electrónica y tecnología mediante la construcción de robots y herramientas de codificación en las que proporcionarles diversas funcionalidades. \\
 		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=10cm, keepaspectratio]{img/lego.png}
+			\caption{Kit de robótica LEGO WeDo 2.0.}
+			\label{fig:lego}
+		\end{figure}
 		
-	\section{Sistemas de monitorización}
-	\label{sec:1_sistemas_monitorizacion}
-		Disponer de un sistema de monitorización es fundamental en la gestión y administración de cualquier aplicación/plataforma. Esta necesidad se vuelve más crítica cuando la aplicación está desarrollada para ser utilizada por una gran cantidad de usuarios como lo son las aplicaciones web. \\
+		Estos kits de robótica suelen estar basados en lenguajes de programación como Scratch para implementar el desarrollo de las funcionalidad de los robots. Scratch permite el desarrollo mediante bloques gráficos, ofreciendo así un aprendizaje sencillo sin necesidad de conocimientos previos sobre programación. Gracias a esta característica es una herramienta ideal para que niños aprendan los fundamentos de la lógica y la programación.
 		
-		Las aplicaciones hacen uso principalmente información de dos tipos:
-		\begin{itemize}
-			\item Estructural: ofrecen datos acerca de los usuarios registrados, permiso de acceso a distintas secciones, datos que componen estas secciones etc.
-			
-			\item Circunstancial: proporciona información acerca de eventos ocurridos en la aplicación por los usuarios como inicio de sesión, fin de sesión, apertura y cierre de las distintas secciones que componga la aplicación. Son los datos que se explotarán en este Trabajo Fin de Grado.
-		\end{itemize}
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=10cm, keepaspectratio]{img/scratch.png}
+			\caption{Ejemplo programa de Scratch con tres scripts.}
+			\label{fig:scratch}
+		\end{figure}
 		
-		Cada usuario que que accede a una aplicación espera obtener una experiencia satisfactoria. Por eso, es importante que los contenidos de la aplicación estén diseñados de acuerdo a las necesidades y exigencias de los usuarios. Una forma de comprobar la satisfacción de los usuarios es mediante la monitorización del tiempo invertido en la aplicación y en sus distintas secciones. Para conseguir estos datos es necesario un sistema de monitorización que registre y analice estos datos. \\
+		Existen además aplicaciones web que ofrecen un entorno con el que iniciarse en el mundo de la robótica y que, gracias al uso de editores y simuladores \textit{online}, permiten es desarrollo de funcionalidades y la simulación de las mismas sin necesidad de poseer el robot físico. Bajo este contexto, nace en 2016 Open Roberta \footnote{https://lab.open-roberta.org/}, un proyecto educativo con la filosofía \textit{learning with robots} que ofrece un entorno de desarrollo que permite a niños sin conocimientos técnicos previos programar y simular en la web y posteriormente probar en robots como \texttt{LEGO MINDSTORMS}. Open Roberta hace uso de un lenguaje de programación llamado \texttt{NEPO} en el que, siguiendo el paradigma de Scratch, cada bloque representa una funcionalidad del robot ya sea acerca de sensores, acciones o controles. \\
 		
-		Poder tener la información disponible para los administradores y desarrolladores de las aplicaciones es necesario almacenarla en una base de datos optimizada para el caudal de datos que esta genere, a mayor número de usuarios más necesidad de tener una base de datos rápida y eficiente que permita un guardado masivo de datos. \\
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=11cm, keepaspectratio]{img/open_roberta.jpg}
+			\caption{Editor y simulador Open Roberta.}
+			\label{fig:open_roberta}
+		\end{figure}
 		
-		Consultar estas bases de datos de manera manual es un proceso tedioso y poco eficiente si lo que se pretende es realizar estas consultas de manera frecuente y rápida. Para esto, una herramienta que analice la información almacenada en la base de datos y la presente en distintas visualizaciones se convierte en necesario.
+		Dentro de este mundo de plataformas educativas \textit{online}, nos centraremos en Kibotics, plataforma en la que se enmarca este proyecto. Ofrece herramientas centradas en la docencia en robótica y programación para alumnos de secundaria. Con una gran variedad de ejercicios en los que los usuarios pueden aprender conceptos básicos acerca de distintos lenguajes de programación como Scratch o Python, así como introducirse a la visión artificial o la simulación en robots.
+		
+		\begin{figure}[H]
+			\centering
+			\includegraphics[width=11cm, keepaspectratio]{img/editor_simulador_kibotics.jpg}
+			\caption{Editor y simulador Kibotics.}
+			\label{fig:editor_simulador_kibotics}
+		\end{figure}
 
+
+	\section{Motivación}
+	\label{sec:motivación}
+		Kibotics es una plataforma que permite a los usuarios iniciarse en el mundo de la programación de robots, ofrece una gran variedad de ejercicios para que los usuarios se desarrollen en lenguajes como Scratch y Python. Está basada en Django y utiliza A-Frame para la virtualización de los robots.\\
 		
-%	\section{Sistemas de visualización}
-%	\label{sec:1_sistemas_visualizacion}	
-%		(INCOMPLETO - unido con monitorización)		
-		
+		En Kibotics los usuarios pueden interactuar de diferentes maneras, el tiempo que le dedican a cada ejercicio puede ser diferente, pueden realizar el mismo ejercicio de diferentes maneras, entran en diferentes horas del día. Conocer las acciones de los usuarios dentro de la plataforma permitiría llevar a cabo acciones de mejora con la intención de aumentar su satisfacción y detectar aquellos elementos que no estuvieran funcionando adecuadamente. Pese a que toda esta información es muy valiosa, actualmente no existe ningún sistema de monitorización para observar que partes de la plataforma generan más interés y que uso se está haciendo en ella.  \\
+
+		El objetivo de este TFG es dotar a la plataforma educativa Kibotics de sondas de almacenamiento de datos y herramientas de visualización para el análisis de éstos, ya sean de visitantes a la web, o usuarios registrados que estén accediendo a ejercicios. De esta manera, se le ofrecería a los administradores y desarrolladores de la plataforma una solución completa embebida en la web con capacidades para recoger y representar los datos aportados por el uso del servicio para observar su funcionamiento y facilitar la toma de decisiones con el fin de mejorarlo. \\
+			
+		El diseño de una herramienta de analíticas para una plataforma web no es algo trivial ya que existen diversas tecnologías que podrían ser utilizadas, cada una de ellas con sus ventajas e inconvenientes. 
 		
 		
 	\section{Estructura de la memoria}
 	\label{sec:1_estructura_memoria}
-		En esta sección se detalla la estructura de la memoria. Dividida en los siguientes capítulos:
-		
-		\begin{itemize}
-		\item En el capítulo ~\ref{chap:introduccion} se introduce el proyecto ofreciendo el contexto sobre el que se va a trabajar así como la motivación que inició este TFG.
+	En esta sección se detalla la estructura de la memoria. Dividida en los siguientes capítulos:
+	
+	\begin{itemize}
+		\item En el capítulo \ref{chap:introduccion} se introduce el proyecto ofreciendo el contexto sobre el que se va a trabajar así como la motivación que inició este TFG.
 		
 		\item En el capítulo \ref{chap:objetivos} se exponen tanto los objetivos a cumplir como la metodología seguida en el transcurso de este proyecto. 
 		
-		\item En el capítulo \ref{chap:infraestructura_utilizada} se detalla, desde un punto de vista informativo, todas las tecnologías involucradas en el desarrollo de este TFG. Dividido en tres secciones: tecnologías Web, bases de datos y tecnologías de visualización. 
+		\item En el capítulo \ref{chap:infraestructura_utilizada} se detallan todas las tecnologías involucradas en el desarrollo de este TFG. Se ha dividido este capítulo en tres secciones: tecnologías Web, bases de datos y tecnologías de visualización. 
 		
 		\item En el capítulo \ref{chap:primer_prototipo} se define el diseño propuesto para el primer prototipo de la herramienta de analíticas que mejora la funcionalidad de análisis automático en la plataforma Kibotics. Además, se exponen los pasos realizados para el desarrollo e integración del diseño en la plataforma.
 		
 		\item En el capítulo \ref{chap:segundo_prototipo} se expone un nuevo diseño de la herramienta de analíticas aplicando lo aprendido en el desarrollo del primer prototipo y se detallan los pasos que ha sido necesario realizar en la versión final de la herramienta.
 		
 		\item En el capítulo \ref{chap:conclusiones} se detallan las conclusiones alcanzadas, así como las competencias adquiridas durante la realización de este proyecto. Además, se plantean futuros trabajos sobre el software desarrollado con los que crear una solución mas completa.
-
-		\end{itemize}
-	\section{Motivación}
-	\label{sec:motivación}
-		En Kibotics los usuarios pueden interactuar de diferentes maneras, el tiempo que le dedican a cada ejercicio puede ser diferente, pueden realizar el mismo ejercicio de diferentes maneras, entran en diferentes horas del día. Toda esta información es muy valiosa para observar que partes de la plataforma generan más interés y que uso se está haciendo en ella. \\
-
-		El objetivo de este TFG es dotar a la plataforma de Kibotics de sondas de almacenamiento de datos y herramientas de visualización para el análisis de éstos, ya sean de visitantes a la web, o usuarios registrados que estén accediendo a ejercicios.\\
-
-		Ofreciendo así a los administradores y desarrolladores de la plataforma de capacidades para recoger, estudiar y valorar los datos aportados para tener una mejor visión global de que rumbo tomar, como está funcionando el servicio y como mejorarlo. Estos datos son imprescindibles para cualquier decisión importante que se deba tomar para mejorar la satisfacción de los usuarios, aumentar la retención, mejorar los contenidos y su distribución. \\
-			
-		El diseño de una herramienta de analíticas para una plataforma web no es algo trivial ya que existen diversas tecnologías que podrían ser utilizadas y todas ellas con sus ventajas e inconvenientes. En los siguientes capítulos se detallará el proceso seguido hasta el desarrollo de la herramienta final, así como las tecnologías utilizadas en este proceso.
 		
+	\end{itemize}
 		
 		
 		
 	\cleardoublepage 
 	\chapter{Objetivos} 
 	\label{chap:objetivos} 
+		Una vez establecido el contexto de este Trabajo Fin de Grado, en este capítulo se describirán los objetivos y la metodología empleada.
 
-%		\textbf{desarrollar la funcionalidad analíticas en una plataforma educativa}
-%		1 expandir los datos grabados
-%		2 grabarlos en una base de datos moderna
-%		3 que se visualicen automáticamente
-%		
-%		primera solucion - primer prototipo 
-%		sondas
-%		mongo
-%		matplotlib
-%
-%		\item En el capítulo \ref{chap:objetivos} se exponen tanto los objetivos a cumplir como la metodología seguida en el transcurso de este proyecto. 
-%		(INCOMPLETO)\\
+	\section{Objetivos}
+	\label{sec:objetivos}
+		El objetivo de este Trabajo Fin de Grado es desarrollar un módulo de analíticas para la monitorización de uso de la plataforma educativa \textit{online} Kibotics. Se pretende que esta herramienta ofrezca a los administradores de la web información sobre aquellos eventos que se consideren importantes mientras los usuarios interactúan con ella. Este objetivo general se ha dividido en varios subobjetivos:
 		
-		El objetivo de este proyecto es desarrollar un módulo de analíticas para la monitorización de uso de la plataforma educativa \textit{online} Kibotics. Se busca que esta herramienta ofrezca a los administradores de la web información sobre aquellos eventos que se consideren importantes mientras los usuarios interactúan con ella.\\
+		\begin{itemize}
+			\item Sistema de sondeo para la recogida de datos de uso del servicio dentro del servidor Django de Kibotics.
+			\item Almacenamiento de esta información en una base de datos que permita un guardado masivo de registros.
+			\item Visualización web dentro de la propia plataforma que proporcione datos de uso de la aplicación.
+		\end{itemize}
+	
+		Planteado este objetivo general, es necesaria una fase previa al desarrollo en la que se estudie y analice Kibotics, tanto la arquitectura utilizada como el sistema de logs existente. Ya con unos conocimientos de la aplicación sobre la que desarrollar, es necesario de un estudio de tecnologías de bases de datos y de visualizaciones compatibles con las tecnologías existentes en Kibotics. \\
+			
 		
-%		(INCOMPLETO - DIVIDIR EL OBJETIVO PRINCIPAL EN sub-objetivos)
-		Para desarrollar la herramienta primero ha sido necesario estudiar, implementar y probar distintas tecnologías de recogida, almacenamiento y generación de visualizaciones. Es en estos tres puntos en los que divide el desarrollo de la herramienta.	\\
+	\section{Metodología}
+	\label{sec:metodologia}
 				
-		Para asegurar que se daban los pasos correctos para la consecución de estos subobjetivos se ha establecido un plan de reuniones semanales con los tutores del proyecto. En estas se presentaban los progresos de la semana. Además, se han utilizado para resolver dudas y problemas que han ido surgiendo.\\
+		Para asegurar que se daban los pasos correctos para la consecución de este objetivo se ha establecido un plan de reuniones semanales con los tutores del proyecto. En estas se presentaban los progresos de la semana. Además, se han utilizado para resolver dudas y problemas que han ido surgiendo.\\
 		
-		Durante la primera etapa del proyecto, se estudiaron tanto las tecnologías como la arquitectura que daba forma a Kibotics. Para mantener un control del código desarrollado,
-		ha sido necesario el uso de un repositorio de datos, para este trabajo se han utilizado dos proyectos GitHub.\\
+		Se ha seguido el modelo de desarrollo de software por prototipos centrado inicialmente una primera solución de la herramienta creada en varias semanas. Gracias a este primer prototipo, se identificaron requisitos que a priori no se contemplaban y se pudo desarrollar una solución final más completa y eficiente de la herramienta de analíticas web.
 		
-		El primero \footnote{https://github.com/RoboticsLabURJC/2019-tfg-angel-perea}, un proyecto personal en el que se han subido periódicamente diferentes recursos como por ejemplo: \textit{scripts}, ficheros de log con los que se trabajó en los momentos iniciales del proyecto, así como pequeñas pruebas sobre servidores Django. Al haber un único desarrollador el uso ha sido con \textit{commits}.\\
+		Para mantener un control del código desarrollado, ha sido necesario el uso de un repositorio de datos. Durante este TFG se han utilizado dos repositorios GitHub. El primero \footnote{https://github.com/RoboticsLabURJC/2019-tfg-angel-perea}, un proyecto personal en el que se han subido periódicamente diferentes recursos como: \textit{scripts}, ficheros de log con los que se trabajó en los momentos iniciales del proyecto, así como pequeñas pruebas sobre servidores Django. \\
 		
+		Una vez adquirido el contexto y habiendo entendido la forma de trabajar a través de GitHub, se comenzó a trabajar en el propio código de la plataforma. Este código está almacenado en el repositorio privado de Kibotics \footnote{https://github.com/jderobot-hub/kibotics-webserver}. Tras las reuniones semanales, se creaban \textit{issues} en los que se detallaban los problemas y las mejoras a implementar en la plataforma. Estos issues han servido como hoja de ruta del trabajo a realizar y son sobre los que se trabajaba durante la semana. \\
 		
-		Una vez adquirido el contexto y habiendo entendido la forma de trabajar a través de GitHub, se comenzó a trabajar en el propio código de la plataforma. Este código está almacenado en el repositorio privado de Kibotics \footnote{https://github.com/jderobot-hub/kibotics-webserver}. Tras las reuniones semanales, se creaban \textit{issues} que explicaban problemas o mejoras que tenía el código de la plataforma. Estos \textit{issues} son sobre los que se trabajaba durante la semana. \\
+		Para permitir que varios desarrolladores pudiesen añadir funcionalidad o solucionar errores de forma paralela, se creaba una nueva rama actualizada con los últimos cambios de la rama principal. Es sobre esta rama sobre la que se desarrollaba la solución, una vez finalizados los cambios se explicaban en un comentario o \textit{commit} y se subían al repositorio. El siguiente paso consistía en solicitar la fusión de los cambios de esta rama con la rama principal, abriendo peticiones \textit{pull request}. Una vez solicitada la fusión, los administradores verifican que los cambios son correctos. Si es así, el proceso de integración termina, se fusionan las ramas y se resuelve el \textit{issue}. \\
 		
-		Para permitir que varios desarrolladores pudiesen añadir funcionalidad o solucionar errores de forma paralela, se creaba una nueva rama actualizada con los últimos cambios de la rama principal. Es sobre esta rama sobre la que se desarrollaba la solución, una vez finalizados los cambios se explicaban en un comentario o \textit{commit} y se subían al repositorio. Para integrarlos con la rama principal se abrían peticiones \textit{pull request} en las que se solicita a los administradores del proyecto una verificación de los cambios subidos a la rama. Una vez aceptado el \textit{pull request}, el proceso de integración termina y se resuelve el \textit{issue}. \\
-		
-		Se ha trabajado en el repositorio siempre junto a la filosofía \textit{release often, release soon} y gracias a este sistema de ramas y pequeños parches se consigue que el código a desarrollar no sea tan extenso, permitiendo a los administradores validar e integrar los cambios más rápido.
+		Durante el desarrollo de este TFG se ha seguido la filosofía \textit{release often, release soon} integrando pequeños cambios semanales gracias al sistema de ramas y parches de Github. Con esta metodología se consiguió que el código a integrar no fuese tan extenso, permitiendo a los administradores validar e integrar los cambios más rápido.
 		
 		
 	\cleardoublepage 
@@ -879,7 +908,7 @@
 		
 		Es por esto, que se decide cambiar la tecnología de visualización de datos a Kibana. Al ser Kibana parte del stack ELK, la base de datos cambia a Elasticsearch para poder utilizar todo el potencial que este ecosistema ofrece. \\
 		
-		Para enriquecer los datos almacenados y evitar tener que cruzar datos como se detalla en la subsección \ref{subsec:matplotlib_kibotics}, se van a añadir más sondas de almacenamiento de datos, esta vez con datos relativos a la actividad de los visitantes de la plataforma educativa. Además, se van a unificar las tablas en las que se almacenarán registros similares, evitando tener así que cruzar datos. Estos cambios reducirán el coste computacional de la herramienta haciéndola así más rápida. \\
+		Para enriquecer los datos almacenados y evitar tener que cruzarlos como se detalla en la subsección \ref{subsec:matplotlib_kibotics}, se van a añadir más sondas de almacenamiento, esta vez con datos relativos a la actividad de los visitantes de la plataforma educativa. Además, se van a unificar las tablas en las que se almacenarán registros similares, evitando tener así que cruzar datos. Estos cambios reducirán el coste computacional de la herramienta haciéndola así más rápida. \\
 		
 		El nuevo diseño y los cambios de tecnología involucrados en este prototipo final se pueden ver representados de forma esquemática en la Figura \ref{fig:arquitectura_kibotics_2}. 
 		
@@ -1081,7 +1110,7 @@
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=8cm, keepaspectratio]{img/visualization_selector.png}
+			\includegraphics[width=5cm, keepaspectratio]{img/visualization_selector.png}
 			\caption{Menú creación de visualizaciones.}
 			\label{fig:visualization_selector}
 		\end{figure}
@@ -1141,9 +1170,8 @@
 			\caption{Gráfico de barras por hora del día}
 			\label{fig:kibana_hourofday}
 		\end{figure}
-		\newpage		
 		
-		Para mostrar la actividad en las simulaciones que Kibotics ofrece, se han desarrollado las visualizaciones representadas en la Figura \ref{fig:kibana_simulations}. Dividido en dos gráficas de barras que representan el tiempo invertido por los usuarios. Esta información está almacenada en el campo \texttt{duration} del índice \texttt{kibotics\_simulation\_log}. La primera visualización muestra el tiempo total invertido y la última representa el tiempo medio invertido.
+		Para mostrar la actividad en las simulaciones que Kibotics ofrece, se han desarrollado las visualizaciones representadas en la Figura \ref{fig:kibana_simulations}. Dividido en dos gráficas de barras que representan el tiempo invertido por los usuarios. Esta información está almacenada en el campo \texttt{duration} del índice \texttt{kibotics\_simulation\_log}. La primera visualización muestra el tiempo total invertido y la última representa el tiempo medio invertido. \\
 		\begin{figure}[H]
 			\centering
 			\includegraphics[width=13cm, keepaspectratio]{img/kibana_05_simulations}
@@ -1283,12 +1311,12 @@
 		
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=7cm, keepaspectratio]{img/export_kibana.png}
+			\includegraphics[width=5cm, keepaspectratio]{img/export_kibana.png}
 			\caption{Exportación en interfaz Kibana.}
 			\label{fig:export_kibana}
 		\end{figure}
 		
-		Esta herramienta nos generará un fichero \texttt{NDJSON} similar a la estructura \texttt{JSON} con los patrones de índices creados, así como las visualizaciones, tablas o \textit{scripted fields} guardados en Kibana.\\
+		Esta herramienta genera un fichero \texttt{NDJSON} similar a la estructura \texttt{JSON} con los patrones de índices creados, así como las visualizaciones, tablas o \textit{scripted fields} guardados en Kibana.\\
 		
 		Para que un futuro desarrollador importe estos datos simplemente podrá hacerlo por la interfaz gráfica de Kibana. Para unificar la metodología y ya que en el servidor de pre-producción/producción no se dispone de esta interfaz gráfica, esta también se puede realizar mediante la siguiente sentencia:\\
 		
@@ -1309,7 +1337,7 @@
 	\section{Conclusiones finales} 
 	\label{sec:conclusiones_finales} 
 
-		Repasando lo plateado en el capítulo \ref{chap:objetivos}, el principal objetivo de este proyecto es crear una herramienta con la que grabar datos de actividad, visualizar y analizar el uso que hacen los usuarios de la plataforma educativa Kibotics. Este objetivo global se ha cumplido satisfactoriamente: se ha diseñado, desarrollado y probado un módulo de analíticas en el que visualizar estos datos de uso de la aplicación.\\
+		Repasando lo plateado en el capítulo \ref{chap:objetivos}, el objetivo de este proyecto es crear una herramienta con la que grabar datos de actividad, visualizar y analizar el uso que hacen los usuarios de la plataforma educativa Kibotics. Este objetivo global se ha cumplido satisfactoriamente: se ha diseñado, desarrollado y probado un módulo de analíticas en el que visualizar estos datos de uso de la aplicación.\\
 		
 		La herramienta desarrollada consta de la grabación de un conjunto más extenso de eventos de los que poseía inicialmente y una vista específica, llamada 'Analíticas' dentro del servidor web de Kibotics. Esta nueva vista tiene embebida los tableros o \textit{dashboards} que se generan en el servicio de Kibana.\\
 		
@@ -1352,7 +1380,7 @@
 			
 			\item Se han explorado dos tecnologías diferentes para la visualización automática de información. Primero la librería de Python Matplotlib, que pese a las limitaciones encontradas, ofrece una gran versatilidad. Y finalmente Kibana, que gracias al stack ELK proporciona un ecosistema rápido, potente y escalable con el que trabajar. \\
 			
-			\item Una primera toma en contacto con el análisis de datos automático en el que ha destacado el uso del stack ELK. Este ha sido una herramienta muy potente de la que he aprendido cómo es integrar varias tecnologías para crear un producto complejo, interconectado e interesante. \\
+			\item Una primera toma en contacto con el análisis web automático en el que ha destacado el uso del stack ELK. Este ha sido una herramienta muy potente de la que he aprendido cómo es integrar varias tecnologías para crear un producto complejo, interconectado e interesante. \\
 			
 			
 			\item Sistema de versiones centrado en los parches e incidencias. Haciendo uso de GitHub como repositorio en el que desarrollar este Trabajo Fin de Grado, siempre presente junto a la filosofía \textit{release often, release soon}. \\
@@ -1380,6 +1408,10 @@
 
 	\cleardoublepage
 	\begin{thebibliography}{7}
+		
+		\bibitem{SVod}
+		\textit{Mercado video on demand:}
+		\url{https://www.merca20.com/infografia-asi-es-el-mercado-del-video-on-demand/}
 		
 		\bibitem{HTML}
 		\textit{Estándar HTML:}
