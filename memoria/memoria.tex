@@ -190,7 +190,9 @@
 		
 		
 		Existen otras muchas plataformas web que ofrecen distintas funcionalidades, por ejemplo: servicio de videoconferencia  en los que destacan Teams y Zoom, repositorios de software como GitHub, plataformas de mensajería instantánea siendo las más utilizadas Whatsapp y WeChat. Cada una de estas plataformas digitales tienen distintas formas de monetizar su servicio, ya sea mediante el uso de \textit{banners} que contengan publicidad, venta de productos en tiendas \textit{online} o sistemas de suscripciones como los usados por muchos periódicos digitales. \\
-			
+		
+		Gran parte de estas plataformas personalizan la experiencia de uso almacenando y analizando interacciones de sus usuarios para detectar gustos y tendencias. Con esta información logran mostrar unos u otros contenidos y personalizar la publicidad para cada usuario. Un buen ejemplo de esta experiencia personalizada es la que ofrece Youtube en su página principal en la que muestra, basado en el historial de visualizaciones, distintas recomendaciones adaptadas a cada usuario. Con esto se pretende aumentar tanto la satisfacción como la retención de los usuarios.
+		
 		Con este contexto tan competitivo, disponer de un sistema de monitorización es fundamental en la gestión y administración de cualquier plataforma. Esta necesidad se vuelve crítica cuando la aplicación está desarrollada para ser utilizada por una gran cantidad de usuarios de pago como lo son las aplicaciones web con sistema de suscripciones como Spotify Premium, Twitch Prime o Youtube Premium. La monitorización permite dimensionar mejor la infraestructura de la plataforma, conocer fiablemente el uso que hacen de ella los usuarios y adaptarla mejor a ellos. \\
 		
 		Estas aplicaciones web hacen uso principalmente información de dos tipos:
@@ -207,8 +209,8 @@
 		Por otro lado, la consulta manual de los datos almacenados es un proceso tedioso y en muchas ocasiones no garantiza un correcto análisis de los acontecimientos de la plataforma. Para esto, una herramienta que obtenga la información almacenada en la base de datos y la presente en distintas visualizaciones de modo automático y vistoso se convierte en necesaria. Existe una gran variedad de tecnologías dentro de estas herramientas de visualización de datos como, por ejemplo, Cognos Analytics, MongoDB Charts, Metabase... Este TFG se centra en Matplotlib y Kibana.
 	
 	
-	\section{Tecnologías web}
-	\label{sec:introduccion_tecnologias_web}	
+	\subsection{Tecnologías web}
+	\label{subsec:introduccion_tecnologias_web}	
 		
 		Este aumento de uso de plataformas digitales, especialmente multimedia, ha sido en parte posible gracias a la salida del estándar HTML 5. Este nuevo estándar ofrece, entre otras mejoras, nuevas características importantes para la transmisión de contenido multimedia con la inserción de la etiqueta vídeo y \textit{canvas} que ofrece la posibilidad incluir vídeos y generar escenas gráficos 2D y 3D de manera nativa. A continuación, se detallan algunas de las principales características del estándar HTML5:
 		
@@ -1189,7 +1191,7 @@
 		En la Figura \ref{fig:kibana_map}, se representa gráficamente la superficie terrestre, en ella se muestran eventos de inicio de sesión ocurridos para el rango de fechas seleccionado. Hace uso de los datos de latitud y longitud almacenados en formato \texttt{Geo Point} del índice \texttt{kibotics\_session\_log}.
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=10cm, keepaspectratio]{img/kibana_06_map}
+			\includegraphics[width=11cm, keepaspectratio]{img/kibana_06_map}
 			\caption{Mapa geográfico de sesiones}
 			\label{fig:kibana_map}
 		\end{figure}
@@ -1205,7 +1207,7 @@
 		En la figura \ref{fig:kibana_latestevent}, se muestra una última sección con dos tablas de datos con los últimos eventos de sesión y simulación almacenados en los índices \texttt{kibotics\_session\_log} y \texttt{kibotics\_simulation\_log} de Elasticsearch para cada uno de los usuarios filtrados. 
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=10cm, keepaspectratio]{img/kibana_08_latest_event}
+			\includegraphics[width=12cm, keepaspectratio]{img/kibana_08_latest_event}
 			\caption{Últimos eventos logueados}
 			\label{fig:kibana_latestevent}
 		\end{figure}
@@ -1215,25 +1217,20 @@
 		Se han mostrado las visualizaciones referentes a la sección de sesiones y simulaciones de usuarios registrados ya que es la que más información proporciona, pero hay otra sección de analíticas de visitantes con unas visualizaciones de monitorización similares a las mostradas anteriormente.
 		
 	 	A continuación, en las siguientes figuras, se muestra Kibana ya integrado en la nueva vista de analíticas del servicio web Kibotics haciendo uso del \texttt{iFrame}.
-		
+				
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=11cm, keepaspectratio]{img/kibana_kibotics_01.png}
+			\includegraphics[width=15cm, keepaspectratio]{img/kibana_kibotics_01.png}
 			\caption{Kibana en Kibotics parte 1}
 			\label{fig:kibana_kibotics_01}
 		\end{figure}
 		\begin{figure}[H]
 			\centering
-			\includegraphics[width=11cm, keepaspectratio]{img/kibana_kibotics_02.png}
+			\includegraphics[width=15cm, keepaspectratio]{img/kibana_kibotics_02.png}
 			\caption{Kibana en Kibotics parte 2}
 			\label{fig:kibana_kibotics_02}
 		\end{figure}
-		\begin{figure}[H]
-			\centering
-			\includegraphics[width=12cm, keepaspectratio]{img/kibana_kibotics_03.png}
-			\caption{Kibana en Kibotics parte 3}
-			\label{fig:kibana_kibotics_03}
-		\end{figure}
+		
 
 		Para proporcionar a los futuros desarrolladores los recursos necesarios con los que poder empezar a trabajar sin tener que crearlos de manera manual, se ha creado una base de datos dummy la cual ofrece una variedad de datos para todos los índices utilizados tanto en este proyecto, como en otros desarrollos paralelos.\\
 
